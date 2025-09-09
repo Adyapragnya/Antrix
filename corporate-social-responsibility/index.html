@@ -1,26 +1,31 @@
 ﻿ 
 
+
+
 <!-- basepath-fix start -->
 <script>
 (function () {
-  // On GitHub Pages project sites, pathname begins with '/<repo>'.
-  // On localhost its just '/' (so prefix stays '').
+  // '' on localhost; '/<repo>' on GitHub Pages
   var prefix = '';
   if (location.hostname.endsWith('github.io')) {
     var segs = location.pathname.split('/').filter(Boolean);
-    if (segs.length > 0) prefix = '/' + segs[0];
+    if (segs.length) prefix = '/' + segs[0];
   }
 
-  function isAbs(v){ return v && v.startsWith('/'); }
   function isExternal(v){ return /^(?:https?:|data:|mailto:|tel:)/i.test(v); }
-  function alreadyPrefixed(v){ return prefix && v.startsWith(prefix + '/'); }
-
+  function normalize(v){
+    if (!v) return v;
+    return v.replace(/\/(wp-(?:content|includes))\/\1\//gi, '//'); // collapse duplicates
+  }
   function shouldPrefix(v){
-    return isAbs(v) && !alreadyPrefixed(v) && !isExternal(v);
+    return v && v.startsWith('/') && !isExternal(v) && !(prefix && v.startsWith(prefix + '/'));
   }
   function fixAttr(el, name){
     var v = el.getAttribute(name);
-    if (shouldPrefix(v)) el.setAttribute(name, prefix + v);
+    if (!v) return;
+    v = normalize(v);
+    if (shouldPrefix(v)) v = prefix + v;
+    if (v !== el.getAttribute(name)) el.setAttribute(name, v);
   }
 
   document.querySelectorAll('[href],[src],[poster],[data-href],[data-src]').forEach(function(el){
@@ -29,12 +34,12 @@
     });
   });
 
-  // Fix inline <style> url('/wp-...') (only WP asset roots to avoid double-prefix)
+  // Fix inline <style> url('/wp-...') and collapse duplicates there too
   document.querySelectorAll('style').forEach(function(s){
-    s.textContent = s.textContent.replace(
-      /url\(\s*(['"]?)\/(?=wp-(?:content|includes)\/)/gi,
-      'url($1' + prefix + '/'
-    );
+    var txt = s.textContent;
+    txt = txt.replace(/\/(wp-(?:content|includes))\/\1\//gi, '//');
+    txt = txt.replace(/url\(\s*(['"]?)\/(?=wp-(?:content|includes)\/)/gi, 'url(' + prefix + '/');
+    s.textContent = txt;
   });
 })();
 </script>
