@@ -4,3 +4,43 @@
 <title>Redirecting</title>
 <a $($args[0].Groups[1].Value)="/Antrix/about-antrix/">Go to /about-antrix/</a>
 
+
+<!-- basepath-fix start -->
+<script>
+(function () {
+  // On GitHub Pages project sites, pathname begins with '/<repo>'.
+  // On localhost its just '/' (so prefix stays '').
+  var prefix = '';
+  if (location.hostname.endsWith('github.io')) {
+    var segs = location.pathname.split('/').filter(Boolean);
+    if (segs.length > 0) prefix = '/' + segs[0];
+  }
+
+  function isAbs(v){ return v && v.startsWith('/'); }
+  function isExternal(v){ return /^(?:https?:|data:|mailto:|tel:)/i.test(v); }
+  function alreadyPrefixed(v){ return prefix && v.startsWith(prefix + '/'); }
+
+  function shouldPrefix(v){
+    return isAbs(v) && !alreadyPrefixed(v) && !isExternal(v);
+  }
+  function fixAttr(el, name){
+    var v = el.getAttribute(name);
+    if (shouldPrefix(v)) el.setAttribute(name, prefix + v);
+  }
+
+  document.querySelectorAll('[href],[src],[poster],[data-href],[data-src]').forEach(function(el){
+    ['href','src','poster','data-href','data-src'].forEach(function(a){
+      if (el.hasAttribute(a)) fixAttr(el, a);
+    });
+  });
+
+  // Fix inline <style> url('/wp-...') (only WP asset roots to avoid double-prefix)
+  document.querySelectorAll('style').forEach(function(s){
+    s.textContent = s.textContent.replace(
+      /url\(\s*(['"]?)\/(?=wp-(?:content|includes)\/)/gi,
+      'url($1' + prefix + '/'
+    );
+  });
+})();
+</script>
+<!-- basepath-fix end -->
