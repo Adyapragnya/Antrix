@@ -1,4 +1,4 @@
-#adminmenu .toplevel_page_accessibility-settings .wp-menu-image img {
+﻿#adminmenu .toplevel_page_accessibility-settings .wp-menu-image img {
   width: 20px;
   height: 20px;
   padding: 7px 0;
@@ -10,3 +10,4 @@
 .error-elementor {
   border-left-color: #93003F;
 }
+

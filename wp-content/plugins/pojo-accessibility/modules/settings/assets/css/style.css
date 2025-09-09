@@ -1,4 +1,4 @@
-#wpbody-content {
+﻿#wpbody-content {
 	padding-bottom: 0;
 }
 
@@ -50,3 +50,4 @@ html[dir='rtl'] #ea11y-app {
 		max-width: 100% !important;
 	}
 }
+

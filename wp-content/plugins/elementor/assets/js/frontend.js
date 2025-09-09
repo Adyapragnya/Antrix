@@ -909,19 +909,19 @@ const pluginVersion = elementorFrontendConfig.version;
 AssetsLoader.assets = {
   script: {
     dialog: {
-      src: `${assetsUrl}lib/dialog/dialog${fileSuffix}.js?ver=4.9.3`
+      src: `${assetsUrl}lib/dialog/dialog${fileSuffix}.js`
     },
     'share-link': {
       src: `${assetsUrl}lib/share-link/share-link${fileSuffix}.js?ver=${pluginVersion}`
     },
     // TODO: Remove 'swiper' in v3.29.0 [ED-16272].
     swiper: {
-      src: `${assetsUrl}lib/swiper/v8/swiper${fileSuffix}.js?ver=8.4.5`
+      src: `${assetsUrl}lib/swiper/v8/swiper${fileSuffix}.js`
     }
   },
   style: {
     swiper: {
-      src: `${assetsUrl}lib/swiper/v8/css/swiper${fileSuffix}.css?ver=8.4.5`,
+      src: `${assetsUrl}lib/swiper/v8/css/swiper${fileSuffix}.css`,
       parent: 'head'
     },
     'e-lightbox': {

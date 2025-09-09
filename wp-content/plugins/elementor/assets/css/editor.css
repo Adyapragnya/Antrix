@@ -1,4 +1,4 @@
-/*! elementor - v3.31.0 - 27-08-2025 */
+﻿/*! elementor - v3.31.0 - 27-08-2025 */
 .elementor-control-unit-1 {
   width: 27px;
 }
@@ -2229,13 +2229,13 @@ body:not(.elementor-device-mobile) .elementor-control.elementor-control-responsi
 }
 
 .elementor-group-control-blur .elementor-slider {
-  background: url("https://github.com/Adyapragnya/Antrix/wp-content/plugins/elementor/assets/images/blur.png");
+  background: url("/wp-content/plugins/elementor/assets/images/blur.png");
   background-size: cover;
   background-position: center;
 }
 
 .elementor-group-control-contrast .elementor-slider {
-  background: url("https://github.com/Adyapragnya/Antrix/wp-content/plugins/elementor/assets/images/contrast.png");
+  background: url("/wp-content/plugins/elementor/assets/images/contrast.png");
   background-size: 100% 100%;
 }
 
@@ -7603,3 +7603,4 @@ label.e-scrubbing-over {
   transform: rotate(calc(var(--is-ltr) * 180deg));
 }
 /*# sourceMappingURL=editor.css.map */
+
