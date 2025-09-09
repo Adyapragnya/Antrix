@@ -1,4 +1,4 @@
-import { default as MuiButton } from '@elementor/ui/Button';
+﻿import { default as MuiButton } from '@elementor/ui/Button';
 import { styled } from '@elementor/ui/styles';
 
 const StyledInfoButton = styled(MuiButton)`
@@ -17,3 +17,4 @@ const Button = ({ ...props }) => {
 };
 
 export default Button;
+

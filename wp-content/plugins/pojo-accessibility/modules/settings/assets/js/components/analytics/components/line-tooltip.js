@@ -1,4 +1,4 @@
-import Paper from '@elementor/ui/Paper';
+﻿import Paper from '@elementor/ui/Paper';
 import Typography from '@elementor/ui/Typography';
 import { dateI18n } from '@wordpress/date';
 
@@ -13,3 +13,4 @@ export const LineTooltip = (props) => {
 		</Paper>
 	) : null;
 };
+

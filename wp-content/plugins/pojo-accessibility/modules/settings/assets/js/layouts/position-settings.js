@@ -1,4 +1,4 @@
-import { DesktopIcon, MobileIcon } from '@elementor/icons';
+﻿import { DesktopIcon, MobileIcon } from '@elementor/icons';
 import Box from '@elementor/ui/Box';
 import Grid from '@elementor/ui/Grid';
 import Tab from '@elementor/ui/Tab';
@@ -86,3 +86,4 @@ const StyledWrapper = styled(Grid)`
 	margin-right: auto;
 	max-width: 1200px;
 `;
+

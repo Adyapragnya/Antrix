@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Menu 1.13.3
  * https://jqueryui.com
  *
@@ -711,3 +711,4 @@ return $.widget( "ui.menu", {
 } );
 
 } );
+

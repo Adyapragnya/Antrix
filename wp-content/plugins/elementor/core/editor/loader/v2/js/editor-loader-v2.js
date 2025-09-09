@@ -1,4 +1,4 @@
-window.__elementorEditorV1LoadingPromise = new Promise( ( resolve ) => {
+﻿window.__elementorEditorV1LoadingPromise = new Promise( ( resolve ) => {
 	window.addEventListener( 'elementor/init', () => {
 		resolve();
 	}, { once: true } );
@@ -15,3 +15,4 @@ window.elementorV2
 	.start(
 		document.getElementById( 'elementor-editor-wrapper-v2' ),
 	);
+

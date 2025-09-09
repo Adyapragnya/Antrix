@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+﻿import PropTypes from 'prop-types';
 import { useToastNotification } from '@ea11y-apps/global/hooks';
 import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
 import { APIScanner } from '@ea11y-apps/scanner/api/APIScanner';
@@ -129,3 +129,4 @@ useManualFixForm.propTypes = {
 	item: scannerItem,
 	current: PropTypes.number.isRequired,
 };
+

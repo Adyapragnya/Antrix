@@ -1,4 +1,4 @@
-export const checkCompanyName = (companyName) => {
+﻿export const checkCompanyName = (companyName) => {
 	return typeof companyName === 'string' && companyName.trim().length > 0;
 };
 
@@ -26,3 +26,4 @@ export const parseContent = (text, replacements) => {
 
 	return updatedText;
 };
+

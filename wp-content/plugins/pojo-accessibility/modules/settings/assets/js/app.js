@@ -1,4 +1,4 @@
-import '../css/style.css';
+﻿import '../css/style.css';
 import Box from '@elementor/ui/Box';
 import DirectionProvider from '@elementor/ui/DirectionProvider';
 import Grid from '@elementor/ui/Grid';
@@ -91,3 +91,4 @@ const StyledGrid = styled(Grid)`
 	display: flex;
 	flex-direction: row;
 `;
+

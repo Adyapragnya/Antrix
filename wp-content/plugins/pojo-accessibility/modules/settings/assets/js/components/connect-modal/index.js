@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Grid from '@elementor/ui/Grid';
 import List from '@elementor/ui/List';
 import ListItem from '@elementor/ui/ListItem';
@@ -135,3 +135,4 @@ const ConnectModal = () => {
 };
 
 export default ConnectModal;
+

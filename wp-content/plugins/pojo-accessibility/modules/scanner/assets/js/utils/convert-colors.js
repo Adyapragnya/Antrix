@@ -1,4 +1,4 @@
-export const expandHex = (hex) => {
+﻿export const expandHex = (hex) => {
 	hex = hex.replace(/^#/, '');
 	if (hex.length === 3) {
 		hex = hex
@@ -117,3 +117,4 @@ export const hslToHex = ({ h, s, l, a = 1 }) => {
 		? `#${toHex(r)}${toHex(g)}${toHex(b)}${alphaHex}`.toUpperCase()
 		: `#${toHex(r)}${toHex(g)}${toHex(b)}`.toUpperCase();
 };
+

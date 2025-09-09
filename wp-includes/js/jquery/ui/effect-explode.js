@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Effects Explode 1.13.3
  * https://jqueryui.com
  *
@@ -112,3 +112,4 @@ return $.effects.define( "explode", "hide", function( options, done ) {
 } );
 
 } );
+

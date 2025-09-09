@@ -1,4 +1,4 @@
-export { useModal } from './use-modal';
+﻿export { useModal } from './use-modal';
 export { useSettings } from './use-settings';
 export { SettingsProvider } from './use-settings';
 export { useStorage } from './use-storage';
@@ -8,3 +8,4 @@ export { useSavedSettings } from './use-saved-settings';
 export { useIconPosition } from './use-icon-positioon';
 export { useIconDesign } from './use-icon-design';
 export { useToggleSetting } from './use-toggle-settings';
+

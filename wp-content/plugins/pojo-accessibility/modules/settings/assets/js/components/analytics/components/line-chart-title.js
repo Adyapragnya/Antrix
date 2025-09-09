@@ -1,4 +1,4 @@
-import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
+﻿import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
 import Box from '@elementor/ui/Box';
 import Infotip from '@elementor/ui/Infotip';
 import Typography from '@elementor/ui/Typography';
@@ -23,3 +23,4 @@ export const LineChartTitle = () => (
 		</Infotip>
 	</Box>
 );
+

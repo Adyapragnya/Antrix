@@ -1,4 +1,4 @@
-import ChevronLeftIcon from '@elementor/icons/ChevronLeftIcon';
+﻿import ChevronLeftIcon from '@elementor/icons/ChevronLeftIcon';
 import ChevronRightIcon from '@elementor/icons/ChevronRightIcon';
 import Box from '@elementor/ui/Box';
 import Divider from '@elementor/ui/Divider';
@@ -83,3 +83,4 @@ FormNavigation.propTypes = {
 	current: PropTypes.number.isRequired,
 	setCurrent: PropTypes.func.isRequired,
 };
+

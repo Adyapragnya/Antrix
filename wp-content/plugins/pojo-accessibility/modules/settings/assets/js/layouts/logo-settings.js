@@ -1,4 +1,4 @@
-import Card from '@elementor/ui/Card';
+﻿import Card from '@elementor/ui/Card';
 import CardHeader from '@elementor/ui/CardHeader';
 import Typography from '@elementor/ui/Typography';
 import { CustomSwitch, ProItemInfotip } from '@ea11y/components';
@@ -66,3 +66,4 @@ const LogoSettings = () => {
 };
 
 export default LogoSettings;
+

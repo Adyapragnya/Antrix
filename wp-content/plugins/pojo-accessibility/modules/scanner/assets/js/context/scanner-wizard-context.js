@@ -1,4 +1,4 @@
-import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
+﻿import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
 import { APIScanner } from '@ea11y-apps/scanner/api/APIScanner';
 import {
 	BLOCKS,
@@ -339,3 +339,4 @@ export const ScannerWizardContextProvider = ({ children }) => {
 export const useScannerWizardContext = () => {
 	return useContext(ScannerWizardContext);
 };
+

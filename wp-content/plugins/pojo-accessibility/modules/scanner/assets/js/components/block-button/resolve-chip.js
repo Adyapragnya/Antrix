@@ -1,4 +1,4 @@
-import { Chip } from '@elementor/ui';
+﻿import { Chip } from '@elementor/ui';
 import PropTypes from 'prop-types';
 import { BLOCKS } from '@ea11y-apps/scanner/constants';
 import { __ } from '@wordpress/i18n';
@@ -23,3 +23,4 @@ export const ResolveChip = ({ block }) =>
 ResolveChip.propTypes = {
 	block: PropTypes.string.isRequired,
 };
+

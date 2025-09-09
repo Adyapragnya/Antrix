@@ -1,4 +1,4 @@
-import RefreshIcon from '@elementor/icons/RefreshIcon';
+﻿import RefreshIcon from '@elementor/icons/RefreshIcon';
 import Box from '@elementor/ui/Box';
 import Button from '@elementor/ui/Button';
 import LinearProgress from '@elementor/ui/LinearProgress';
@@ -66,3 +66,4 @@ const StyledLinearProgress = styled(LinearProgress)(({ theme }) => ({
 	animation: 'none',
 	flexGrow: 1,
 }));
+

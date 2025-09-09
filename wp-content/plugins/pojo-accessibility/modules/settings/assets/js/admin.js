@@ -1,4 +1,4 @@
-import { SettingsProvider, NotificationsProvider } from '@ea11y/hooks';
+﻿import { SettingsProvider, NotificationsProvider } from '@ea11y/hooks';
 import { StrictMode, Fragment, createRoot } from '@wordpress/element';
 import App from './app';
 import { AnalyticsContextProvider } from './contexts/analytics-context';
@@ -25,3 +25,4 @@ root.render(
 		</NotificationsProvider>
 	</AppWrapper>,
 );
+

@@ -1,4 +1,4 @@
-import { __ } from '@wordpress/i18n';
+﻿import { __ } from '@wordpress/i18n';
 import {
 	AccessibilityPersonIcon,
 	AccessibilityTextIcon,
@@ -47,3 +47,4 @@ export default options;
 export const getOptionByValue = (value) => {
 	return Object.values(options).find((option) => option.value === value);
 };
+

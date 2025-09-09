@@ -1,4 +1,4 @@
-import Alert from '@elementor/ui/Alert';
+﻿import Alert from '@elementor/ui/Alert';
 import AlertTitle from '@elementor/ui/AlertTitle';
 import { __ } from '@wordpress/i18n';
 
@@ -13,3 +13,4 @@ const AlertError = () => {
 };
 
 export default AlertError;
+

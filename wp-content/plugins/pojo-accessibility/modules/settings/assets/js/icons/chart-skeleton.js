@@ -1,4 +1,4 @@
-const ChartSkeleton = (props) => {
+﻿const ChartSkeleton = (props) => {
 	return (
 		<svg
 			viewBox="0 0 489 194"
@@ -19,3 +19,4 @@ const ChartSkeleton = (props) => {
 };
 
 export default ChartSkeleton;
+

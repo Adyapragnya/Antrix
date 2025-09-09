@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Typography from '@elementor/ui/Typography';
 import { styled } from '@elementor/ui/styles';
 import { AccessibilityAssistantNoResultsIcon } from '@ea11y/icons';
@@ -67,3 +67,4 @@ const StyledSubtitle = styled(Typography)`
 `;
 
 export default AccessibilityAssistantNoResultsState;
+

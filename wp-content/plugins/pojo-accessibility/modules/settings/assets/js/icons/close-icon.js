@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const CloseIcon = (props, { size }) => {
 	return (
@@ -15,3 +15,4 @@ const CloseIcon = (props, { size }) => {
 };
 
 export default CloseIcon;
+

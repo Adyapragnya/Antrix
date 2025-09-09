@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Checkboxradio 1.13.3
  * https://jqueryui.com
  *
@@ -288,3 +288,4 @@ $.widget( "ui.checkboxradio", [ $.ui.formResetMixin, {
 return $.ui.checkboxradio;
 
 } );
+

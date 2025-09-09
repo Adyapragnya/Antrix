@@ -1,4 +1,4 @@
-import AIIcon from '@elementor/icons/AIIcon';
+﻿import AIIcon from '@elementor/icons/AIIcon';
 import CircleCheckFilledIcon from '@elementor/icons/CircleCheckFilledIcon';
 import AlertTitle from '@elementor/ui/AlertTitle';
 import Box from '@elementor/ui/Box';
@@ -200,3 +200,4 @@ AltTextForm.propTypes = {
 	current: PropTypes.number.isRequired,
 	setCurrent: PropTypes.func.isRequired,
 };
+

@@ -1,4 +1,4 @@
-import Alert from '@elementor/ui/Alert';
+﻿import Alert from '@elementor/ui/Alert';
 import Box from '@elementor/ui/Box';
 import Card from '@elementor/ui/Card';
 import CardContent from '@elementor/ui/CardContent';
@@ -133,3 +133,4 @@ const MenuSettings = () => {
 };
 
 export default MenuSettings;
+

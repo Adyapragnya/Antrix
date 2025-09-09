@@ -1,4 +1,4 @@
-import { RemediationBase } from './base';
+﻿import { RemediationBase } from './base';
 
 export class ReplaceRemediation extends RemediationBase {
 	replaceIgnoreCase(outerHtml, find, replace, lowerOuterHTML, lowerFind) {
@@ -51,3 +51,4 @@ export class ReplaceRemediation extends RemediationBase {
 		return true;
 	}
 }
+

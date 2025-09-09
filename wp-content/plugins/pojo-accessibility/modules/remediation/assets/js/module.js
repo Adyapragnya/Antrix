@@ -1,4 +1,4 @@
-import { AttributeRemediation } from './actions/attribute';
+﻿import { AttributeRemediation } from './actions/attribute';
 import { ElementRemediation } from './actions/element';
 import { ReplaceRemediation } from './actions/replace';
 import { StylesRemediation } from './actions/styles';
@@ -128,3 +128,4 @@ if (
 		}, 400);
 	}
 }
+

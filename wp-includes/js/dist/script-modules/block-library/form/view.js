@@ -1,4 +1,4 @@
-var __webpack_exports__ = {};
+﻿var __webpack_exports__ = {};
 /* wp:polyfill */
 let formSettings;
 try {
@@ -46,4 +46,5 @@ document.querySelectorAll('form.wp-block-form').forEach(function (form) {
     }
   });
 });
+
 

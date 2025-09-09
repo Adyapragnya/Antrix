@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import ContentLoader from 'react-content-loader';
 import { memo } from '@wordpress/element';
 import { SKELETON_OPTIONS } from '../../../constants';
@@ -25,3 +25,4 @@ const PieChartLoader = memo(() => {
 });
 
 export default PieChartLoader;
+

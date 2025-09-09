@@ -1,4 +1,4 @@
-/*----------------------------------------
+﻿/*----------------------------------------
  * objectFitPolyfill 2.3.5
  *
  * Made by Constance Chen
@@ -302,3 +302,4 @@
 
   window.objectFitPolyfill = objectFitPolyfill;
 })();
+

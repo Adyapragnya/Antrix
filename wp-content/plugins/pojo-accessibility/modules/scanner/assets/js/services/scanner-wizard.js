@@ -1,4 +1,4 @@
-const load = async () => {
+﻿const load = async () => {
 	return new Promise((resolve, reject) => {
 		const { scannerUrl, planData } = window?.ea11yScannerData;
 
@@ -29,3 +29,4 @@ const load = async () => {
 export const scannerWizard = {
 	load,
 };
+

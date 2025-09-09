@@ -1,4 +1,4 @@
-import getXPath from 'get-xpath';
+﻿import getXPath from 'get-xpath';
 import PropTypes from 'prop-types';
 import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
 import { APIScanner } from '@ea11y-apps/scanner/api/APIScanner';
@@ -295,3 +295,4 @@ useColorContrastForm.propTypes = {
 	current: PropTypes.number.isRequired,
 	setCurrent: PropTypes.func.isRequired,
 };
+

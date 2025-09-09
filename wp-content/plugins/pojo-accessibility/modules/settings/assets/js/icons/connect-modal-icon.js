@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const ConnectModalIcon = () => {
 	return (
@@ -40,3 +40,4 @@ const ConnectModalIcon = () => {
 };
 
 export default ConnectModalIcon;
+

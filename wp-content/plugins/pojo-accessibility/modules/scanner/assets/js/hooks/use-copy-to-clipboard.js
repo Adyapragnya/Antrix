@@ -1,4 +1,4 @@
-import clipboardCopy from 'clipboard-copy';
+﻿import clipboardCopy from 'clipboard-copy';
 import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
 import { useScannerWizardContext } from '@ea11y-apps/scanner/context/scanner-wizard-context';
 import { useState } from '@wordpress/element';
@@ -22,3 +22,4 @@ export const useCopyToClipboard = () => {
 		copyToClipboard,
 	};
 };
+

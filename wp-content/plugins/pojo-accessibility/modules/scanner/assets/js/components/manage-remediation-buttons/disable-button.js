@@ -1,4 +1,4 @@
-import BanIcon from '@elementor/icons/BanIcon';
+﻿import BanIcon from '@elementor/icons/BanIcon';
 import Button from '@elementor/ui/Button';
 import IconButton from '@elementor/ui/IconButton';
 import { useManageActions } from '@ea11y-apps/scanner/hooks/use-manage-actions';
@@ -27,3 +27,4 @@ export const DisableButton = ({ group }) => {
 		</Button>
 	);
 };
+

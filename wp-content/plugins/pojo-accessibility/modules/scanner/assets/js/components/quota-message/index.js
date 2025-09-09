@@ -1,4 +1,4 @@
-import Button from '@elementor/ui/Button';
+﻿import Button from '@elementor/ui/Button';
 import Typography from '@elementor/ui/Typography';
 import CrownFilled from '@ea11y/icons/crown-filled';
 import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
@@ -53,3 +53,4 @@ export const QuotaMessage = () => {
 		</StateContainer>
 	);
 };
+

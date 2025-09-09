@@ -1,4 +1,4 @@
-import API from '@ea11y-apps/global/api';
+﻿import API from '@ea11y-apps/global/api';
 
 const v1Prefix = '/ea11y/v1';
 
@@ -128,3 +128,4 @@ export class APIScanner extends API {
 		});
 	}
 }
+

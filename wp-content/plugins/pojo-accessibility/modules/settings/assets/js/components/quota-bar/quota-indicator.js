@@ -1,4 +1,4 @@
-import {
+﻿import {
 	AlertOctagonFilledIcon,
 	AlertTriangleFilledIcon,
 } from '@elementor/icons';
@@ -32,7 +32,7 @@ const QuotaIndicator = () => {
 	if (isQuotaExceeded) {
 		return (
 			<Tooltip
-				title={__('You’re reached your plan’s limit', 'pojo-accessibility')}
+				title={__('Youâ€™re reached your planâ€™s limit', 'pojo-accessibility')}
 			>
 				<AlertOctagonFilledIcon sx={{ color: 'error.dark' }} fontSize="16px" />
 			</Tooltip>
@@ -42,7 +42,7 @@ const QuotaIndicator = () => {
 	if (isQuotaWarning) {
 		return (
 			<Tooltip
-				title={__('You’re nearing your plan’s limit', 'pojo-accessibility')}
+				title={__('Youâ€™re nearing your planâ€™s limit', 'pojo-accessibility')}
 			>
 				<AlertTriangleFilledIcon
 					sx={{
@@ -63,3 +63,4 @@ const QuotaIndicator = () => {
 };
 
 export default QuotaIndicator;
+

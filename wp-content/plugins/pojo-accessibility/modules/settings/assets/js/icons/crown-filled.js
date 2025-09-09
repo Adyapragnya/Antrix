@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const CrownFilled = (props) => (
 	<SvgIcon viewBox="0 0 21 15" fontSize={props.size} {...props}>
@@ -11,3 +11,4 @@ const CrownFilled = (props) => (
 );
 
 export default CrownFilled;
+

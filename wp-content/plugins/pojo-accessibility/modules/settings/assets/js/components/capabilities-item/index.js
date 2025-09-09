@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import FormLabel from '@elementor/ui/FormLabel';
 import ListItem from '@elementor/ui/ListItem';
 import ListItemIcon from '@elementor/ui/ListItemIcon';
@@ -134,3 +134,4 @@ const CapabilitiesItem = ({
 };
 
 export default CapabilitiesItem;
+

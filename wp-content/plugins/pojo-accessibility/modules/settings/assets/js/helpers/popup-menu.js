@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Truncate email address if it exceeds the maximum length.
  * @param {string} email     Email address
  * @param {number} maxLength Maximum length of the email address
@@ -15,3 +15,4 @@ export const truncateEmail = (email, maxLength = 24) => {
 
 	return email.slice(0, maxLength - 3) + '...';
 };
+

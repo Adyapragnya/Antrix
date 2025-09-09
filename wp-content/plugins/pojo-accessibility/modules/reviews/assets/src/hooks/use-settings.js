@@ -1,4 +1,4 @@
-import { useState, createContext, useContext } from '@wordpress/element';
+﻿import { useState, createContext, useContext } from '@wordpress/element';
 
 /**
  * Context Component.
@@ -70,3 +70,4 @@ export const useNotifications = () => {
 };
 
 export default SettingsProvider;
+

@@ -1,4 +1,4 @@
-import { InfoCircleIcon, LockFilledIcon } from '@elementor/icons';
+﻿import { InfoCircleIcon, LockFilledIcon } from '@elementor/icons';
 import { styled } from '@elementor/ui';
 import Box from '@elementor/ui/Box';
 import Infotip from '@elementor/ui/Infotip';
@@ -104,3 +104,4 @@ const StyledOuterWrapper = styled(Box)`
 	width: 100%;
 	margin-bottom: ${({ theme }) => theme.spacing(1)};
 `;
+

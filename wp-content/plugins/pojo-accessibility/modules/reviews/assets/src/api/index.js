@@ -1,4 +1,4 @@
-import API from '@ea11y-apps/global/api/';
+﻿import API from '@ea11y-apps/global/api/';
 
 const v1Prefix = '/ea11y/v1';
 
@@ -17,3 +17,4 @@ class APIReview extends API {
 }
 
 export default APIReview;
+

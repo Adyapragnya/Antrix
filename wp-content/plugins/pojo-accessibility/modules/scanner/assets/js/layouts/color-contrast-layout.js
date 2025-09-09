@@ -1,4 +1,4 @@
-import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
+﻿import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
 import { ColorContrastForm } from '@ea11y-apps/scanner/components/color-contrast-form';
 import { FormNavigation } from '@ea11y-apps/scanner/components/form-navigation';
 import { BLOCKS, COLOR_ELEMENT_CLASS } from '@ea11y-apps/scanner/constants';
@@ -62,3 +62,4 @@ export const ColorContrastLayout = () => {
 		</StyledContent>
 	);
 };
+

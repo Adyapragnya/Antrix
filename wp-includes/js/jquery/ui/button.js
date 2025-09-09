@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Button 1.13.3
  * https://jqueryui.com
  *
@@ -447,3 +447,4 @@ if ( $.uiBackCompat !== false ) {
 return $.ui.button;
 
 } );
+

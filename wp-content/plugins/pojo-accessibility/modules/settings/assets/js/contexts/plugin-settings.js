@@ -1,4 +1,4 @@
-import { useToastNotification } from '@ea11y-apps/global/hooks';
+﻿import { useToastNotification } from '@ea11y-apps/global/hooks';
 import {
 	createContext,
 	useCallback,
@@ -72,3 +72,4 @@ export const PluginSettingsProvider = ({ children }) => {
 export const usePluginSettingsContext = () => {
 	return useContext(PluginSettingsContext);
 };
+

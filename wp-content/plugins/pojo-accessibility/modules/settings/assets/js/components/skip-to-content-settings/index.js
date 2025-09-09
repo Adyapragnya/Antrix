@@ -1,4 +1,4 @@
-import { InfoCircleIcon } from '@elementor/icons';
+﻿import { InfoCircleIcon } from '@elementor/icons';
 import Box from '@elementor/ui/Box';
 import Card from '@elementor/ui/Card';
 import FormLabel from '@elementor/ui/FormLabel';
@@ -64,7 +64,7 @@ const SkipToContentSettings = () => {
 	};
 
 	const titleTooltipText = __(
-		'This feature allows visitors with visual assistive tools to skip to the main content of each page they’re viewing.',
+		'This feature allows visitors with visual assistive tools to skip to the main content of each page theyâ€™re viewing.',
 		'pojo-accessibility',
 	);
 
@@ -223,3 +223,4 @@ const StyledTypography = styled(Typography)`
 `;
 
 export default SkipToContentSettings;
+

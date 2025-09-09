@@ -2596,3 +2596,4 @@ div[data-type="core/post-featured-image"] img{
 :where(.editor-styles-wrapper) iframe:not([frameborder]){
   border:0;
 }
+

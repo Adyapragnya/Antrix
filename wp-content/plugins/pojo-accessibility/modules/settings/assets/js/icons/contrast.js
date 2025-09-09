@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const ContrastIcon = (props, { size }) => {
 	return (
@@ -18,3 +18,4 @@ const ContrastIcon = (props, { size }) => {
 };
 
 export default ContrastIcon;
+

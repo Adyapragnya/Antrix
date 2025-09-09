@@ -1,4 +1,4 @@
-import { createElement } from '@wordpress/element';
+﻿import { createElement } from '@wordpress/element';
 
 export const injectTemplateVars = (message, components) => {
 	const regex = /\{\{(\w+)\}\}([^]*?)\{\{\/\1\}\}/g;
@@ -80,3 +80,4 @@ export const formatPlanValue = (value) => {
 
 	return value;
 };
+

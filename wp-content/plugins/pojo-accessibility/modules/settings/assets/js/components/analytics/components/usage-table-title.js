@@ -1,4 +1,4 @@
-import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
+﻿import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
 import Box from '@elementor/ui/Box';
 import Infotip from '@elementor/ui/Infotip';
 import Typography from '@elementor/ui/Typography';
@@ -13,7 +13,7 @@ export const UsageTableTitle = () => (
 			content={
 				<Typography variant="body1" sx={{ p: 2, maxWidth: '300px' }}>
 					{__(
-						'Track how often all your widget’s accessibility features are used.',
+						'Track how often all your widgetâ€™s accessibility features are used.',
 						'pojo-accessibility',
 					)}
 				</Typography>
@@ -23,3 +23,4 @@ export const UsageTableTitle = () => (
 		</Infotip>
 	</Box>
 );
+

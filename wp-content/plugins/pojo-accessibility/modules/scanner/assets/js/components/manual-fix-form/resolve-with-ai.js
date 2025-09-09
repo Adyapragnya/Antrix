@@ -1,4 +1,4 @@
-import AIIcon from '@elementor/icons/AIIcon';
+﻿import AIIcon from '@elementor/icons/AIIcon';
 import CopyIcon from '@elementor/icons/CopyIcon';
 import EditIcon from '@elementor/icons/EditIcon';
 import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
@@ -275,3 +275,4 @@ ResolveWithAi.propTypes = {
 	item: scannerItem,
 	current: PropTypes.number.isRequired,
 };
+

@@ -1,4 +1,4 @@
-import SearchIcon from '@elementor/icons/SearchIcon';
+﻿import SearchIcon from '@elementor/icons/SearchIcon';
 import InputAdornment from '@elementor/ui/InputAdornment';
 import TextField from '@elementor/ui/TextField';
 import { styled } from '@elementor/ui/styles';
@@ -121,3 +121,4 @@ const StyledTextField = styled(TextField)`
 `;
 
 export default AccessibilityAssistantResultsSearch;
+

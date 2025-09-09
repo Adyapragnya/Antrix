@@ -1,4 +1,4 @@
-import { useToastNotification } from '@ea11y-apps/global/hooks';
+﻿import { useToastNotification } from '@ea11y-apps/global/hooks';
 import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
 import { APIScanner } from '@ea11y-apps/scanner/api/APIScanner';
 import { useScannerWizardContext } from '@ea11y-apps/scanner/context/scanner-wizard-context';
@@ -181,3 +181,4 @@ export const useManageActions = (current = null) => {
 		editRemediation,
 	};
 };
+

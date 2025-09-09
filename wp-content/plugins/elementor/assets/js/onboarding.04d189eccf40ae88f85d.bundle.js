@@ -1,4 +1,4 @@
-/*! elementor - v3.31.0 - 27-08-2025 */
+﻿/*! elementor - v3.31.0 - 27-08-2025 */
 "use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["onboarding"],{
 
@@ -1225,7 +1225,7 @@ function Account() {
       firstLine: __('Once you connect your Elementor account, you can choose from dozens of professional templates and manage your site with the My Elementor dashboard.', 'elementor'),
       listItems: []
     } : {
-      firstLine: __('To get the most out of Elementor, we’ll connect your account.', 'elementor') + ' ' + __('Then you can:', 'elementor'),
+      firstLine: __('To get the most out of Elementor, weâ€™ll connect your account.', 'elementor') + ' ' + __('Then you can:', 'elementor'),
       listItems: [__('Choose from countless professional templates', 'elementor'), __('Manage your site with our handy dashboard', 'elementor'), __('Take part in the community forum, share & grow together', 'elementor')]
     };
   }
@@ -1236,7 +1236,7 @@ function Account() {
     role: 'button'
   };
   if (state.isLibraryConnected) {
-    actionButton.text = __('Let’s do it', 'elementor');
+    actionButton.text = __('Letâ€™s do it', 'elementor');
     actionButton.onClick = function () {
       elementorCommon.events.dispatchEvent({
         event: 'next',
@@ -1614,7 +1614,7 @@ function HelloTheme() {
     noticeStateSuccess = {
       type: 'success',
       icon: 'eicon-check-circle-o',
-      message: __('Your site’s got Hello theme. High-five!', 'elementor')
+      message: __('Your siteâ€™s got Hello theme. High-five!', 'elementor')
     },
     _useState5 = (0, _react.useState)(state.isHelloThemeActivated ? noticeStateSuccess : null),
     _useState6 = (0, _slicedToArray2.default)(_useState5, 2),

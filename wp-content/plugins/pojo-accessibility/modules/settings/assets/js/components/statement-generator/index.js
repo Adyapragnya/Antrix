@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Dialog from '@elementor/ui/Dialog';
 import DialogActions from '@elementor/ui/DialogActions';
 import DialogContent from '@elementor/ui/DialogContent';
@@ -303,3 +303,4 @@ const StatementGenerator = ({ open, close }) => {
 };
 
 export default StatementGenerator;
+

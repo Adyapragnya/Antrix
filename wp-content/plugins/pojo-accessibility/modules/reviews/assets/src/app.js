@@ -1,4 +1,4 @@
-import ReviewNotifications from './components/notification';
+﻿import ReviewNotifications from './components/notification';
 import { useSettings } from './hooks/use-settings';
 import UserFeedbackForm from './layouts/user-feedback-form';
 import './style.css';
@@ -18,3 +18,4 @@ const ReviewsApp = () => {
 };
 
 export default ReviewsApp;
+

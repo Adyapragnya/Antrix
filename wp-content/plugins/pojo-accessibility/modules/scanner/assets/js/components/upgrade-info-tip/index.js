@@ -1,4 +1,4 @@
-import Infotip from '@elementor/ui/Infotip';
+﻿import Infotip from '@elementor/ui/Infotip';
 import PropTypes from 'prop-types';
 import { UpgradeContent } from '@ea11y-apps/scanner/components/upgrade-info-tip/upgrade-content';
 
@@ -26,3 +26,4 @@ UpgradeInfoTip.propTypes = {
 	openUpgrade: PropTypes.bool.isRequired,
 	children: PropTypes.node,
 };
+

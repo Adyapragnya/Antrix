@@ -1,4 +1,4 @@
-import CloseButton from '@elementor/ui/CloseButton';
+﻿import CloseButton from '@elementor/ui/CloseButton';
 import { useStorage } from '@ea11y-apps/global/hooks';
 import { date } from '@wordpress/date';
 import { useSettings } from '../hooks/use-settings';
@@ -24,3 +24,4 @@ const DismissButton = () => {
 };
 
 export default DismissButton;
+

@@ -1,4 +1,4 @@
-import { styled } from '@elementor/ui/styles';
+﻿import { styled } from '@elementor/ui/styles';
 import { useSettings } from '@ea11y/hooks';
 
 const CustomIcon = ({ size }) => {
@@ -33,3 +33,4 @@ const StyledDiv = styled('div')`
 		}
 	}
 `;
+

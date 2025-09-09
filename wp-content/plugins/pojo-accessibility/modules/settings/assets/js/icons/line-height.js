@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const LineHeightIcon = (props, { size }) => {
 	return (
@@ -11,3 +11,4 @@ const LineHeightIcon = (props, { size }) => {
 };
 
 export default LineHeightIcon;
+

@@ -1,4 +1,4 @@
-export { default as AppLogo } from './app-logo';
+﻿export { default as AppLogo } from './app-logo';
 export { default as SquareRoundedChevronsLeft } from './square-rounded-chevrons-left';
 export { default as WidgetIcon } from './widget';
 export { default as UserArrowIcon } from './user-arrow';
@@ -28,3 +28,4 @@ export { default as AccessibilityAssistantNoResultsIcon } from './accessibility-
 export { default as AnalyticsIcon } from './analytics-icon';
 export { default as DashboardIcon } from './dashboard-icon';
 export { default as BulbIcon } from './bulb';
+

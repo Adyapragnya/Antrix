@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const CreditCardIcon = (props, { size }) => {
 	return (
@@ -13,3 +13,4 @@ const CreditCardIcon = (props, { size }) => {
 };
 
 export default CreditCardIcon;
+

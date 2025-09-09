@@ -1,4 +1,4 @@
-import CardContent from '@elementor/ui/CardContent';
+﻿import CardContent from '@elementor/ui/CardContent';
 import Typography from '@elementor/ui/Typography';
 import { styled } from '@elementor/ui/styles';
 import { MainList } from '@ea11y-apps/scanner/components/main-list';
@@ -22,3 +22,4 @@ const StyledContent = styled(CardContent)`
 	gap: ${({ theme }) => theme.spacing(2)};
 	padding: 0 ${({ theme }) => theme.spacing(2)};
 `;
+

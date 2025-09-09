@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const SquareRoundedChevronsLeft = (props, { size }) => {
 	return (
@@ -18,3 +18,4 @@ const SquareRoundedChevronsLeft = (props, { size }) => {
 };
 
 export default SquareRoundedChevronsLeft;
+

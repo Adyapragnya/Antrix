@@ -1,4 +1,4 @@
-import { __ } from '@wordpress/i18n';
+﻿import { __ } from '@wordpress/i18n';
 
 export const uxMessaging = {
 	table_caption_empty: {
@@ -8,7 +8,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If a table caption doesn’t describe the table’s purpose, people relying on assistive technologies may struggle to understand what the information relates to.',
+			'If a table caption doesnâ€™t describe the tableâ€™s purpose, people relying on assistive technologies may struggle to understand what the information relates to.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -22,7 +22,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'For a pricing table, add a caption that says “Monthly vs. Annual Plans.” For a class‑attendance table, add “Boys and Girls in Elementary School Classes.”',
+					'For a pricing table, add a caption that says â€œMonthly vs. Annual Plans.â€ For a classâ€‘attendance table, add â€œBoys and Girls in Elementary School Classes.â€',
 					'pojo-accessibility',
 				),
 
@@ -40,7 +40,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If the caption isn’t properly placed inside the table, people relying on assistive technologies may not know which caption belongs to which table, leading to confusion.',
+			'If the caption isnâ€™t properly placed inside the table, people relying on assistive technologies may not know which caption belongs to which table, leading to confusion.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -54,7 +54,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Select your table block or widget and look for a field called Caption or Title. Type something like “Fruit Sales 2025” there—this attaches the label directly to the table. If you already wrote the caption as a regular heading or paragraph just above the table, cut that text and paste it into the table’s Caption field instead.',
+					'Select your table block or widget and look for a field called Caption or Title. Type something like â€œFruit Sales 2025â€ thereâ€”this attaches the label directly to the table. If you already wrote the caption as a regular heading or paragraph just above the table, cut that text and paste it into the tableâ€™s Caption field instead.',
 					'pojo-accessibility',
 				),
 
@@ -72,7 +72,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If the summary just repeats the caption, it doesn’t give people any additional context, making it less useful for people relying on assistive technologies.',
+			'If the summary just repeats the caption, it doesnâ€™t give people any additional context, making it less useful for people relying on assistive technologies.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -81,12 +81,12 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'A table’s caption says "Sales Data 2024" and its summary says exactly the same thing, providing no extra help for screen reader users.',
+				'A tableâ€™s caption says "Sales Data 2024" and its summary says exactly the same thing, providing no extra help for screen reader users.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'Caption is enough: If the caption already says “Monthly Budget Breakdown,” delete any extra “Summary” paragraph that repeats those same words. Caption needs a bit more: If your caption is “Age Demographics by Country” but readers also need to know the columns are “0‑14, 15‑64, 65+,” add one short sentence right before the table that explains those age groups—then keep the caption as is.',
+					'Caption is enough: If the caption already says â€œMonthlyâ€¯Budgetâ€¯Breakdown,â€ delete any extra â€œSummaryâ€ paragraph that repeats those same words. Caption needs a bit more: If your caption is â€œAgeâ€¯Demographicsâ€¯byâ€¯Countryâ€ but readers also need to know the columns are â€œ0â€‘14,â€¯15â€‘64,â€¯65+,â€ add one short sentence right before the table that explains those age groupsâ€”then keep the caption as is.',
 					'pojo-accessibility',
 				),
 
@@ -104,7 +104,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If a label doesn’t clearly describe the form field’s purpose, people relying on assistive technologies may not know what to do, leading to mistakes or frustration.',
+			'If a label doesnâ€™t clearly describe the form fieldâ€™s purpose, people relying on assistive technologies may not know what to do, leading to mistakes or frustration.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -118,12 +118,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'An email field with no label should read “Email address.” A blank checkbox label becomes “Subscribe to newsletter.”',
+					'An email field with no label should read â€œEmail address.â€ A blank checkbox label becomes â€œSubscribe to newsletter.â€',
 					'pojo-accessibility',
 				),
 
 				__(
-					'Every form input must have a meaningful label, like “Email address” or “Subscribe to newsletter.”',
+					'Every form input must have a meaningful label, like â€œEmail addressâ€ or â€œSubscribe to newsletter.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -136,21 +136,21 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'When spacing can’t be adjusted, people with dyslexia or visual impairments may struggle to read comfortably.',
+			'When spacing canâ€™t be adjusted, people with dyslexia or visual impairments may struggle to read comfortably.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Don’t lock the distance between letters, words, or lines—use your theme’s normal text settings, and let visitors change spacing if they need to.',
+			'Donâ€™t lock the distance between letters, words, or linesâ€”use your themeâ€™s normal text settings, and let visitors change spacing if they need to.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'A block of text has fixed spacing that users can’t change, making it harder for people with reading difficulties to read comfortably.',
+				'A block of text has fixed spacing that users canâ€™t change, making it harder for people with reading difficulties to read comfortably.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'If you added custom styling that forces very tight or very wide text, remove that custom rule and rely on the theme’s built‑in font controls instead.',
+					'If you added custom styling that forces very tight or very wide text, remove that custom rule and rely on the themeâ€™s builtâ€‘in font controls instead.',
 					'pojo-accessibility',
 				),
 
@@ -168,11 +168,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If text doesn’t have enough contrast with the background, many people may struggle to read it, especially those with visual impairments or when viewing on different screens.',
+			'If text doesnâ€™t have enough contrast with the background, many people may struggle to read it, especially those with visual impairments or when viewing on different screens.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Choose color pairs that are easy to read—darken the text or lighten the background (or both) until a contrast‑checker says the combination passes accessibility tests.',
+			'Choose color pairs that are easy to readâ€”darken the text or lighten the background (or both) until a contrastâ€‘checker says the combination passes accessibilityÂ tests.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -182,12 +182,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Light‑gray body text on a white page looks faint; change the text to a darker gray or black, or place it on a pale‑gray card. White words on a pastel‑blue button can be hard to see; keep the white text but deepen the blue to navy so it pops. Large headings can tolerate slightly softer contrast than small body text, but they still need to stand out clearly—check both sizes with a free online contrast‑checker.',
+					'Lightâ€‘gray body text on a white page looks faint; change the text to a darker gray or black, or place it on a paleâ€‘gray card. White words on a pastelâ€‘blue button can be hard to see; keep the white text but deepen the blue to navy so it pops. Large headings can tolerate slightly softer contrast than small body text, but they still need to stand out clearlyâ€”check both sizes with a free online contrastâ€‘checker.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'Use a contrast‑checker to ensure text and background colors meet accessibility guidelines.',
+					'Use a contrastâ€‘checker to ensure text and background colors meet accessibility guidelines.',
 					'pojo-accessibility',
 				),
 			],
@@ -200,21 +200,21 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If elements aren’t placed inside the right containers, screen readers and other assistive tools may misinterpret the page, making navigation and understanding harder for people.',
+			'If elements arenâ€™t placed inside the right containers, screen readers and other assistive tools may misinterpret the page, making navigation and understanding harder for people.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Make sure every custom option (for example, a dropdown item) is placed inside the menu or list it belongs to—not floating on its own.',
+			'Make sure every custom option (for example, a dropdown item) is placed inside the menu or list it belongs toâ€”not floating on its own.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'An interactive element is put inside a section that doesn’t support it, making it confusing for assistive technologies.',
+				'An interactive element is put inside a section that doesnâ€™t support it, making it confusing for assistive technologies.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'You created a custom dropdown with three choices, but the choices were added as separate text blocks instead of being grouped together. Re‑add the choices using your theme’s “List / Menu / Dropdown” block so they sit inside one container. A single “Color: Blue” option was accidentally dragged outside its product‑options list. Move it back into the list so screen‑reader users know it’s part of the same group.',
+					'You created a custom dropdown with three choices, but the choices were added as separate text blocks instead of being grouped together. Reâ€‘add the choices using your themeâ€™s â€œList / Menu / Dropdownâ€ block so they sit inside one container. A single â€œColor:Â Blueâ€ option was accidentally dragged outside its productâ€‘options list. Move it back into the list so screenâ€‘reader users know itâ€™s part of the same group.',
 					'pojo-accessibility',
 				),
 
@@ -232,7 +232,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If the dropdown isn’t properly linked to its popup, people relying on screen readers or keyboards might not know where the new content appeared, making it harder to navigate and interact.',
+			'If the dropdown isnâ€™t properly linked to its popup, people relying on screen readers or keyboards might not know where the new content appeared, making it harder to navigate and interact.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -241,12 +241,12 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'A dropdown expands, but the connection to the popup isn’t set up properly, making it confusing for assistive technology users.',
+				'A dropdown expands, but the connection to the popup isnâ€™t set up properly, making it confusing for assistive technology users.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'You built a “Tag” field that suggests words as people type, but the suggestion list sits off to the side. Re‑add the field with your form or theme’s “Autocomplete / Tag Input” option so the list is directly linked and appears under the box. A search bar shows results in a floating panel that isn’t tied to the input. Move the panel into the same widget or block, ensuring the list opens and closes together with the box.',
+					'You built a â€œTagâ€ field that suggests words as people type, but the suggestion list sits off to the side. Reâ€‘add the field with your form or themeâ€™s â€œAutocomplete / Tag Inputâ€ option so the list is directly linked and appears under the box. A search bar shows results in a floating panel that isnâ€™t tied to the input. Move the panel into the same widget or block, ensuring the list opens and closes together with the box.',
 					'pojo-accessibility',
 				),
 
@@ -278,7 +278,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'In a product‑category dropdown, if “Shoes” appears in the box but isn’t listed when you open the dropdown, add “Shoes” back to the list or choose a different category that really exists. For a set of radio buttons, if “Thin Crust” is shown as chosen but the button isn’t visible, un‑hide “Thin Crust” or pick another visible choice.',
+					'In a productâ€‘category dropdown, if â€œShoesâ€ appears in the box but isnâ€™t listed when you open the dropdown, add â€œShoesâ€ back to the list or choose a different category that really exists. For a set of radio buttons, if â€œThin Crustâ€ is shown as chosen but the button isnâ€™t visible, unâ€‘hide â€œThin Crustâ€ or pick another visible choice.',
 					'pojo-accessibility',
 				),
 
@@ -296,21 +296,21 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If focus doesn’t follow the highlighted choice inside a dropdown, keyboard people may have trouble knowing where they are or selecting the right option.',
+			'If focus doesnâ€™t follow the highlighted choice inside a dropdown, keyboard people may have trouble knowing where they are or selecting the right option.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'When a search or tag box shows suggestions, the blinking cursor should stay in the box while the ↑ / ↓ keys simply move the highlight through the list.',
+			'When a search or tag box shows suggestions, the blinking cursor should stay in the box while the â†‘ / â†“ keys simply move the highlight through the list.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'When using the keyboard to open a dropdown, the highlighted option doesn’t stay properly focused, making it hard to choose.',
+				'When using the keyboard to open a dropdown, the highlighted option doesnâ€™t stay properly focused, making it hard to choose.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'In a “Tag” field, pressing ↓ should highlight “Zoom” in the dropdown, but you should still see the cursor inside the box so you can keep typing. If the cursor jumps out of the box and into the list—so you can’t type anymore—rebuild or adjust the widget so the list opens below the box without stealing the cursor. Selecting a suggestion should copy the word into the box and close the list.',
+					'In a â€œTagâ€ field, pressing â†“ should highlight â€œZoomâ€ in the dropdown, but you should still see the cursor inside the box so you can keep typing. If the cursor jumps out of the box and into the listâ€”so you canâ€™t type anymoreâ€”rebuild or adjust the widget so the list opens below the box without stealing the cursor. Selecting a suggestion should copy the word into the box and close the list.',
 					'pojo-accessibility',
 				),
 
@@ -328,11 +328,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If role labels don’t match the actual content, assistive technology people may get wrong information about what things are and how to interact with them.',
+			'If role labels donâ€™t match the actual content, assistive technology people may get wrong information about what things are and how to interact with them.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Choose the built‑in block or widget that already does what you need (Button, Heading, List, etc.)—don’t repurpose a generic text or box element and hope it acts like one.',
+			'Choose the builtâ€‘in block or widget that already does what you need (Button, Heading, List, etc.)â€”donâ€™t repurpose a generic text or box element and hope it acts like one.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -342,7 +342,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'You made a paragraph look like a button with bold text and color. Swap it for your theme’s Button block so visitors—and assistive tech—instantly know it can be clicked. A plain text block was styled to look like a heading. Replace it with the Heading block so screen‑reader users can jump to it quickly.',
+					'You made a paragraph look like a button with bold text and color. Swap it for your themeâ€™s Button block so visitorsâ€”and assistive techâ€”instantly know it can be clicked. A plain text block was styled to look like a heading. Replace it with the Heading block so screenâ€‘reader users can jump to it quickly.',
 					'pojo-accessibility',
 				),
 
@@ -360,11 +360,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If autocomplete isn’t set up properly, people relying on keyboards or screen readers may struggle to enter information or select options.',
+			'If autocomplete isnâ€™t set up properly, people relying on keyboards or screen readers may struggle to enter information or select options.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Let the typing box decide how suggestions appear. Remove any “autocomplete” setting from the dropdown list itself, and pick the option (inline text, dropdown list, or both) that matches what users see.',
+			'Let the typing box decide how suggestions appear. Remove any â€œautocompleteâ€ setting from the dropdown list itself, and pick the option (inline text, dropdown list, or both) that matches what users see.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -374,7 +374,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Your “State” field shows a dropdown list as people type. Keep the autocomplete setting only on the box and choose “show list suggestions.” Don’t add extra settings to the list below. A search bar fills in the rest of the word right inside the box but never opens a list. Set the box to “inline suggestions” and leave the list turned off. If your tag picker shows both inline text and a dropdown, choose “both suggestions” on the box and make sure the list appears right under it.',
+					'Your â€œStateâ€ field shows a dropdown list as people type. Keep the autocomplete setting only on the box and choose â€œshow list suggestions.â€ Donâ€™t add extra settings to the list below. A search bar fills in the rest of the word right inside the box but never opens a list. Set the box to â€œinline suggestionsâ€ and leave the list turned off. If your tag picker shows both inline text and a dropdown, choose â€œboth suggestionsâ€ on the box and make sure the list appears right under it.',
 					'pojo-accessibility',
 				),
 
@@ -396,17 +396,17 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'When the box appears, the blinking cursor should land in the text field—not on one of the suggestions below it.',
+			'When the box appears, the blinking cursor should land in the text fieldâ€”not on one of the suggestions below it.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'When using the Tab key, users can accidentally focus parts of the dropdown that aren’t meant for direct typing or selection.',
+				'When using the Tab key, users can accidentally focus parts of the dropdown that arenâ€™t meant for direct typing or selection.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'In a “State” search field, clicking or tabbing into the box should put the cursor in the empty field so you can start typing. If the first suggestion (“Alabama”) is highlighted instead, adjust the widget so the cursor begins in the box. A product search overlay opens with the cursor sitting on a result link. Move the starting focus back to the search field, so users can type or paste their query immediately.',
+					'In a â€œStateâ€ search field, clicking or tabbing into the box should put the cursor in the empty field so you can start typing. If the first suggestion (â€œAlabamaâ€) is highlighted instead, adjust the widget so the cursor begins in the box. A product search overlay opens with the cursor sitting on a result link. Move the starting focus back to the search field, so users can type or paste their query immediately.',
 					'pojo-accessibility',
 				),
 
@@ -438,7 +438,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Your “Tag” field shows a straight list of suggestions. In the widget’s settings, pick the option for “Dropdown list” (or similar) instead of leaving it undefined. If your search box opens a larger pop‑up panel with extra filters, choose the setting that labels it as a “Dialog” so screen readers announce it properly.',
+					'Your â€œTagâ€ field shows a straight list of suggestions. In the widgetâ€™s settings, pick the option for â€œDropdown listâ€ (or similar) instead of leaving it undefined. If your search box opens a larger popâ€‘up panel with extra filters, choose the setting that labels it as a â€œDialogâ€ so screen readers announce it properly.',
 					'pojo-accessibility',
 				),
 
@@ -460,7 +460,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Keep options, menu items, and buttons simple. Don’t put extra buttons, links, or headings inside them.',
+			'Keep options, menu items, and buttons simple. Donâ€™t put extra buttons, links, or headings inside them.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -470,7 +470,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'A dropdown choice was built as a button inside another button. Replace the inner button with plain text so each choice is just one item, not a widget within a widget. A list item in a custom select menu contains a heading block. Change the heading to regular text (or bold styling) so the list stays clean and easy for assistive tech to read. Removing extra nested elements prevents confusion and lets screen‑reader users move through menus and lists without surprises.',
+					'A dropdown choice was built as a button inside another button. Replace the inner button with plain text so each choice is just one item, not a widget within a widget. A list item in a custom select menu contains a heading block. Change the heading to regular text (or bold styling) so the list stays clean and easy for assistive tech to read. Removing extra nested elements prevents confusion and lets screenâ€‘reader users move through menus and lists without surprises.',
 					'pojo-accessibility',
 				),
 
@@ -488,21 +488,21 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If the role is wrong or invalid, assistive technologies can’t correctly explain the purpose of the content, making the site harder to navigate and understand.',
+			'If the role is wrong or invalid, assistive technologies canâ€™t correctly explain the purpose of the content, making the site harder to navigate and understand.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Pick the widget that already matches what you need. Don’t assign a fancy role to an element that wasn’t built for it.',
+			'Pick the widget that already matches what you need. Donâ€™t assign a fancy role to an element that wasnâ€™t built for it.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'An element is given a role that doesn’t exist or isn’t allowed, making it confusing for screen reader users.',
+				'An element is given a role that doesnâ€™t exist or isnâ€™t allowed, making it confusing for screen reader users.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'You styled a plain box to act like a scrollbar. Replace it with your theme’s built-in Scroll area or let the browser’s own scrollbar appear naturally. A decorative icon was given a role that says “button,” but it does nothing. Remove that role or turn the icon into an actual button with a click action.',
+					'You styled a plain box to act like a scrollbar. Replace it with your themeâ€™s built-in Scroll area or let the browserâ€™s own scrollbar appear naturally. A decorative icon was given a role that says â€œbutton,â€ but it does nothing. Remove that role or turn the icon into an actual button with a click action.',
 					'pojo-accessibility',
 				),
 
@@ -520,11 +520,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If labels or properties don’t match the content type, assistive technologies may misread the page, making it harder for people to understand and interact with it.',
+			'If labels or properties donâ€™t match the content type, assistive technologies may misread the page, making it harder for people to understand and interact with it.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'When you use an accessibility setting (like “live update” or “busy”), pick one of the values the spec allows. No made-up words or empty fields.',
+			'When you use an accessibility setting (like â€œlive updateâ€ or â€œbusyâ€), pick one of the values the spec allows. No made-up words or empty fields.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -534,7 +534,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'A status message uses “live update: polite” (allowed). Change any custom value like “gentle” to “polite” so screen readers handle it correctly. A busy-indicator flag must be either “true” or “false.” If it’s blank, set it to the proper choice or remove the flag.',
+					'A status message uses â€œlive update: politeâ€ (allowed). Change any custom value like â€œgentleâ€ to â€œpoliteâ€ so screen readers handle it correctly. A busy-indicator flag must be either â€œtrueâ€ or â€œfalse.â€ If itâ€™s blank, set it to the proper choice or remove the flag.',
 					'pojo-accessibility',
 				),
 
@@ -556,22 +556,22 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'If an input is already marked as required (or has any other HTML setting), don’t add an extra ARIA tag that says the same thing. Pick one or the other.',
+			'If an input is already marked as required (or has any other HTML setting), donâ€™t add an extra ARIA tag that says the same thing. Pick one or the other.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'An element has two different settings for the same feature — one from HTML and one from ARIA — causing confusion for assistive technologies.',
+				'An element has two different settings for the same feature â€” one from HTML and one from ARIA â€” causing confusion for assistive technologies.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'A phone-number field has both the standard “Required” toggle turned on and an extra “required” flag in advanced settings. Turn off the duplicate so the form doesn’t announce “required” twice. A checkbox is labeled by visible text and also by an override in accessibility settings. Keep the visible label and remove the extra override to avoid confusion.',
+					'A phone-number field has both the standard â€œRequiredâ€ toggle turned on and an extra â€œrequiredâ€ flag in advanced settings. Turn off the duplicate so the form doesnâ€™t announce â€œrequiredâ€ twice. A checkbox is labeled by visible text and also by an override in accessibility settings. Keep the visible label and remove the extra override to avoid confusion.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'Ensure that ARIA and HTML settings don’t conflict with each other, particularly when describing the same functionality.',
+					'Ensure that ARIA and HTML settings donâ€™t conflict with each other, particularly when describing the same functionality.',
 					'pojo-accessibility',
 				),
 			],
@@ -584,7 +584,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If required information is missing, assistive technologies can’t explain how to use the feature properly, making the site harder to navigate and understand.',
+			'If required information is missing, assistive technologies canâ€™t explain how to use the feature properly, making the site harder to navigate and understand.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -593,12 +593,12 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'An element includes a setting that’s supposed to give extra information, but the value is missing, leaving screen reader users without the details they need.',
+				'An element includes a setting thatâ€™s supposed to give extra information, but the value is missing, leaving screen reader users without the details they need.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'A message area is marked “live update” but the setting box is empty. Choose “polite” (or another allowed option) so screen-readers know how quickly to announce changes.',
+					'A message area is marked â€œlive updateâ€ but the setting box is empty. Choose â€œpoliteâ€ (or another allowed option) so screen-readers know how quickly to announce changes.',
 					'pojo-accessibility',
 				),
 
@@ -630,7 +630,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'A vertical scroll bar shows but has no “top” or “bottom” value set. Enter 0 for minimum, 100 for maximum, and the current position (e.g., 25) so assistive tools can report progress accurately.',
+					'A vertical scroll bar shows but has no â€œtopâ€ or â€œbottomâ€ value set. Enter 0 for minimum, 100 for maximum, and the current position (e.g., 25) so assistive tools can report progress accurately.',
 					'pojo-accessibility',
 				),
 
@@ -652,17 +652,17 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Replace any invented or misspelled value with one from the official list—for example, “polite,” “assertive,” “true,” or “false.”',
+			'Replace any invented or misspelled value with one from the official listâ€”for example, â€œpolite,â€ â€œassertive,â€ â€œtrue,â€ or â€œfalse.â€',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'A dropdown uses a value that isn’t allowed, confusing screen readers and other assistive tools.',
+				'A dropdown uses a value that isnâ€™t allowed, confusing screen readers and other assistive tools.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'A status message is set to “gentle.” Change it to “polite” so screen-readers recognize it.',
+					'A status message is set to â€œgentle.â€ Change it to â€œpoliteâ€ so screen-readers recognize it.',
 					'pojo-accessibility',
 				),
 
@@ -680,7 +680,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If interactive elements aren’t labeled correctly, people using assistive technologies might not know they can click or use them, making the site harder to navigate.',
+			'If interactive elements arenâ€™t labeled correctly, people using assistive technologies might not know they can click or use them, making the site harder to navigate.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -689,7 +689,7 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'A clickable area doesn’t have a proper role, making it unclear to screen reader users that it can be interacted with.',
+				'A clickable area doesnâ€™t have a proper role, making it unclear to screen reader users that it can be interacted with.',
 				'pojo-accessibility',
 			),
 			resolution: [
@@ -716,17 +716,17 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Give each form helper (tooltip, hint, error) its own unique ID, and make sure the field’s “Described by” setting points to that exact ID.',
+			'Give each form helper (tooltip, hint, error) its own unique ID, and make sure the fieldâ€™s â€œDescribed byâ€ setting points to that exact ID.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'An element references an ID that doesn’t exist or is hidden, leaving screen reader users without the right information.',
+				'An element references an ID that doesnâ€™t exist or is hidden, leaving screen reader users without the right information.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'Your “Last Name” input references “hint‑last‑name,” but no helper with that ID exists. Add a helper with that ID—or update the reference to the correct helper—to avoid confusion.',
+					'Your â€œLast Nameâ€ input references â€œhintâ€‘lastâ€‘name,â€ but no helper with that ID exists. Add a helper with that IDâ€”or update the reference to the correct helperâ€”to avoid confusion.',
 					'pojo-accessibility',
 				),
 
@@ -744,7 +744,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If interactive elements don’t have a name, people relying on assistive technologies may not know how to interact with them, making the site confusing and harder to use.',
+			'If interactive elements donâ€™t have a name, people relying on assistive technologies may not know how to interact with them, making the site confusing and harder to use.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -753,17 +753,17 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'A button has no label, so screen reader users don’t know what it does.',
+				'A button has no label, so screen reader users donâ€™t know what it does.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'Add a heading “Table of contents” just above a tree menu and link the menu to that heading so screen-readers announce it.',
+					'Add a heading â€œTable of contentsâ€ just above a tree menu and link the menu to that heading so screen-readers announce it.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'A magnifying-glass icon that opens search results gets a hidden label “Search” so voice users know its purpose.',
+					'A magnifying-glass icon that opens search results gets a hidden label â€œSearchâ€ so voice users know its purpose.',
 					'pojo-accessibility',
 				),
 			],
@@ -776,7 +776,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If dropdowns don’t follow the latest accessibility guidelines, people relying on screen readers or keyboards may have trouble using them, leading to a poor experience.',
+			'If dropdowns donâ€™t follow the latest accessibility guidelines, people relying on screen readers or keyboards may have trouble using them, leading to a poor experience.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -795,7 +795,7 @@ export const uxMessaging = {
 				),
 
 				__(
-					'Make sure the field, any “▼” button, and the suggestions list belong to the same component so arrow keys move naturally through the choices.',
+					'Make sure the field, any â€œâ–¼â€ button, and the suggestions list belong to the same component so arrow keys move naturally through the choices.',
 					'pojo-accessibility',
 				),
 			],
@@ -812,7 +812,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Give each helper, section, or control its own one‑of‑a‑kind ID never reuse the same ID twice.',
+			'Give each helper, section, or control its own oneâ€‘ofâ€‘aâ€‘kind ID never reuse the same ID twice.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -822,12 +822,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Two newsletter forms both use “signup.” Rename one to “signup‑footer” and update any references.',
+					'Two newsletter forms both use â€œsignup.â€ Rename one to â€œsignupâ€‘footerâ€ and update any references.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'A tooltip and a heading share “info.” Change the tooltip’s ID to “info‑tip” so labels point to the right place.',
+					'A tooltip and a heading share â€œinfo.â€ Change the tooltipâ€™s ID to â€œinfoâ€‘tipâ€ so labels point to the right place.',
 					'pojo-accessibility',
 				),
 			],
@@ -840,11 +840,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If shortcut keys aren’t unique, keyboard people can trigger the wrong action or get confused when navigating the page.',
+			'If shortcut keys arenâ€™t unique, keyboard people can trigger the wrong action or get confused when navigating the page.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Assign each shortcut letter only once per page so they don’t clash.',
+			'Assign each shortcut letter only once per page so they donâ€™t clash.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -854,12 +854,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'“Accept” and “Approve” buttons both use “A.” Change one to “C” (for Confirm) so each key triggers just one action.',
+					'â€œAcceptâ€ and â€œApproveâ€ buttons both use â€œA.â€ Change one to â€œCâ€ (for Confirm) so each key triggers just one action.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'A link and a form field both claim “S.” Remove or change one of them to keep shortcuts unique.',
+					'A link and a form field both claim â€œS.â€ Remove or change one of them to keep shortcuts unique.',
 					'pojo-accessibility',
 				),
 			],
@@ -872,26 +872,26 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If labels or settings don’t match the content, assistive technology people may hear wrong or unclear information, making the site harder to navigate.',
+			'If labels or settings donâ€™t match the content, assistive technology people may hear wrong or unclear information, making the site harder to navigate.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Remove or change any accessibility setting the element isn’t allowed to have.',
+			'Remove or change any accessibility setting the element isnâ€™t allowed to have.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'An element is given settings that don’t fit its type, confusing assistive technologies.',
+				'An element is given settings that donâ€™t fit its type, confusing assistive technologies.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'A paragraph has a setting for “expanded/collapsed,” which only applies to collapsible items—delete that setting.',
+					'A paragraph has a setting for â€œexpanded/collapsed,â€ which only applies to collapsible itemsâ€”delete that setting.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'A list item needs to show it can open and close; change its type to a collapsible list item first, then keep the “expanded” flag.',
+					'A list item needs to show it can open and close; change its type to a collapsible list item first, then keep the â€œexpandedâ€ flag.',
 					'pojo-accessibility',
 				),
 			],
@@ -907,26 +907,26 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If related choices aren’t grouped, assistive technology people may not realize the options are connected, leading to confusion and mistakes.',
+			'If related choices arenâ€™t grouped, assistive technology people may not realize the options are connected, leading to confusion and mistakes.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Keep check‑boxes or radio buttons that belong to the same question in one group, and keep unrelated choices in separate groups.',
+			'Keep checkâ€‘boxes or radio buttons that belong to the same question in one group, and keep unrelated choices in separate groups.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'A set of shipping options appears visually together but isn’t grouped for screen reader users, making it harder to understand they belong to the same question.',
+				'A set of shipping options appears visually together but isnâ€™t grouped for screen reader users, making it harder to understand they belong to the same question.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'Place all “Newsletter Topics” check‑boxes (News, Tips, Events) in one cluster under that heading.',
+					'Place all â€œNewsletter Topicsâ€ checkâ€‘boxes (News, Tips, Events) in one cluster under that heading.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'Put “Shipping Method” radio buttons (Standard, Express) in their own cluster—do not mix them with the newsletter choices.',
+					'Put â€œShipping Methodâ€ radio buttons (Standard, Express) in their own clusterâ€”do not mix them with the newsletter choices.',
 					'pojo-accessibility',
 				),
 			],
@@ -943,7 +943,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Add a short group label (such as “Payment Method” or “Choose Your Size”) so everyone knows what the nearby options are for.',
+			'Add a short group label (such as â€œPayment Methodâ€ or â€œChoose Your Sizeâ€) so everyone knows what the nearby options are for.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -953,12 +953,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Above three card‑type radio buttons, add the heading “Payment Method.”',
+					'Above three cardâ€‘type radio buttons, add the heading â€œPayment Method.â€',
 					'pojo-accessibility',
 				),
 
 				__(
-					'Above four T‑shirt size check‑boxes, add “Choose Your Size.”',
+					'Above four Tâ€‘shirt size checkâ€‘boxes, add â€œChoose Your Size.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -985,7 +985,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Two “Email Address” labels both point to the same email box. Keep one label and delete the extra.',
+					'Two â€œEmail Addressâ€ labels both point to the same email box. Keep one label and delete the extra.',
 					'pojo-accessibility',
 				),
 			],
@@ -998,21 +998,21 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If labels aren’t properly connected to form fields, assistive technology people may not know what information to enter, leading to confusion and mistakes.',
+			'If labels arenâ€™t properly connected to form fields, assistive technology people may not know what information to enter, leading to confusion and mistakes.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Check that each label actually targets its own input if the link is broken, update it to match the field’s ID.',
+			'Check that each label actually targets its own input if the link is broken, update it to match the fieldâ€™s ID.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'A label points to an input field that doesn’t exist or is missing an ID, making it hard for screen reader users to know what the label applies to.',
+				'A label points to an input field that doesnâ€™t exist or is missing an ID, making it hard for screen reader users to know what the label applies to.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'The “Phone Number” label points to “phone‑1,” but the input is “phone.” Change the label to point to “phone” so clicking the label places the cursor in the box.',
+					'The â€œPhone Numberâ€ label points to â€œphoneâ€‘1,â€ but the input is â€œphone.â€ Change the label to point to â€œphoneâ€ so clicking the label places the cursor in the box.',
 					'pojo-accessibility',
 				),
 			],
@@ -1025,7 +1025,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If autocomplete settings don’t match the field type, browsers and assistive technologies may suggest wrong information, making forms harder to fill out correctly.',
+			'If autocomplete settings donâ€™t match the field type, browsers and assistive technologies may suggest wrong information, making forms harder to fill out correctly.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1039,12 +1039,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Your “First name” field currently uses a custom label like “given-name,” so browsers don’t offer saved names. Change the field’s autofill setting to “First name.”',
+					'Your â€œFirst nameâ€ field currently uses a custom label like â€œgiven-name,â€ so browsers donâ€™t offer saved names. Change the fieldâ€™s autofill setting to â€œFirst name.â€',
 					'pojo-accessibility',
 				),
 
 				__(
-					'The credit-card box is set to “cc-num,” which password managers don’t recognize. Switch it to “Credit card number” so users can quickly fill it.',
+					'The credit-card box is set to â€œcc-num,â€ which password managers donâ€™t recognize. Switch it to â€œCredit card numberâ€ so users can quickly fill it.',
 					'pojo-accessibility',
 				),
 			],
@@ -1057,11 +1057,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If error messages aren’t properly connected, people relying on assistive technologies may not realize there’s a problem, making it hard to fix mistakes and complete forms.',
+			'If error messages arenâ€™t properly connected, people relying on assistive technologies may not realize thereâ€™s a problem, making it hard to fix mistakes and complete forms.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Make sure every field’s error box exists and becomes visible when there’s a problem.',
+			'Make sure every fieldâ€™s error box exists and becomes visible when thereâ€™s a problem.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -1071,7 +1071,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'A signup field points to an error message that doesn’t exist—you see no feedback. Create the missing error text below the field so users know what went wrong.',
+					'A signup field points to an error message that doesnâ€™t existâ€”you see no feedback. Create the missing error text below the field so users know what went wrong.',
 					'pojo-accessibility',
 				),
 
@@ -1089,7 +1089,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If the label isn’t placed after the checkbox or radio button, screen reader people may get confused about which option they are selecting, leading to mistakes.',
+			'If the label isnâ€™t placed after the checkbox or radio button, screen reader people may get confused about which option they are selecting, leading to mistakes.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1103,7 +1103,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'A newsletter signup has the box followed by “Receive updates.” Perfect—you see the box and label together.',
+					'A newsletter signup has the box followed by â€œReceive updates.â€ Perfectâ€”you see the box and label together.',
 					'pojo-accessibility',
 				),
 
@@ -1135,7 +1135,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'“Email address” appears right above the email field. Good—you see the prompt before you type.',
+					'â€œEmail addressâ€ appears right above the email field. Goodâ€”you see the prompt before you type.',
 					'pojo-accessibility',
 				),
 
@@ -1153,7 +1153,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If a form field doesn’t have a label, people relying on assistive technologies may not know what information to enter, making forms harder or impossible to complete.',
+			'If a form field doesnâ€™t have a label, people relying on assistive technologies may not know what information to enter, making forms harder or impossible to complete.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1167,12 +1167,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'An address field has no label—add “Mailing address” above it.',
+					'An address field has no labelâ€”add â€œMailing addressâ€ above it.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'A hidden label was used for design reasons—turn on the visible label option or provide a clear name in the control’s settings.',
+					'A hidden label was used for design reasonsâ€”turn on the visible label option or provide a clear name in the controlâ€™s settings.',
 					'pojo-accessibility',
 				),
 			],
@@ -1189,17 +1189,17 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Mark icons, graphics, or decorative bits so they’re skipped by screen readers and not included in keyboard navigation.',
+			'Mark icons, graphics, or decorative bits so theyâ€™re skipped by screen readers and not included in keyboard navigation.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'A hidden panel still contains a button that users can accidentally tab to, even though they can’t see it.',
+				'A hidden panel still contains a button that users can accidentally tab to, even though they canâ€™t see it.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'A decorative star icon before headings shouldn’t be read aloud—set it to “hidden from assistive tech” and remove it from the tab order.',
+					'A decorative star icon before headings shouldnâ€™t be read aloudâ€”set it to â€œhidden from assistive techâ€ and remove it from the tab order.',
 					'pojo-accessibility',
 				),
 
@@ -1217,7 +1217,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If people can’t reach elements that highlight active choices, they may lose track of where they are or be unable to make a selection, leading to a frustrating experience.',
+			'If people canâ€™t reach elements that highlight active choices, they may lose track of where they are or be unable to make a selection, leading to a frustrating experience.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1226,12 +1226,12 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'An element highlights a selection but can’t be focused using the Tab key, making it hard for keyboard users to interact with it.',
+				'An element highlights a selection but canâ€™t be focused using the Tab key, making it hard for keyboard users to interact with it.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'In your page builder, enable the “Focusable” option for the custom toolbar or dropdown container so it’s reached when you press Tab.',
+					'In your page builder, enable the â€œFocusableâ€ option for the custom toolbar or dropdown container so itâ€™s reached when you press Tab.',
 					'pojo-accessibility',
 				),
 
@@ -1249,7 +1249,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If an interactive part of the site doesn’t have anything people can tab to, keyboard people and people relying on assistive technologies may not be able to use it at all.',
+			'If an interactive part of the site doesnâ€™t have anything people can tab to, keyboard people and people relying on assistive technologies may not be able to use it at all.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1263,7 +1263,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'For a collapsible menu, turn on the “Link” or “Focusable” setting for the first menu item so Tab lands there.',
+					'For a collapsible menu, turn on the â€œLinkâ€ or â€œFocusableâ€ setting for the first menu item so Tab lands there.',
 					'pojo-accessibility',
 				),
 
@@ -1281,7 +1281,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			"If people can't reach scrollable areas using the keyboard, they might miss important content — making the website harder to navigate for those who don't use a mouse.",
+			"If people can't reach scrollable areas using the keyboard, they might miss important content â€” making the website harder to navigate for those who don't use a mouse.",
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1295,12 +1295,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'If you’ve put text in a small “scroll box” widget, enable its keyboard scrolling feature so Tab brings focus inside and arrow keys move the content.',
+					'If youâ€™ve put text in a small â€œscroll boxâ€ widget, enable its keyboard scrolling feature so Tab brings focus inside and arrow keys move the content.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'Replace a custom block that can’t be reached by Tab with a built-in “Scrollable Panel” element that supports keyboard navigation.',
+					'Replace a custom block that canâ€™t be reached by Tab with a built-in â€œScrollable Panelâ€ element that supports keyboard navigation.',
 					'pojo-accessibility',
 				),
 			],
@@ -1313,11 +1313,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			"If interactive content like videos or forms can't be reached by keyboard, some people won't be able to play, pause, or interact with them — making the site harder to use and less accessible.",
+			"If interactive content like videos or forms can't be reached by keyboard, some people won't be able to play, pause, or interact with them â€” making the site harder to use and less accessible.",
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Make sure any embedded content (videos, maps, forms) can be reached by pressing Tab or hide it completely if it’s purely decorative.',
+			'Make sure any embedded content (videos, maps, forms) can be reached by pressing Tab or hide it completely if itâ€™s purely decorative.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -1327,12 +1327,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'For a YouTube video embed, turn on the “Focusable” setting so users can Tab into the video controls.',
+					'For a YouTube video embed, turn on the â€œFocusableâ€ setting so users can Tab into the video controls.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'If an iframe only shows decorative graphics, mark it as “Hidden from keyboard” so Tab skips over it.',
+					'If an iframe only shows decorative graphics, mark it as â€œHidden from keyboardâ€ so Tab skips over it.',
 					'pojo-accessibility',
 				),
 			],
@@ -1345,7 +1345,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If links don’t clearly describe their purpose, people relying on assistive technologies may not understand where the link will take them, making navigation confusing.',
+			'If links donâ€™t clearly describe their purpose, people relying on assistive technologies may not understand where the link will take them, making navigation confusing.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1359,12 +1359,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Change a generic “Learn more” link to “Learn more about our Pricing Plans.”',
+					'Change a generic â€œLearn moreâ€ link to â€œLearn more about our Pricing Plans.â€',
 					'pojo-accessibility',
 				),
 
 				__(
-					'For a linked image, update its alt text to “View our Spring Collection” instead of “image1.png.”',
+					'For a linked image, update its alt text to â€œView our Spring Collectionâ€ instead of â€œimage1.png.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -1377,7 +1377,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If the accessible name doesn’t match the visible label, people relying on assistive technologies may hear different information than what they see, causing confusion and mistakes.',
+			'If the accessible name doesnâ€™t match the visible label, people relying on assistive technologies may hear different information than what they see, causing confusion and mistakes.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1391,12 +1391,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'If a button reads “Next Page,” set its accessibility name to “Next Page” (not “Go Forward”).',
+					'If a button reads â€œNext Page,â€ set its accessibility name to â€œNext Pageâ€ (not â€œGo Forwardâ€).',
 					'pojo-accessibility',
 				),
 
 				__(
-					'For a search icon that shows a magnifying glass, give it the hidden label “Search” so screen-reader users hear “Search” when they land on it.',
+					'For a search icon that shows a magnifying glass, give it the hidden label â€œSearchâ€ so screen-reader users hear â€œSearchâ€ when they land on it.',
 					'pojo-accessibility',
 				),
 			],
@@ -1409,7 +1409,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If the page’s language isn’t set, screen readers may mispronounce words, making the content harder to understand for people who rely on them.',
+			'If the pageâ€™s language isnâ€™t set, screen readers may mispronounce words, making the content harder to understand for people who rely on them.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1418,17 +1418,17 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'A website is written in English, but there’s no language setting, making it harder for screen readers to pronounce words correctly.',
+				'A website is written in English, but thereâ€™s no language setting, making it harder for screen readers to pronounce words correctly.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'In your site settings or template options, set the language to “English” (or your chosen language) so screen readers switch voices appropriately.',
+					'In your site settings or template options, set the language to â€œEnglishâ€ (or your chosen language) so screen readers switch voices appropriately.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'If your page is in French, change the language setting from blank or “Automatic” to “French.”',
+					'If your page is in French, change the language setting from blank or â€œAutomaticâ€ to â€œFrench.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -1437,15 +1437,15 @@ export const uxMessaging = {
 	html_lang_valid: {
 		violationName: __('Invalid Language Code', 'pojo-accessibility'),
 		whatsTheIssue: __(
-			'The page’s language setting must be valid.',
+			'The pageâ€™s language setting must be valid.',
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If the language code isn’t valid, assistive technologies may not recognize it, leading to incorrect pronunciation and a confusing experience for people.',
+			'If the language code isnâ€™t valid, assistive technologies may not recognize it, leading to incorrect pronunciation and a confusing experience for people.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Set your site’s main language to a standard code so browsers and screen readers know how to pronounce text.',
+			'Set your siteâ€™s main language to a standard code so browsers and screen readers know how to pronounce text.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -1455,12 +1455,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'In your site settings, change the language from “english” or blank to the official code “en” (for English).',
+					'In your site settings, change the language from â€œenglishâ€ or blank to the official code â€œenâ€ (for English).',
 					'pojo-accessibility',
 				),
 
 				__(
-					'If your site is in Spanish, pick “es” instead of writing out “Spanish” or leaving it unset.',
+					'If your site is in Spanish, pick â€œesâ€ instead of writing out â€œSpanishâ€ or leaving it unset.',
 					'pojo-accessibility',
 				),
 			],
@@ -1473,7 +1473,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If language changes aren’t properly marked, assistive technologies may mispronounce words, making the content harder to understand for people.',
+			'If language changes arenâ€™t properly marked, assistive technologies may mispronounce words, making the content harder to understand for people.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1482,17 +1482,17 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'A paragraph switches from English to Spanish but doesn’t correctly mark the language change, confusing screen readers.',
+				'A paragraph switches from English to Spanish but doesnâ€™t correctly mark the language change, confusing screen readers.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'For a French quote, apply the code “fr” to that paragraph so screen readers read it with French pronunciation.',
+					'For a French quote, apply the code â€œfrâ€ to that paragraph so screen readers read it with French pronunciation.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'If you slip in a German phrase, mark it as “de” rather than leaving it as default.',
+					'If you slip in a German phrase, mark it as â€œdeâ€ rather than leaving it as default.',
 					'pojo-accessibility',
 				),
 			],
@@ -1505,11 +1505,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If extra popup labels are added where they aren’t needed, people relying on assistive technologies may get the wrong idea about how the input works, leading to confusion.',
+			'If extra popup labels are added where they arenâ€™t needed, people relying on assistive technologies may get the wrong idea about how the input works, leading to confusion.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'If a text field already uses browser suggestions, turn off any extra “popup” option you added so they don’t conflict.',
+			'If a text field already uses browser suggestions, turn off any extra â€œpopupâ€ option you added so they donâ€™t conflict.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -1519,12 +1519,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'You added a “show menu” toggle to an email field that already shows domain suggestions—switch that toggle off so the browser list works normally.',
+					'You added a â€œshow menuâ€ toggle to an email field that already shows domain suggestionsâ€”switch that toggle off so the browser list works normally.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'If a phone-number field has both built-in dropdown and a custom “has popup” setting, remove the custom setting and let the browser handle it.',
+					'If a phone-number field has both built-in dropdown and a custom â€œhas popupâ€ setting, remove the custom setting and let the browser handle it.',
 					'pojo-accessibility',
 				),
 			],
@@ -1537,26 +1537,26 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If an element can be reached with the keyboard but isn’t labeled as interactive, people may not know what it does or how to use it.',
+			'If an element can be reached with the keyboard but isnâ€™t labeled as interactive, people may not know what it does or how to use it.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'If something shouldn’t be clicked or typed into, remove it from Tab order if it should be interactive, make sure it’s focusable.',
+			'If something shouldnâ€™t be clicked or typed into, remove it from Tab order if it should be interactive, make sure itâ€™s focusable.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'A focusable item looks interactive but doesn’t have a proper role, confusing screen reader users.',
+				'A focusable item looks interactive but doesnâ€™t have a proper role, confusing screen reader users.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'A banner image that isn’t clickable still got tab focus—turn off its focus setting so Tab skips it.',
+					'A banner image that isnâ€™t clickable still got tab focusâ€”turn off its focus setting so Tab skips it.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'A custom drop-down that users need to open wasn’t reachable by keyboard—enable its “focusable” option so Tab lands on it first.',
+					'A custom drop-down that users need to open wasnâ€™t reachable by keyboardâ€”enable its â€œfocusableâ€ option so Tab lands on it first.',
 					'pojo-accessibility',
 				),
 			],
@@ -1578,12 +1578,12 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'A form forces users to turn their device sideways to fill it out, making it difficult for people who can’t easily rotate their screens.',
+				'A form forces users to turn their device sideways to fill it out, making it difficult for people who canâ€™t easily rotate their screens.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'You added a rotate effect that only shows correctly in portrait—remove that so the page also works in landscape.',
+					'You added a rotate effect that only shows correctly in portraitâ€”remove that so the page also works in landscape.',
 					'pojo-accessibility',
 				),
 
@@ -1601,11 +1601,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If a page refreshes without warning, people — especially those with disabilities — might lose their place, miss important information, or have trouble completing tasks.',
+			'If a page refreshes without warning, people â€” especially those with disabilities â€” might lose their place, miss important information, or have trouble completing tasks.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Don’t force the page to reload on a timer either remove the automatic refresh or let visitors pause or extend it.',
+			'Donâ€™t force the page to reload on a timer either remove the automatic refresh or let visitors pause or extend it.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -1615,12 +1615,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Your dashboard refreshes every minute—add a toggle so people can turn off auto-update if they need time to read.',
+					'Your dashboard refreshes every minuteâ€”add a toggle so people can turn off auto-update if they need time to read.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'If a warning page times out, show a “Stay on this page” button and a countdown so users aren’t surprised.',
+					'If a warning page times out, show a â€œStay on this pageâ€ button and a countdown so users arenâ€™t surprised.',
 					'pojo-accessibility',
 				),
 			],
@@ -1647,12 +1647,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'A warning banner that flashes indefinitely is replaced with one that stops blinking after 3 seconds and includes a “Pause animation” button.',
+					'A warning banner that flashes indefinitely is replaced with one that stops blinking after 3 seconds and includes a â€œPause animationâ€ button.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'A promotional carousel offers a “View static version” link so users who find movement distracting can switch to a still layout.',
+					'A promotional carousel offers a â€œView static versionâ€ link so users who find movement distracting can switch to a still layout.',
 					'pojo-accessibility',
 				),
 			],
@@ -1661,7 +1661,7 @@ export const uxMessaging = {
 	marquee_elem_avoid: {
 		violationName: __('Scrolling Text Used', 'pojo-accessibility'),
 		whatsTheIssue: __(
-			'Don’t use scrolling text (marquee).',
+			'Donâ€™t use scrolling text (marquee).',
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
@@ -1679,12 +1679,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Replace an endlessly scrolling news ticker with a static list of headlines and an optional “Start scrolling” button for those who want the effect.',
+					'Replace an endlessly scrolling news ticker with a static list of headlines and an optional â€œStart scrollingâ€ button for those who want the effect.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'A marquee of customer logos includes an “Animation off” setting so viewers can read at their own pace.',
+					'A marquee of customer logos includes an â€œAnimation offâ€ setting so viewers can read at their own pace.',
 					'pojo-accessibility',
 				),
 			],
@@ -1697,7 +1697,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If table headers aren’t properly linked, people relying on assistive technologies may not understand the relationship between the data and its meaning, leading to confusion.',
+			'If table headers arenâ€™t properly linked, people relying on assistive technologies may not understand the relationship between the data and its meaning, leading to confusion.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1706,7 +1706,7 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'A data cell points to a header that doesn’t exist in the table, making it confusing for screen reader users to understand the information.',
+				'A data cell points to a header that doesnâ€™t exist in the table, making it confusing for screen reader users to understand the information.',
 				'pojo-accessibility',
 			),
 			resolution: [
@@ -1716,7 +1716,7 @@ export const uxMessaging = {
 				),
 
 				__(
-					'A student-grades chart ensures each score cell is tied to “Alice” in the first column and “Math” in the header row.',
+					'A student-grades chart ensures each score cell is tied to â€œAliceâ€ in the first column and â€œMathâ€ in the header row.',
 					'pojo-accessibility',
 				),
 			],
@@ -1729,11 +1729,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If table headers aren’t set up correctly, assistive technologies may not be able to explain the table structure properly, making it harder for people to understand the information.',
+			'If table headers arenâ€™t set up correctly, assistive technologies may not be able to explain the table structure properly, making it harder for people to understand the information.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Don’t add extra header labels if your table only has a first row or first column use simple settings to mark those instead.',
+			'Donâ€™t add extra header labels if your table only has a first row or first column use simple settings to mark those instead.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -1743,12 +1743,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'A contact list table with names down the side and phone numbers across the top removes unnecessary “Header” markings on every cell—keeps only “Name” (column) and “Phone” (row) labels.',
+					'A contact list table with names down the side and phone numbers across the top removes unnecessary â€œHeaderâ€ markings on every cellâ€”keeps only â€œNameâ€ (column) and â€œPhoneâ€ (row) labels.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'For a report table, mark the left column as “Category” and the top row as “Quarter” without adding extra header markers elsewhere.',
+					'For a report table, mark the left column as â€œCategoryâ€ and the top row as â€œQuarterâ€ without adding extra header markers elsewhere.',
 					'pojo-accessibility',
 				),
 			],
@@ -1761,16 +1761,16 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If tables don’t identify their headers, people relying on assistive technologies may not know how to read and understand the information correctly.',
+			'If tables donâ€™t identify their headers, people relying on assistive technologies may not know how to read and understand the information correctly.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'If you’re using a table only for page layout, switch to a layout block if it’s real data, add clear header rows or columns.',
+			'If youâ€™re using a table only for page layout, switch to a layout block if itâ€™s real data, add clear header rows or columns.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'A table lists information but doesn’t mark which cells are headers, making it confusing for screen reader users to understand the data.',
+				'A table lists information but doesnâ€™t mark which cells are headers, making it confusing for screen reader users to understand the data.',
 				'pojo-accessibility',
 			),
 			resolution: [
@@ -1780,7 +1780,7 @@ export const uxMessaging = {
 				),
 
 				__(
-					'A sales-data table adds a bold header row “Product | Units Sold | Revenue” so every column is clearly labeled.',
+					'A sales-data table adds a bold header row â€œProduct | Units Sold | Revenueâ€ so every column is clearly labeled.',
 					'pojo-accessibility',
 				),
 			],
@@ -1793,7 +1793,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If headers and data aren’t clearly linked in complex tables, people relying on assistive technologies can get lost or misunderstand the information.',
+			'If headers and data arenâ€™t clearly linked in complex tables, people relying on assistive technologies can get lost or misunderstand the information.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1802,17 +1802,17 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'In a large table, data cells aren’t properly connected to their headers, making it hard for screen reader users to understand what each number means.',
+				'In a large table, data cells arenâ€™t properly connected to their headers, making it hard for screen reader users to understand what each number means.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'In a schedule grid, meeting times are linked to both “Monday” and “Conference Room A” so assistive tech reads both.',
+					'In a schedule grid, meeting times are linked to both â€œMondayâ€ and â€œConference Room Aâ€ so assistive tech reads both.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'A financial report table assigns each number cell to “Q1,” “Q2,” etc., and to “Expenses” or “Revenue” as appropriate.',
+					'A financial report table assigns each number cell to â€œQ1,â€ â€œQ2,â€ etc., and to â€œExpensesâ€ or â€œRevenueâ€ as appropriate.',
 					'pojo-accessibility',
 				),
 			],
@@ -1829,7 +1829,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Don’t use table markup for page layout if it’s decorative or structural, rebuild with layout blocks and remove captions, header tags, and other table-only features.',
+			'Donâ€™t use table markup for page layout if itâ€™s decorative or structural, rebuild with layout blocks and remove captions, header tags, and other table-only features.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -1844,7 +1844,7 @@ export const uxMessaging = {
 				),
 
 				__(
-					'A “testimonial” layout that used <th> and <caption> is rebuilt with cards or panels, with no table elements at all.',
+					'A â€œtestimonialâ€ layout that used <th> and <caption> is rebuilt with cards or panels, with no table elements at all.',
 					'pojo-accessibility',
 				),
 			],
@@ -1857,11 +1857,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If the text direction isn’t set properly, people may have trouble reading the content, especially in languages that flow right-to-left, like Arabic or Hebrew.',
+			'If the text direction isnâ€™t set properly, people may have trouble reading the content, especially in languages that flow right-to-left, like Arabic or Hebrew.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Set the text direction to match the language left-to-right for English, right-to-left for Hebrew/Arabic, or automatic if you’re mixing languages.',
+			'Set the text direction to match the language left-to-right for English, right-to-left for Hebrew/Arabic, or automatic if youâ€™re mixing languages.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -1893,11 +1893,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If interactive areas don’t have unique labels, people relying on assistive technologies may not know what each area is for, making navigation confusing and frustrating.',
+			'If interactive areas donâ€™t have unique labels, people relying on assistive technologies may not know what each area is for, making navigation confusing and frustrating.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Give each interactive “app-style” region (like a widget panel) a unique name so screen readers know what it is.',
+			'Give each interactive â€œapp-styleâ€ region (like a widget panel) a unique name so screen readers know what it is.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -1907,12 +1907,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'A weather box gets the hidden name “Weather Forecast Panel” so assistive tools announce it.',
+					'A weather box gets the hidden name â€œWeather Forecast Panelâ€ so assistive tools announce it.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'A stock-ticker area is labeled “Stock Ticker Feed” (even if the label isn’t visible) to describe its purpose.',
+					'A stock-ticker area is labeled â€œStock Ticker Feedâ€ (even if the label isnâ€™t visible) to describe its purpose.',
 					'pojo-accessibility',
 				),
 			],
@@ -1925,26 +1925,26 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If interactive areas don’t have a clear label, people relying on assistive technologies may struggle to understand and use the content correctly.',
+			'If interactive areas donâ€™t have a clear label, people relying on assistive technologies may struggle to understand and use the content correctly.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Link each application-style panel to visible heading text or add a hidden label so it’s announced correctly.',
+			'Link each application-style panel to visible heading text or add a hidden label so itâ€™s announced correctly.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'An app-like section is created but doesn’t have a label, leaving screen reader users unsure what the section is for.',
+				'An app-like section is created but doesnâ€™t have a label, leaving screen reader users unsure what the section is for.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'Above a “News” widget, add the heading “Top Stories” and connect the panel to that heading so screen readers say “Top Stories, panel.”',
+					'Above a â€œNewsâ€ widget, add the heading â€œTop Storiesâ€ and connect the panel to that heading so screen readers say â€œTop Stories, panel.â€',
 					'pojo-accessibility',
 				),
 
 				__(
-					'If there’s no visible heading, give the panel a hidden label like “Search Widget” for clarity.',
+					'If thereâ€™s no visible heading, give the panel a hidden label like â€œSearch Widgetâ€ for clarity.',
 					'pojo-accessibility',
 				),
 			],
@@ -1957,7 +1957,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If articles don’t have unique labels, people relying on assistive technologies may get confused about the content or skip important information.',
+			'If articles donâ€™t have unique labels, people relying on assistive technologies may get confused about the content or skip important information.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -1989,7 +1989,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If banners don’t have unique labels, people relying on assistive technologies may get confused about the purpose of each section, leading to a frustrating experience.',
+			'If banners donâ€™t have unique labels, people relying on assistive technologies may get confused about the purpose of each section, leading to a frustrating experience.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -2003,12 +2003,12 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Label the top header region “Pelican Claims Site Header” so screen readers recognize it as the main banner.',
+					'Label the top header region â€œPelican Claims Site Headerâ€ so screen readers recognize it as the main banner.',
 					'pojo-accessibility',
 				),
 
 				__(
-					'If you have two headers, remove the extra label from the secondary one and keep only the primary banner named “Main Page Header.”',
+					'If you have two headers, remove the extra label from the secondary one and keep only the primary banner named â€œMain Page Header.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -2021,7 +2021,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If there’s more than one banner, people relying on assistive technologies may get confused about the structure of the page, making navigation harder.',
+			'If thereâ€™s more than one banner, people relying on assistive technologies may get confused about the structure of the page, making navigation harder.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -2048,7 +2048,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If side sections don’t have unique labels, people relying on assistive technologies may not understand the difference between them, leading to confusion when navigating the page.',
+			'If side sections donâ€™t have unique labels, people relying on assistive technologies may not understand the difference between them, leading to confusion when navigating the page.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -2062,11 +2062,11 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'A news sidebar is labeled “Related Articles” so it’s announced as such.',
+					'A news sidebar is labeled â€œRelated Articlesâ€ so itâ€™s announced as such.',
 					'pojo-accessibility',
 				),
 				__(
-					'A contact info box is named “Office Hours & Contacts.”',
+					'A contact info box is named â€œOffice Hours & Contacts.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -2079,26 +2079,26 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If side content isn’t labeled, people relying on assistive technologies may miss important information or not understand the purpose of different sections.',
+			'If side content isnâ€™t labeled, people relying on assistive technologies may miss important information or not understand the purpose of different sections.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Link each complementary section (sidebar, help panel) to its visible heading or add a hidden label so it’s announced properly.',
+			'Link each complementary section (sidebar, help panel) to its visible heading or add a hidden label so itâ€™s announced properly.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'A sidebar with extra information isn’t labeled, so screen reader users don’t know what the section is about.',
+				'A sidebar with extra information isnâ€™t labeled, so screen reader users donâ€™t know what the section is about.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'Above a “Recent Posts” sidebar, add the heading “Recent Posts” and connect the section to it so screen readers say “Recent Posts, section.”',
+					'Above a â€œRecent Postsâ€ sidebar, add the heading â€œRecent Postsâ€ and connect the section to it so screen readers say â€œRecent Posts, section.â€',
 					'pojo-accessibility',
 				),
 
 				__(
-					'If no heading fits, give the section a hidden label like “Help & Support Panel.”',
+					'If no heading fits, give the section a hidden label like â€œHelp & Support Panel.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -2111,7 +2111,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If content isn’t placed inside clear landmarks, people relying on assistive technologies may struggle to navigate and understand the structure of the page.',
+			'If content isnâ€™t placed inside clear landmarks, people relying on assistive technologies may struggle to navigate and understand the structure of the page.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -2120,20 +2120,20 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'A page has important content floating outside of main sections like “Main,” “Navigation,” or “Footer,” making it harder for screen reader users to find.',
+				'A page has important content floating outside of main sections like â€œMain,â€ â€œNavigation,â€ or â€œFooter,â€ making it harder for screen reader users to find.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'Main content: Put your primary article or page text inside a “Main Content” block or section so it’s announced as the main section.',
+					'Main content: Put your primary article or page text inside a â€œMain Contentâ€ block or section so itâ€™s announced as the main section.',
 					'pojo-accessibility',
 				),
 				__(
-					'Footer: Use your theme’s Footer area (or add a “Footer” block) so it’s recognized as the page’s footer.',
+					'Footer: Use your themeâ€™s Footer area (or add a â€œFooterâ€ block) so itâ€™s recognized as the pageâ€™s footer.',
 					'pojo-accessibility',
 				),
 				__(
-					'Sidebar or related links: Place widgets like “Related Articles” or “Contact Info” inside a Sidebar or a “Complementary” region.',
+					'Sidebar or related links: Place widgets like â€œRelated Articlesâ€ or â€œContact Infoâ€ inside a Sidebar or a â€œComplementaryâ€ region.',
 					'pojo-accessibility',
 				),
 			],
@@ -2146,11 +2146,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If footer sections don’t have unique labels, people relying on assistive technologies may get confused about the different types of information available at the bottom of the page.',
+			'If footer sections donâ€™t have unique labels, people relying on assistive technologies may get confused about the different types of information available at the bottom of the page.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Give your footer area a unique name (like “Site Footer”) so screen readers announce it as the page’s footer.',
+			'Give your footer area a unique name (like â€œSite Footerâ€) so screen readers announce it as the pageâ€™s footer.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -2160,7 +2160,7 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'In your footer settings, add the hidden label “Site Footer” so assistive tools recognize it.',
+					'In your footer settings, add the hidden label â€œSite Footerâ€ so assistive tools recognize it.',
 					'pojo-accessibility',
 				),
 				__(
@@ -2177,11 +2177,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If there’s more than one footer, people relying on assistive technologies may get confused about the page structure, making navigation harder and less predictable.',
+			'If thereâ€™s more than one footer, people relying on assistive technologies may get confused about the page structure, making navigation harder and less predictable.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Keep only one section marked as the page’s footer and remove any extra footer roles from secondary sections.',
+			'Keep only one section marked as the pageâ€™s footer and remove any extra footer roles from secondary sections.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -2195,7 +2195,7 @@ export const uxMessaging = {
 					'pojo-accessibility',
 				),
 				__(
-					'A copyright widget had a footer setting—remove that so only the main footer block is treated as contentinfo.',
+					'A copyright widget had a footer settingâ€”remove that so only the main footer block is treated as contentinfo.',
 					'pojo-accessibility',
 				),
 			],
@@ -2208,7 +2208,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If documents don’t have unique labels, people relying on assistive technologies may not understand the difference between them, leading to confusion and frustration.',
+			'If documents donâ€™t have unique labels, people relying on assistive technologies may not understand the difference between them, leading to confusion and frustration.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -2222,11 +2222,11 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'A news feed panel is labeled “Breaking News Feed” so screen readers announce it.',
+					'A news feed panel is labeled â€œBreaking News Feedâ€ so screen readers announce it.',
 					'pojo-accessibility',
 				),
 				__(
-					'A downloadable report section gets a hidden label “Monthly Sales Report” if no visible heading fits.',
+					'A downloadable report section gets a hidden label â€œMonthly Sales Reportâ€ if no visible heading fits.',
 					'pojo-accessibility',
 				),
 			],
@@ -2239,11 +2239,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If forms don’t have unique labels, people relying on assistive technologies may get confused about what each form is for, leading to mistakes and frustration.',
+			'If forms donâ€™t have unique labels, people relying on assistive technologies may get confused about what each form is for, leading to mistakes and frustration.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Give each form on the page a short, unique name (for example, “Contact Form” or “Newsletter Signup”) so assistive tools can tell them apart.',
+			'Give each form on the page a short, unique name (for example, â€œContact Formâ€ or â€œNewsletter Signupâ€) so assistive tools can tell them apart.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -2253,11 +2253,11 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Label your contact form “Contact Us Form” in the form settings.',
+					'Label your contact form â€œContact Us Formâ€ in the form settings.',
 					'pojo-accessibility',
 				),
 				__(
-					'A separate survey form is labeled “Customer Feedback Survey.”',
+					'A separate survey form is labeled â€œCustomer Feedback Survey.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -2270,7 +2270,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If landmarks aren’t uniquely labeled or clearly separated, people relying on assistive technologies can get confused about the page layout, making navigation harder.',
+			'If landmarks arenâ€™t uniquely labeled or clearly separated, people relying on assistive technologies can get confused about the page layout, making navigation harder.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -2284,11 +2284,11 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Rename one sidebar “Related Articles” and the other “Recommended Products.”',
+					'Rename one sidebar â€œRelated Articlesâ€ and the other â€œRecommended Products.â€',
 					'pojo-accessibility',
 				),
 				__(
-					'For two menus, label one “Main Navigation” and the other “Footer Menu.”',
+					'For two menus, label one â€œMain Navigationâ€ and the other â€œFooter Menu.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -2301,11 +2301,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If main sections don’t have unique labels, people relying on assistive technologies may get lost or misunderstand the structure of the page.',
+			'If main sections donâ€™t have unique labels, people relying on assistive technologies may get lost or misunderstand the structure of the page.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Identify one area as your page’s main content; if you need additional main-like sections, give each a unique label instead of multiple “Main” roles.',
+			'Identify one area as your pageâ€™s main content; if you need additional main-like sections, give each a unique label instead of multiple â€œMainâ€ roles.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -2315,11 +2315,11 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Ensure only your primary content block is set as “Main.”',
+					'Ensure only your primary content block is set as â€œMain.â€',
 					'pojo-accessibility',
 				),
 				__(
-					'If you show search results in a separate main-style panel, label it “Search Results Panel” rather than marking it as another main region.',
+					'If you show search results in a separate main-style panel, label it â€œSearch Results Panelâ€ rather than marking it as another main region.',
 					'pojo-accessibility',
 				),
 			],
@@ -2332,11 +2332,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If navigation menus don’t have unique labels, people relying on assistive technologies may get confused and struggle to move around the site.',
+			'If navigation menus donâ€™t have unique labels, people relying on assistive technologies may get confused and struggle to move around the site.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Give every navigation menu (header, sidebar, footer) its own label so users know which menu they’re in.',
+			'Give every navigation menu (header, sidebar, footer) its own label so users know which menu theyâ€™re in.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -2345,8 +2345,8 @@ export const uxMessaging = {
 				'pojo-accessibility',
 			),
 			resolution: [
-				__('Label your top menu “Primary Navigation.”', 'pojo-accessibility'),
-				__('Label a footer menu “Footer Links.”', 'pojo-accessibility'),
+				__('Label your top menu â€œPrimary Navigation.â€', 'pojo-accessibility'),
+				__('Label a footer menu â€œFooter Links.â€', 'pojo-accessibility'),
 			],
 		},
 	},
@@ -2357,11 +2357,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If content sections don’t have unique labels, people relying on assistive technologies may get confused about the layout and miss important information.',
+			'If content sections donâ€™t have unique labels, people relying on assistive technologies may get confused about the layout and miss important information.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Give each section or “region” (like a news box or sidebar) its own name so users know what it contains.',
+			'Give each section or â€œregionâ€ (like a news box or sidebar) its own name so users know what it contains.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -2371,11 +2371,11 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Label your weather updates panel “Weather Forecast” and your stock ticker panel “Market Updates.”',
+					'Label your weather updates panel â€œWeather Forecastâ€ and your stock ticker panel â€œMarket Updates.â€',
 					'pojo-accessibility',
 				),
 				__(
-					'If you have two help boxes, name one “FAQ Help” and the other “Live Support Info.”',
+					'If you have two help boxes, name one â€œFAQ Helpâ€ and the other â€œLive Support Info.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -2388,7 +2388,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If content sections aren’t labeled, people relying on assistive technologies may not understand the purpose of different parts of the page, making navigation harder.',
+			'If content sections arenâ€™t labeled, people relying on assistive technologies may not understand the purpose of different parts of the page, making navigation harder.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
@@ -2402,11 +2402,11 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Add a heading “Real-Time Log” above a log panel and connect the panel to that heading.',
+					'Add a heading â€œReal-Time Logâ€ above a log panel and connect the panel to that heading.',
 					'pojo-accessibility',
 				),
 				__(
-					'If there’s no visible heading, give the panel a hidden label like “Real-Time Log Panel.”',
+					'If thereâ€™s no visible heading, give the panel a hidden label like â€œReal-Time Log Panel.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -2419,11 +2419,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If search areas don’t have unique labels, people relying on assistive technologies may get confused and struggle to find the right search tool.',
+			'If search areas donâ€™t have unique labels, people relying on assistive technologies may get confused and struggle to find the right search tool.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Give each search input its own label so people know what they’re searching.',
+			'Give each search input its own label so people know what theyâ€™re searching.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -2433,11 +2433,11 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Label one search box “Search Products” and another “Search Blog Posts.”',
+					'Label one search box â€œSearch Productsâ€ and another â€œSearch Blog Posts.â€',
 					'pojo-accessibility',
 				),
 				__(
-					'If your theme forces a generic “Search,” add hidden text “Search Site” to distinguish it.',
+					'If your theme forces a generic â€œSearch,â€ add hidden text â€œSearch Siteâ€ to distinguish it.',
 					'pojo-accessibility',
 				),
 			],
@@ -2450,11 +2450,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If toolbars don’t have unique labels, people relying on assistive technologies may get confused about which toolbar to use, leading to mistakes and frustration.',
+			'If toolbars donâ€™t have unique labels, people relying on assistive technologies may get confused about which toolbar to use, leading to mistakes and frustration.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Give every toolbar or set of tools a clear name so users know what controls they’re grouped in.',
+			'Give every toolbar or set of tools a clear name so users know what controls theyâ€™re grouped in.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -2464,11 +2464,11 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Call your formatting toolbar “Text Formatting Tools.”',
+					'Call your formatting toolbar â€œText Formatting Tools.â€',
 					'pojo-accessibility',
 				),
 				__(
-					'Name a layout toolbar “Page Layout Controls.”',
+					'Name a layout toolbar â€œPage Layout Controls.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -2485,17 +2485,17 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Add a “Skip to main content” link as the first focusable item so keyboard users can jump straight to your page’s main area.',
+			'Add a â€œSkip to main contentâ€ link as the first focusable item so keyboard users can jump straight to your pageâ€™s main area.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'A user has to tab through the entire navigation menu every time they visit a new page because there’s no shortcut to jump to the main content.',
+				'A user has to tab through the entire navigation menu every time they visit a new page because thereâ€™s no shortcut to jump to the main content.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'Include a hidden link at the top labeled “Skip to main content” that appears when focused.',
+					'Include a hidden link at the top labeled â€œSkip to main contentâ€ that appears when focused.',
 					'pojo-accessibility',
 				),
 				__(
@@ -2512,29 +2512,29 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If the page title doesn’t describe the content clearly, people may have trouble understanding where they are, especially when using tabs, bookmarks, or screen readers.',
+			'If the page title doesnâ€™t describe the content clearly, people may have trouble understanding where they are, especially when using tabs, bookmarks, or screen readers.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Make sure every page actually has a title ⎯ and that the title tells visitors what’s on the page.',
+			'Make sure every page actually has a title âŽ¯ and that the title tells visitors whatâ€™s on the page.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
 			issue: __(
-				'A page title just says "Home" even though it’s a product page, making it unclear to users and screen readers what the page is about.',
+				'A page title just says "Home" even though itâ€™s a product page, making it unclear to users and screen readers what the page is about.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'If the title box in your page or SEO settings is blank, type a short description such as “About Our Clinic.”',
+					'If the title box in your page or SEO settings is blank, type a short description such as â€œAbout Our Clinic.â€',
 					'pojo-accessibility',
 				),
 				__(
-					'If the title shows “Untitled Page,” replace it with something specific like “Contact Us – Email & Location.”',
+					'If the title shows â€œUntitled Page,â€ replace it with something specific like â€œContact Us â€“ Email & Location.â€',
 					'pojo-accessibility',
 				),
 				__(
-					'If the design template “hides” the title area completely, switch to (or edit) a template that includes a title field, then add a descriptive phrase like “Organic Dog Treats – Home.”',
+					'If the design template â€œhidesâ€ the title area completely, switch to (or edit) a template that includes a title field, then add a descriptive phrase like â€œOrganic Dog Treats â€“ Home.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -2547,11 +2547,11 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
-			'If embedded content doesn’t have a descriptive title, people relying on assistive technologies may not know what the content is or whether they want to interact with it.',
+			'If embedded content doesnâ€™t have a descriptive title, people relying on assistive technologies may not know what the content is or whether they want to interact with it.',
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'Give each embedded frame (like videos or file previews) a short title so everyone knows what’s inside.',
+			'Give each embedded frame (like videos or file previews) a short title so everyone knows whatâ€™s inside.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -2561,11 +2561,11 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'For a project file embed, set its title to “Project Files Preview.”',
+					'For a project file embed, set its title to â€œProject Files Preview.â€',
 					'pojo-accessibility',
 				),
 				__(
-					'For a tutorial video, use “How-To Tutorial Video.”',
+					'For a tutorial video, use â€œHow-To Tutorial Video.â€',
 					'pojo-accessibility',
 				),
 			],
@@ -2587,12 +2587,12 @@ export const uxMessaging = {
 		),
 		seeAnExample: {
 			issue: __(
-				'A list groups together elements that aren’t proper list items, confusing screen readers.',
+				'A list groups together elements that arenâ€™t proper list items, confusing screen readers.',
 				'pojo-accessibility',
 			),
 			resolution: [
 				__(
-					'In a bullet list of features, ensure each feature is a list item—don’t mix in headings or plain text blocks.',
+					'In a bullet list of features, ensure each feature is a list itemâ€”donâ€™t mix in headings or plain text blocks.',
 					'pojo-accessibility',
 				),
 				__(
@@ -2605,7 +2605,7 @@ export const uxMessaging = {
 	table_aria_descendants: {
 		violationName: __('Misused Table Roles', 'pojo-accessibility'),
 		whatsTheIssue: __(
-			'Don’t override the natural roles of table elements',
+			'Donâ€™t override the natural roles of table elements',
 			'pojo-accessibility',
 		),
 		whyItMatters: __(
@@ -2613,7 +2613,7 @@ export const uxMessaging = {
 			'pojo-accessibility',
 		),
 		howToResolve: __(
-			'When you add a table or grid, don’t layer extra labels or roles onto each row or cell. Use the table block’s built-in settings.',
+			'When you add a table or grid, donâ€™t layer extra labels or roles onto each row or cell. Use the table blockâ€™s built-in settings.',
 			'pojo-accessibility',
 		),
 		seeAnExample: {
@@ -2623,14 +2623,15 @@ export const uxMessaging = {
 			),
 			resolution: [
 				__(
-					'Use your table widget’s header toggle for the first row instead of manually tagging each header cell.',
+					'Use your table widgetâ€™s header toggle for the first row instead of manually tagging each header cell.',
 					'pojo-accessibility',
 				),
 				__(
-					'If you’ve marked up each cell again, remove those extra settings so the table remains clean and predictable.',
+					'If youâ€™ve marked up each cell again, remove those extra settings so the table remains clean and predictable.',
 					'pojo-accessibility',
 				),
 			],
 		},
 	},
 };
+

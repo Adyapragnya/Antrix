@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Typography from '@elementor/ui/Typography';
 import { styled } from '@elementor/ui/styles';
 import Button from '@ea11y/components/button';
@@ -52,7 +52,7 @@ const AccessibilityAssistantEmptyState = () => {
 
 			<StyledGuideContainer>
 				<StyledGuideTitle variant="subtitle1" as="h2">
-					{__('Here’s how it works', 'pojo-accessibility')}
+					{__('Hereâ€™s how it works', 'pojo-accessibility')}
 				</StyledGuideTitle>
 
 				<StyledGuideStepsContainer>
@@ -191,3 +191,4 @@ const StyledGuideStepTitle = styled(Typography)`
 `;
 
 export default AccessibilityAssistantEmptyState;
+

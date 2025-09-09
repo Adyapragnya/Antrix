@@ -1,4 +1,4 @@
-import MinusIcon from '@elementor/icons/MinusIcon';
+﻿import MinusIcon from '@elementor/icons/MinusIcon';
 import PlusIcon from '@elementor/icons/PlusIcon';
 import Box from '@elementor/ui/Box';
 import IconButton from '@elementor/ui/IconButton';
@@ -97,3 +97,4 @@ ParentSelector.propTypes = {
 	setParentSmaller: PropTypes.func.isRequired,
 	setParentLarger: PropTypes.func.isRequired,
 };
+

@@ -1,4 +1,4 @@
-import { HelpIcon, UserIcon } from '@elementor/icons';
+﻿import { HelpIcon, UserIcon } from '@elementor/icons';
 import Box from '@elementor/ui/Box';
 import Button from '@elementor/ui/Button';
 import Divider from '@elementor/ui/Divider';
@@ -113,3 +113,4 @@ const TopBarMenu = () => {
 };
 
 export default TopBarMenu;
+

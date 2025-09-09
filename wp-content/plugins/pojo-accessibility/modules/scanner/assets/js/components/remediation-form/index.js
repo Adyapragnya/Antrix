@@ -1,4 +1,4 @@
-import CopyIcon from '@elementor/icons/CopyIcon';
+﻿import CopyIcon from '@elementor/icons/CopyIcon';
 import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
 import Box from '@elementor/ui/Box';
 import IconButton from '@elementor/ui/IconButton';
@@ -27,7 +27,7 @@ export const RemediationForm = ({ item }) => {
 				<Box>
 					<Box display="flex" gap={1} alignItems="center">
 						<Typography variant="subtitle2" as="h5">
-							{__('What’s the issue', 'pojo-accessibility')}
+							{__('Whatâ€™s the issue', 'pojo-accessibility')}
 						</Typography>
 
 						<Infotip
@@ -110,3 +110,4 @@ export const RemediationForm = ({ item }) => {
 RemediationForm.propTypes = {
 	item: remediationItem,
 };
+

@@ -1,4 +1,4 @@
-import AlertOctagonFilledIcon from '@elementor/icons/AlertOctagonFilledIcon';
+﻿import AlertOctagonFilledIcon from '@elementor/icons/AlertOctagonFilledIcon';
 import Typography from '@elementor/ui/Typography';
 import ConfirmDialog from '@ea11y-apps/global/components/confirm-dialog';
 import { __ } from '@wordpress/i18n';
@@ -39,14 +39,15 @@ export const DeleteRemediationModal = ({
 			<Typography variant="body2">
 				{isMain
 					? __(
-							'This removes the fixes and marks the accessibility issues as unresolve. This can’t be undone.',
+							'This removes the fixes and marks the accessibility issues as unresolve. This canâ€™t be undone.',
 							'pojo-accessibility',
 						)
 					: __(
-							'This removes the fix and marks the accessibility issue as unresolve. This can’t be undone.',
+							'This removes the fix and marks the accessibility issue as unresolve. This canâ€™t be undone.',
 							'pojo-accessibility',
 						)}
 			</Typography>
 		</ConfirmDialog>
 	);
 };
+

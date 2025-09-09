@@ -1,4 +1,4 @@
-import '../css/style.css';
+﻿import '../css/style.css';
 
 const REASON_FIELDS = {
 	unclear_how_to_use: ['text_field_unclear', 'unclear_details'],
@@ -113,3 +113,4 @@ document.addEventListener(
 	'DOMContentLoaded',
 	() => new Ea11yDeactivationHandler(),
 );
+

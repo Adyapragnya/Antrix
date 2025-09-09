@@ -1,4 +1,4 @@
-import CircularProgress from '@elementor/ui/CircularProgress';
+﻿import CircularProgress from '@elementor/ui/CircularProgress';
 import { useSelect } from '@wordpress/data';
 
 const MediaUploadCheck = (props) => {
@@ -24,3 +24,4 @@ const MediaUploadCheck = (props) => {
 };
 
 export default MediaUploadCheck;
+

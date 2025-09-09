@@ -1,4 +1,4 @@
-import CheckIcon from '@elementor/icons/CheckIcon';
+﻿import CheckIcon from '@elementor/icons/CheckIcon';
 import CopyIcon from '@elementor/icons/CopyIcon';
 import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
 import XIcon from '@elementor/icons/XIcon';
@@ -104,7 +104,7 @@ export const ManualFixForm = ({ item, current, setOpen }) => {
 				<Box>
 					<Box display="flex" gap={1} alignItems="center">
 						<Typography variant="subtitle2" as="h5">
-							{__('What’s the issue', 'pojo-accessibility')}
+							{__('Whatâ€™s the issue', 'pojo-accessibility')}
 						</Typography>
 
 						<Infotip
@@ -307,3 +307,4 @@ ManualFixForm.propTypes = {
 	current: PropTypes.number.isRequired,
 	setOpen: PropTypes.func.isRequired,
 };
+

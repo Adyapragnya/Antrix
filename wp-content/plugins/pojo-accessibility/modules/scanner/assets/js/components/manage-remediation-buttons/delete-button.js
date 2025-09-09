@@ -1,4 +1,4 @@
-import TrashIcon from '@elementor/icons/TrashIcon';
+﻿import TrashIcon from '@elementor/icons/TrashIcon';
 import Button from '@elementor/ui/Button';
 import IconButton from '@elementor/ui/IconButton';
 import { DeleteRemediationModal } from '@ea11y-apps/scanner/components/delete-remediation-modal';
@@ -49,3 +49,4 @@ export const DeleteButton = ({ group }) => {
 		</>
 	);
 };
+

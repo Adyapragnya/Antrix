@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 function AccessibilityStatementExistingIcon(props) {
 	return (
@@ -93,3 +93,4 @@ function AccessibilityStatementExistingIcon(props) {
 }
 
 export default AccessibilityStatementExistingIcon;
+

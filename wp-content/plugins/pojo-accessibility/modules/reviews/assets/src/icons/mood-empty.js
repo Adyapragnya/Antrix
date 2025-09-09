@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 function MoodEmpty(props) {
 	return (
@@ -14,3 +14,4 @@ function MoodEmpty(props) {
 }
 
 export default MoodEmpty;
+

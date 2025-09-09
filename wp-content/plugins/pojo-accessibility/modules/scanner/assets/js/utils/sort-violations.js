@@ -1,4 +1,4 @@
-import {
+﻿import {
 	INITIAL_SORTED_VIOLATIONS,
 	VIOLATION_TYPES,
 } from '@ea11y-apps/scanner/constants';
@@ -30,3 +30,4 @@ export const sortRemediation = (remediations) => {
 	});
 	return sorted;
 };
+

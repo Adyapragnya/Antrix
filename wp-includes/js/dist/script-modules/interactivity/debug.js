@@ -1,4 +1,4 @@
-/******/ var __webpack_modules__ = ({
+﻿/******/ var __webpack_modules__ = ({
 
 /***/ 380:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -1268,8 +1268,8 @@ const universalUnlock = 'I acknowledge that using a private store means my plugi
  * content.
  *
  * These props typically consist of `state`, which is the reactive part of the
- * store ― which means that any directive referencing a state property will be
- * re-rendered anytime it changes ― and function properties like `actions` and
+ * store â€• which means that any directive referencing a state property will be
+ * re-rendered anytime it changes â€• and function properties like `actions` and
  * `callbacks`, mostly used for event handlers. These props can then be
  * referenced by any directive to make the HTML interactive.
  *
@@ -2681,3 +2681,4 @@ var __webpack_exports__useWatch = __webpack_exports__.FH;
 var __webpack_exports__withScope = __webpack_exports__.v4;
 var __webpack_exports__withSyncEvent = __webpack_exports__.mh;
 export { __webpack_exports__getConfig as getConfig, __webpack_exports__getContext as getContext, __webpack_exports__getElement as getElement, __webpack_exports__getServerContext as getServerContext, __webpack_exports__getServerState as getServerState, __webpack_exports__privateApis as privateApis, __webpack_exports__splitTask as splitTask, __webpack_exports__store as store, __webpack_exports__useCallback as useCallback, __webpack_exports__useEffect as useEffect, __webpack_exports__useInit as useInit, __webpack_exports__useLayoutEffect as useLayoutEffect, __webpack_exports__useMemo as useMemo, __webpack_exports__useRef as useRef, __webpack_exports__useState as useState, __webpack_exports__useWatch as useWatch, __webpack_exports__withScope as withScope, __webpack_exports__withSyncEvent as withSyncEvent };
+

@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const ReadableFontIcon = (props, { size }) => {
 	return (
@@ -13,3 +13,4 @@ const ReadableFontIcon = (props, { size }) => {
 };
 
 export default ReadableFontIcon;
+

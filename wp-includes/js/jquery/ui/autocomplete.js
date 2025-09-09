@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Autocomplete 1.13.3
  * https://jqueryui.com
  *
@@ -676,3 +676,4 @@ $.widget( "ui.autocomplete", $.ui.autocomplete, {
 return $.ui.autocomplete;
 
 } );
+

@@ -1,4 +1,4 @@
-import {
+﻿import {
 	ColorBlue100,
 	ColorBlue300,
 	ColorBlue400,
@@ -144,3 +144,4 @@ export const CHARTS_COLORS = [
 	ColorBlue100,
 	ColorBlue50,
 ];
+

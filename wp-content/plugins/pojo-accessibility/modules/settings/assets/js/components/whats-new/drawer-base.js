@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Drawer from '@elementor/ui/Drawer';
 import IconButton from '@elementor/ui/IconButton';
 import Typography from '@elementor/ui/Typography';
@@ -58,3 +58,4 @@ WhatsNewDrawerBase.propTypes = {
 };
 
 export default WhatsNewDrawerBase;
+

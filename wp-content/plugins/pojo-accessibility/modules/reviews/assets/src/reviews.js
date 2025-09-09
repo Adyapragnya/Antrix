@@ -1,4 +1,4 @@
-import DirectionProvider from '@elementor/ui/DirectionProvider';
+﻿import DirectionProvider from '@elementor/ui/DirectionProvider';
 import { ThemeProvider } from '@elementor/ui/styles';
 import domReady from '@wordpress/dom-ready';
 import { StrictMode, Fragment, createRoot } from '@wordpress/element';
@@ -27,3 +27,4 @@ domReady(() => {
 		</AppWrapper>,
 	);
 });
+

@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Effects Bounce 1.13.3
  * https://jqueryui.com
  *
@@ -111,3 +111,4 @@ return $.effects.define( "bounce", function( options, done ) {
 } );
 
 } );
+

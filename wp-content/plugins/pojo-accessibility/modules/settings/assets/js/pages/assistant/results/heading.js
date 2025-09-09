@@ -1,4 +1,4 @@
-import ChevronDownIcon from '@elementor/icons/ChevronDownIcon';
+﻿import ChevronDownIcon from '@elementor/icons/ChevronDownIcon';
 import ChevronUpIcon from '@elementor/icons/ChevronUpIcon';
 import ExternalLinkIcon from '@elementor/icons/ExternalLinkIcon';
 import Box from '@elementor/ui/Box';
@@ -141,3 +141,4 @@ const StyledActionsContainer = styled(Box)`
 `;
 
 export default AccessibilityAssistantResultsHeading;
+

@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import { styled } from '@elementor/ui/styles';
 import Button from '@ea11y/components/button';
 import { useSettings, useStorage } from '@ea11y/hooks';
@@ -78,3 +78,4 @@ const StyledContainer = styled(Box)`
 	padding: ${({ theme }) => theme.spacing(2)};
 	border-top: 1px solid ${({ theme }) => theme.palette.divider};
 `;
+

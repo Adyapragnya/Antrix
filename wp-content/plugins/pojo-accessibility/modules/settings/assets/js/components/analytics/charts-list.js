@@ -1,4 +1,4 @@
-import { ChevronDownIcon, InfoCircleFilledIcon } from '@elementor/icons';
+﻿import { ChevronDownIcon, InfoCircleFilledIcon } from '@elementor/icons';
 import Alert from '@elementor/ui/Alert';
 import AlertTitle from '@elementor/ui/AlertTitle';
 import Box from '@elementor/ui/Box';
@@ -106,7 +106,7 @@ export const ChartsList = () => {
 								{__('Analytics are off.', 'pojo-accessibility')}
 							</AlertTitle>
 							{__(
-								'Switch on ״Track widget data״ to start collecting usage data for your widget.',
+								'Switch on ×´Track widget data×´ to start collecting usage data for your widget.',
 								'pojo-accessibility',
 							)}
 						</>
@@ -181,3 +181,4 @@ const StyledBox = styled(Box)`
 	margin-left: auto;
 	margin-right: auto;
 `;
+

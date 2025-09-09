@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const PauseAnimationsIcon = (props, { size }) => {
 	return (
@@ -14,3 +14,4 @@ const PauseAnimationsIcon = (props, { size }) => {
 };
 
 export default PauseAnimationsIcon;
+

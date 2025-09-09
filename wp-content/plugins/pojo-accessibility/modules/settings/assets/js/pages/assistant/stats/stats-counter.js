@@ -1,4 +1,4 @@
-import Typography from '@elementor/ui/Typography';
+﻿import Typography from '@elementor/ui/Typography';
 import ValueLoader from '@ea11y/pages/assistant/loaders/value-loader';
 import AccessibilityAssistantTooltip from '@ea11y/pages/assistant/tooltip';
 import {
@@ -26,3 +26,4 @@ const StatsCounter = ({ stat, loading, title, tooltip }) => {
 };
 
 export default StatsCounter;
+

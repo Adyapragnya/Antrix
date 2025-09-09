@@ -1,4 +1,4 @@
-export { default as IconDesignSettings } from './icon-design-settings';
+﻿export { default as IconDesignSettings } from './icon-design-settings';
 export { default as PositionSettings } from './position-settings';
 export { default as PositionSettingsDesktop } from './position-settings-desktop';
 export { default as MenuSettings } from './menu-settings';
@@ -11,3 +11,4 @@ export { default as QuotaNotices } from './quota-notices';
 export { default as LogoSettings } from './logo-settings';
 export { default as TopBarMenu } from './top-bar-menu';
 export { default as TopBar } from './top-bar';
+

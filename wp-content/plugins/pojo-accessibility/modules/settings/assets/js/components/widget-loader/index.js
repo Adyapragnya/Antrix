@@ -1,4 +1,4 @@
-import { useSettings } from '@ea11y/hooks';
+﻿import { useSettings } from '@ea11y/hooks';
 import { useEffect } from '@wordpress/element';
 import { WIDGET_PREVIEW_ROOT } from '../../constants';
 
@@ -68,3 +68,4 @@ const WidgetLoader = ({ src, onLoad, onError }) => {
 };
 
 export default WidgetLoader;
+

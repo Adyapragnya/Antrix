@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * @author: Pojo Team
  */
 /* global jQuery, PojoA11yOptions */
@@ -271,3 +271,4 @@
 	} );
 
 }( jQuery, window, document ) );
+

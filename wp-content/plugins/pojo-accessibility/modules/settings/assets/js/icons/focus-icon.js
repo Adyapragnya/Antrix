@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const FocusIcon = (props, { size }) => {
 	return (
@@ -20,3 +20,4 @@ const FocusIcon = (props, { size }) => {
 };
 
 export default FocusIcon;
+

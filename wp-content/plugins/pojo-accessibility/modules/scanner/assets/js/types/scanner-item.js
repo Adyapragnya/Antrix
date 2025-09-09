@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+﻿import PropTypes from 'prop-types';
 
 export const scannerItem = PropTypes.shape({
 	ruleId: PropTypes.string.isRequired,
@@ -14,3 +14,4 @@ export const scannerItem = PropTypes.shape({
 	level: PropTypes.string.isRequired,
 	node: PropTypes.node,
 });
+

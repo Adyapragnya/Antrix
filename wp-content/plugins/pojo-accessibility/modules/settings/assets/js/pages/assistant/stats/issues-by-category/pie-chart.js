@@ -1,4 +1,4 @@
-import {
+﻿import {
 	ColorBlue100,
 	ColorBlue200,
 	ColorBlue300,
@@ -146,3 +146,4 @@ PieChart.propTypes = {
 };
 
 export default PieChart;
+

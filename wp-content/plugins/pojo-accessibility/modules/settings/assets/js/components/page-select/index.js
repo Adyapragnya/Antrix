@@ -1,4 +1,4 @@
-import Autocomplete from '@elementor/ui/Autocomplete';
+﻿import Autocomplete from '@elementor/ui/Autocomplete';
 import Infotip from '@elementor/ui/Infotip';
 import TextField from '@elementor/ui/TextField';
 import { styled } from '@elementor/ui/styles';
@@ -113,10 +113,10 @@ const PageSelect = (props) => {
 				}}
 				getOptionLabel={(option) => option.label || ''}
 				loading={isSearching}
-				loadingText={__('Searching…', 'pojo-accessibility')}
+				loadingText={__('Searchingâ€¦', 'pojo-accessibility')}
 				noOptionsText={
 					isSearching
-						? __('Searching…', 'pojo-accessibility')
+						? __('Searchingâ€¦', 'pojo-accessibility')
 						: __('No pages found', 'pojo-accessibility')
 				}
 				clearOnBlur={false}
@@ -137,3 +137,4 @@ const StyledTextField = styled(TextField)`
 		box-shadow: none;
 	}
 `;
+

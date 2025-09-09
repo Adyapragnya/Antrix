@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Typography from '@elementor/ui/Typography';
 import { ErrorImage } from '@ea11y-apps/scanner/images';
 import { StateContainer } from '@ea11y-apps/scanner/styles/app.styles';
@@ -9,7 +9,7 @@ export const ErrorMessage = () => (
 		<ErrorImage />
 		<Box sx={{ maxWidth: '300px' }}>
 			<Typography variant="h5" align="center" sx={{ mb: 2 }}>
-				{__('Well this is unexpected…', 'pojo-accessibility')}
+				{__('Well this is unexpectedâ€¦', 'pojo-accessibility')}
 			</Typography>
 			<Typography variant="body2" align="center">
 				{__(
@@ -20,3 +20,4 @@ export const ErrorMessage = () => (
 		</Box>
 	</StateContainer>
 );
+

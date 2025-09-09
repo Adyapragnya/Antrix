@@ -1,4 +1,4 @@
-import * as __WEBPACK_EXTERNAL_MODULE__wordpress_interactivity_8e89b257__ from "@wordpress/interactivity";
+﻿import * as __WEBPACK_EXTERNAL_MODULE__wordpress_interactivity_8e89b257__ from "@wordpress/interactivity";
 /******/ var __webpack_modules__ = ({
 
 /***/ 317:
@@ -513,3 +513,4 @@ if (false) {}
 var __webpack_exports__actions = __webpack_exports__.o;
 var __webpack_exports__state = __webpack_exports__.w;
 export { __webpack_exports__actions as actions, __webpack_exports__state as state };
+

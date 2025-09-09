@@ -1,4 +1,4 @@
-import CircleCheckFilledIcon from '@elementor/icons/CircleCheckFilledIcon';
+﻿import CircleCheckFilledIcon from '@elementor/icons/CircleCheckFilledIcon';
 import { Chip } from '@elementor/ui';
 import Box from '@elementor/ui/Box';
 import Typography from '@elementor/ui/Typography';
@@ -59,3 +59,4 @@ BlockButton.propTypes = {
 	count: PropTypes.number.isRequired,
 	block: PropTypes.string.isRequired,
 };
+

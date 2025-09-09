@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const UserArrowIcon = (props, { size }) => {
 	return (
@@ -15,3 +15,4 @@ const UserArrowIcon = (props, { size }) => {
 };
 
 export default UserArrowIcon;
+

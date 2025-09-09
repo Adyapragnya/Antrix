@@ -1,4 +1,4 @@
-import { useSettings } from '@ea11y/hooks';
+﻿import { useSettings } from '@ea11y/hooks';
 import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
 import { useCallback } from '@wordpress/element';
 
@@ -38,3 +38,4 @@ export const useToggleSetting = () => {
 
 	return { toggleMenu };
 };
+

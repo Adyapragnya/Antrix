@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import FormControl from '@elementor/ui/FormControl';
 import FormLabel from '@elementor/ui/FormLabel';
 import Grid from '@elementor/ui/Grid';
@@ -73,3 +73,4 @@ const ColorPicker = () => {
 };
 
 export default ColorPicker;
+

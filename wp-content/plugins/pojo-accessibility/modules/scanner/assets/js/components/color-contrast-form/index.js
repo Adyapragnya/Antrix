@@ -1,4 +1,4 @@
-import Alert from '@elementor/ui/Alert';
+﻿import Alert from '@elementor/ui/Alert';
 import AlertTitle from '@elementor/ui/AlertTitle';
 import Button from '@elementor/ui/Button';
 import Divider from '@elementor/ui/Divider';
@@ -132,3 +132,4 @@ ColorContrastForm.propTypes = {
 	current: PropTypes.number.isRequired,
 	setCurrent: PropTypes.func.isRequired,
 };
+

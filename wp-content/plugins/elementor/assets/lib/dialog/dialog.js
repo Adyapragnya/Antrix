@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Dialogs Manager v4.9.4
  * https://github.com/kobizz/dialogs-manager
  *
@@ -1055,3 +1055,4 @@
 	typeof jQuery !== 'undefined' ? jQuery : typeof require === 'function' && require('jquery'),
 	(typeof module !== 'undefined' && typeof module.exports !== 'undefined') ? module.exports : window
 );
+

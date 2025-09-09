@@ -1,4 +1,4 @@
-import { Actions } from '../enum/actions';
+﻿import { Actions } from '../enum/actions';
 import { RemediationBase } from './base';
 
 export class AttributeRemediation extends RemediationBase {
@@ -37,3 +37,4 @@ export class AttributeRemediation extends RemediationBase {
 		return true;
 	}
 }
+

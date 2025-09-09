@@ -1,4 +1,4 @@
-import { useSettings } from '@ea11y/hooks';
+﻿import { useSettings } from '@ea11y/hooks';
 
 export const useIconDesign = () => {
 	const { iconDesign, setIconDesign, setHasChanges } = useSettings();
@@ -14,3 +14,4 @@ export const useIconDesign = () => {
 
 	return { iconDesign, updateIconDesign };
 };
+

@@ -1,4 +1,4 @@
-import ValueLoader from '@ea11y/pages/assistant/loaders/value-loader';
+﻿import ValueLoader from '@ea11y/pages/assistant/loaders/value-loader';
 import AccessibilityAssistantTooltip from '@ea11y/pages/assistant/tooltip';
 import { __ } from '@wordpress/i18n';
 import {
@@ -44,3 +44,4 @@ const IssuesByCategory = ({ stats, loading, noResultsState }) => {
 };
 
 export default IssuesByCategory;
+

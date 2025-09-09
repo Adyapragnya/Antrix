@@ -1,4 +1,4 @@
-import Typography from '@elementor/ui/Typography';
+﻿import Typography from '@elementor/ui/Typography';
 import { styled } from '@elementor/ui/styles';
 import { BottomBar } from '@ea11y/components';
 import { IconDesignSettings, PositionSettings } from '@ea11y/layouts';
@@ -42,3 +42,4 @@ const StyledTitle = styled(Typography)`
 	font-weight: 400;
 	letter-spacing: 0.25px;
 `;
+

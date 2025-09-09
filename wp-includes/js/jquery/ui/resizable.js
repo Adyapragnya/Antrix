@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Resizable 1.13.3
  * https://jqueryui.com
  *
@@ -1220,3 +1220,4 @@ $.ui.plugin.add( "resizable", "grid", {
 return $.ui.resizable;
 
 } );
+

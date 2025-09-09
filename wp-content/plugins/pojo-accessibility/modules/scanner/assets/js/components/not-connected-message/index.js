@@ -1,4 +1,4 @@
-import Button from '@elementor/ui/Button';
+﻿import Button from '@elementor/ui/Button';
 import Typography from '@elementor/ui/Typography';
 import { useAuth } from '@ea11y-apps/global/hooks/use-auth';
 import { NotConnectedImage } from '@ea11y-apps/scanner/images';
@@ -34,3 +34,4 @@ export const NotConnectedMessage = () => {
 		</StateContainer>
 	);
 };
+

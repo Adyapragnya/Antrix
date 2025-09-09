@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const VolumeIcon = (props, { size }) => {
 	return (
@@ -26,3 +26,4 @@ const VolumeIcon = (props, { size }) => {
 };
 
 export default VolumeIcon;
+

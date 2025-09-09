@@ -1,4 +1,4 @@
-import {
+﻿import {
 	BACKGROUND_ELEMENT_CLASS,
 	COLOR_ELEMENT_CLASS,
 	CURRENT_ELEMENT_CLASS,
@@ -46,3 +46,4 @@ export const removeExistingFocus = (queryClass = null) => {
 			resetStyles(element);
 		});
 };
+

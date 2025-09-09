@@ -1,4 +1,4 @@
-import Button from '@elementor/ui/Button';
+﻿import Button from '@elementor/ui/Button';
 import Card from '@elementor/ui/Card';
 import CardActions from '@elementor/ui/CardActions';
 import CardContent from '@elementor/ui/CardContent';
@@ -47,3 +47,4 @@ const GeneratedPageInfoTipCard = () => {
 };
 
 export default GeneratedPageInfoTipCard;
+

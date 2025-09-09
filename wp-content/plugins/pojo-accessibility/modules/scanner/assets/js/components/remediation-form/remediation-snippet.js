@@ -1,4 +1,4 @@
-import AIIcon from '@elementor/icons/AIIcon';
+﻿import AIIcon from '@elementor/icons/AIIcon';
 import BanIcon from '@elementor/icons/BanIcon';
 import CopyIcon from '@elementor/icons/CopyIcon';
 import EditIcon from '@elementor/icons/EditIcon';
@@ -234,3 +234,4 @@ export const RemediationSnippet = ({ item }) => {
 RemediationSnippet.propTypes = {
 	item: remediationItem,
 };
+

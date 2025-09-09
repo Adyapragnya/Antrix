@@ -1,4 +1,4 @@
-import { LinkIcon } from '@elementor/icons';
+﻿import { LinkIcon } from '@elementor/icons';
 import IconButton from '@elementor/ui/IconButton';
 import Tooltip from '@elementor/ui/Tooltip';
 import clipboardCopy from 'clipboard-copy';
@@ -62,3 +62,4 @@ const CopyLink = ({ content }) => {
 };
 
 export default CopyLink;
+

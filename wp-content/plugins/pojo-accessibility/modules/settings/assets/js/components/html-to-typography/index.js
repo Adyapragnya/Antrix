@@ -1,4 +1,4 @@
-import Typography from '@elementor/ui/Typography';
+﻿import Typography from '@elementor/ui/Typography';
 import parse from 'html-react-parser';
 
 const HtmlToTypography = ({ htmlString, replacements }) => {
@@ -71,3 +71,4 @@ const HtmlToTypography = ({ htmlString, replacements }) => {
 };
 
 export default HtmlToTypography;
+

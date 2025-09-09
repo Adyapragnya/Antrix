@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 function MoodHappy(props) {
 	return (
@@ -14,3 +14,4 @@ function MoodHappy(props) {
 }
 
 export default MoodHappy;
+

@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const AccessibilityAssistantNoResultsIcon = (props) => {
 	return (
@@ -140,3 +140,4 @@ const AccessibilityAssistantNoResultsIcon = (props) => {
 };
 
 export default AccessibilityAssistantNoResultsIcon;
+

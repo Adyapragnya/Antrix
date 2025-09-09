@@ -1,4 +1,4 @@
-import { __ } from '@wordpress/i18n';
+﻿import { __ } from '@wordpress/i18n';
 import { FEATURE_MAPPER } from './index';
 
 export const MENU_SETTINGS = {
@@ -33,3 +33,4 @@ export const MENU_SETTINGS = {
 		},
 	},
 };
+

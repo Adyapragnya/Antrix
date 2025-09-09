@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Typography from '@elementor/ui/Typography';
 import { useScannerWizardContext } from '@ea11y-apps/scanner/context/scanner-wizard-context';
 import { StyledSkeleton } from '@ea11y-apps/scanner/styles/app.styles';
@@ -23,3 +23,4 @@ export const ManagementStats = () => {
 		</Typography>
 	);
 };
+

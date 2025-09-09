@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+﻿import PropTypes from 'prop-types';
 import { StyledPaper } from '@ea11y-apps/scanner/styles/alt-text-form.styles';
 import { useEffect, useRef } from '@wordpress/element';
 
@@ -37,3 +37,4 @@ export const ImagePreview = ({ element }) => {
 ImagePreview.propTypes = {
 	element: PropTypes.instanceOf(Node).isRequired,
 };
+

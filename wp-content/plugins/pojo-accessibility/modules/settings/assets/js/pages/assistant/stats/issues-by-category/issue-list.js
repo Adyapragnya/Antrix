@@ -1,4 +1,4 @@
-import {
+﻿import {
 	ColorBlue100,
 	ColorBlue200,
 	ColorBlue300,
@@ -131,3 +131,4 @@ const StyledIssuesCount = styled(Typography)`
 `;
 
 export default IssueList;
+

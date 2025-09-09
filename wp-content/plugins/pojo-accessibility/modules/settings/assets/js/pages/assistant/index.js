@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Container from '@elementor/ui/Container';
 import { styled } from '@elementor/ui/styles';
 import AccessibilityAssistantEmptyState from '@ea11y/pages/assistant/empty-state';
@@ -147,3 +147,4 @@ export const StyledContainer = styled(Container)`
 `;
 
 export default AccessibilityAssistant;
+

@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import { styled } from '@elementor/ui/styles';
 import { AnalyticsToggle, ChartsList } from '@ea11y/components/analytics';
 import UpgradeModal from '@ea11y/components/upgrade-modal';
@@ -67,3 +67,4 @@ const StyledWrap = styled(Box)`
 `;
 
 export default Analytics;
+

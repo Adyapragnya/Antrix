@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import { styled } from '@elementor/ui/styles';
 import PropTypes from 'prop-types';
 import IssuesByCategory from '@ea11y/pages/assistant/stats/issues-by-category/';
@@ -67,3 +67,4 @@ const StyledStatsContainer = styled(Box)`
 `;
 
 export default AccessibilityAssistantStats;
+

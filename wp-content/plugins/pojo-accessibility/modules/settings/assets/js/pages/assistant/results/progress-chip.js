@@ -1,4 +1,4 @@
-import CircleCheckFilledIcon from '@elementor/icons/CircleCheckFilledIcon';
+﻿import CircleCheckFilledIcon from '@elementor/icons/CircleCheckFilledIcon';
 import Chip from '@elementor/ui/Chip';
 import PropTypes from 'prop-types';
 
@@ -34,3 +34,4 @@ AccessibilityAssistantResultsTableProgressChip.propTypes = {
 };
 
 export default AccessibilityAssistantResultsTableProgressChip;
+

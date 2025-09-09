@@ -1,4 +1,4 @@
-const parentNode = (node) => {
+﻿const parentNode = (node) => {
 	if (node === null) {
 		return null;
 	}
@@ -637,3 +637,4 @@ export class ColorObj {
 		return new ColorObj(thisRed, thisGreen, thisBlue);
 	}
 }
+

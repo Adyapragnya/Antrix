@@ -7,45 +7,5 @@
 
 
 
-<!-- basepath-fix start -->
-<script>
-(function () {
-  // '' on localhost; '/<repo>' on GitHub Pages
-  var prefix = '';
-  if (location.hostname.endsWith('github.io')) {
-    var segs = location.pathname.split('/').filter(Boolean);
-    if (segs.length) prefix = '/' + segs[0];
-  }
 
-  function isExternal(v){ return /^(?:https?:|data:|mailto:|tel:)/i.test(v); }
-  function normalize(v){
-    if (!v) return v;
-    return v.replace(/\/(wp-(?:content|includes))\/\1\//gi, '//'); // collapse duplicates
-  }
-  function shouldPrefix(v){
-    return v && v.startsWith('/') && !isExternal(v) && !(prefix && v.startsWith(prefix + '/'));
-  }
-  function fixAttr(el, name){
-    var v = el.getAttribute(name);
-    if (!v) return;
-    v = normalize(v);
-    if (shouldPrefix(v)) v = prefix + v;
-    if (v !== el.getAttribute(name)) el.setAttribute(name, v);
-  }
 
-  document.querySelectorAll('[href],[src],[poster],[data-href],[data-src]').forEach(function(el){
-    ['href','src','poster','data-href','data-src'].forEach(function(a){
-      if (el.hasAttribute(a)) fixAttr(el, a);
-    });
-  });
-
-  // Fix inline <style> url('/wp-...') and collapse duplicates there too
-  document.querySelectorAll('style').forEach(function(s){
-    var txt = s.textContent;
-    txt = txt.replace(/\/(wp-(?:content|includes))\/\1\//gi, '//');
-    txt = txt.replace(/url\(\s*(['"]?)\/(?=wp-(?:content|includes)\/)/gi, 'url(' + prefix + '/');
-    s.textContent = txt;
-  });
-})();
-</script>
-<!-- basepath-fix end -->

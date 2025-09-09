@@ -1,4 +1,4 @@
-import AppBar from '@elementor/ui/AppBar';
+﻿import AppBar from '@elementor/ui/AppBar';
 import IconButton from '@elementor/ui/IconButton';
 import Toolbar from '@elementor/ui/Toolbar';
 import { useSettings } from '@ea11y/hooks';
@@ -32,3 +32,4 @@ const SidebarAppBar = () => {
 };
 
 export default SidebarAppBar;
+

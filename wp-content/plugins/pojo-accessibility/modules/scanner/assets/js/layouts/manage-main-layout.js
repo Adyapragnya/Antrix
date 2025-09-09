@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import CardContent from '@elementor/ui/CardContent';
 import Typography from '@elementor/ui/Typography';
 import { styled } from '@elementor/ui/styles';
@@ -45,3 +45,4 @@ const StyledContent = styled(CardContent)`
 	gap: ${({ theme }) => theme.spacing(2)};
 	padding: 0 ${({ theme }) => theme.spacing(2)};
 `;
+

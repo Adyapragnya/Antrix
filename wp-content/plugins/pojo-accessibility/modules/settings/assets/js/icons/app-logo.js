@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const AppLogo = () => {
 	return (
@@ -27,3 +27,4 @@ const AppLogo = () => {
 };
 
 export default AppLogo;
+

@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Effects Clip 1.13.3
  * https://jqueryui.com
  *
@@ -66,3 +66,4 @@ return $.effects.define( "clip", "hide", function( options, done ) {
 } );
 
 } );
+

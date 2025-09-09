@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Effects Fade 1.13.3
  * https://jqueryui.com
  *
@@ -48,3 +48,4 @@ return $.effects.define( "fade", "toggle", function( options, done ) {
 } );
 
 } );
+

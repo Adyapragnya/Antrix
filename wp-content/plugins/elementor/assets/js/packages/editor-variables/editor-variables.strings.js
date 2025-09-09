@@ -1,4 +1,4 @@
-__( 'Unexpected response from server', 'elementor' );
+﻿__( 'Unexpected response from server', 'elementor' );
 __( 'Unexpected response from server', 'elementor' );
 __( 'Give your variable a name.', 'elementor' );
 __( 'Add a value to complete your variable.', 'elementor' );

@@ -1,4 +1,4 @@
-import {
+﻿import {
 	SkeletonContainer,
 	StyledSkeleton,
 } from '@ea11y-apps/scanner/styles/app.styles';
@@ -14,3 +14,4 @@ export const Loader = () => (
 		<StyledSkeleton width="100%" height={48} />
 	</SkeletonContainer>
 );
+

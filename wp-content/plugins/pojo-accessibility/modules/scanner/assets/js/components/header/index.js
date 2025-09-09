@@ -1,4 +1,4 @@
-import SettingsIcon from '@elementor/icons/SettingsIcon';
+﻿import SettingsIcon from '@elementor/icons/SettingsIcon';
 import XIcon from '@elementor/icons/XIcon';
 import Box from '@elementor/ui/Box';
 import Card from '@elementor/ui/Card';
@@ -192,3 +192,4 @@ const StyledTitle = styled(Typography)`
 		font-weight: 400;
 	}
 `;
+

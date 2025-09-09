@@ -1,4 +1,4 @@
-import { RemediationBase } from './base';
+﻿import { RemediationBase } from './base';
 
 export class StylesRemediation extends RemediationBase {
 	constructor(dom, data) {
@@ -64,3 +64,4 @@ export class StylesRemediation extends RemediationBase {
 		return true;
 	}
 }
+

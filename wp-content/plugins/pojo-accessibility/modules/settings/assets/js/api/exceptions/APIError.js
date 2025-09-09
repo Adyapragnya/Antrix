@@ -1,4 +1,4 @@
-class APIError extends Error {
+﻿class APIError extends Error {
 	constructor(message) {
 		super(message);
 
@@ -7,3 +7,4 @@ class APIError extends Error {
 }
 
 export default APIError;
+

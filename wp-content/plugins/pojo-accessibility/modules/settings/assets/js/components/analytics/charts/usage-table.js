@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Card from '@elementor/ui/Card';
 import CardHeader from '@elementor/ui/CardHeader';
 import Table from '@elementor/ui/Table';
@@ -117,3 +117,4 @@ export const UsageTable = () => {
 		</Card>
 	);
 };
+

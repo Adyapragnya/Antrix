@@ -1,4 +1,4 @@
-import Button from '@elementor/ui/Button';
+﻿import Button from '@elementor/ui/Button';
 import Dialog from '@elementor/ui/Dialog';
 import DialogActions from '@elementor/ui/DialogActions';
 import DialogContent from '@elementor/ui/DialogContent';
@@ -74,7 +74,7 @@ const OnboardingModal = () => {
 					allowfullscreen
 				></iframe>
 				<DialogContentText variant="h5" color="text.primary" marginTop={2}>
-					{__('See Ally’s new assistant in action', 'pojo-accessibility')}
+					{__('See Allyâ€™s new assistant in action', 'pojo-accessibility')}
 				</DialogContentText>
 				<DialogContentText>
 					{__(
@@ -106,3 +106,4 @@ const OnboardingModal = () => {
 };
 
 export default OnboardingModal;
+

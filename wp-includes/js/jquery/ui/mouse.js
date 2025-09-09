@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Mouse 1.13.3
  * https://jqueryui.com
  *
@@ -235,3 +235,4 @@ return $.widget( "ui.mouse", {
 } );
 
 } );
+

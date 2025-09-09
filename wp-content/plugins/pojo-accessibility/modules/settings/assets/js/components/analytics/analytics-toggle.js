@@ -1,4 +1,4 @@
-import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
+﻿import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
 import Box from '@elementor/ui/Box';
 import Button from '@elementor/ui/Button';
 import Dialog from '@elementor/ui/Dialog';
@@ -101,13 +101,13 @@ export const AnalyticsToggle = () => {
 				>
 					<DialogContentText id="confirm-enable-analytics-description">
 						{__(
-							'This allows Ally to record how visitors open and use your accessibility widget, unlocking real‑time analytics.',
+							'This allows Ally to record how visitors open and use your accessibility widget, unlocking realâ€‘time analytics.',
 							'pojo-accessibility',
 						)}
 					</DialogContentText>
 					<DialogContentText id="confirm-enable-analytics-description">
 						{__(
-							'This may slightly affect performance on high‑traffic sites.',
+							'This may slightly affect performance on highâ€‘traffic sites.',
 							'pojo-accessibility',
 						)}
 					</DialogContentText>
@@ -125,3 +125,4 @@ export const AnalyticsToggle = () => {
 		</>
 	);
 };
+

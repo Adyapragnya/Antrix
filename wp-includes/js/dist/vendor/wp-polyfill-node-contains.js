@@ -1,4 +1,4 @@
-
+﻿
 // Node.prototype.contains
 (function() {
 
@@ -32,3 +32,4 @@
 	}
 
 }());
+

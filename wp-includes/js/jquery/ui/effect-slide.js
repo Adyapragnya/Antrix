@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Effects Slide 1.13.3
  * https://jqueryui.com
  *
@@ -77,3 +77,4 @@ return $.effects.define( "slide", "show", function( options, done ) {
 } );
 
 } );
+

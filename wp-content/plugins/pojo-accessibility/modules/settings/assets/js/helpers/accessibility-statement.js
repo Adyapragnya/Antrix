@@ -1,4 +1,4 @@
-import { __, sprintf } from '@wordpress/i18n';
+﻿import { __, sprintf } from '@wordpress/i18n';
 
 /* eslint-disable @wordpress/i18n-translator-comments */
 export const Statement = `
@@ -33,8 +33,9 @@ export const Statement = `
 <p>${sprintf(__('E-mail: %s', 'pojo-accessibility'), '<strong>{company_email}</strong>')}</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
-<p>${__('We try to respond to feedback within 3–5 business days.', 'pojo-accessibility')}</p>
+<p>${__('We try to respond to feedback within 3â€“5 business days.', 'pojo-accessibility')}</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph -->
 <p>${sprintf(__('This statement was created on %s.', 'pojo-accessibility'), '{current_date}')} </p>
 <!-- /wp:paragraph -->`;
+

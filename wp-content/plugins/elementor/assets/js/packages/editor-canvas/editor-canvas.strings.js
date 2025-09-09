@@ -1,4 +1,4 @@
-__(
+﻿__(
 			"To paste a link to this element, first remove the link from it's parent container.",
 			'elementor'
 		);

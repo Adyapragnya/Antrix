@@ -1,4 +1,4 @@
-import {
+﻿import {
 	CalendarDollarIcon,
 	ExternalLinkIcon,
 	UserIcon,
@@ -141,3 +141,4 @@ const StyledTypography = styled(Typography)`
 	margin-left: ${({ theme }) => theme.spacing(1)};
 	font-size: 14px;
 `;
+

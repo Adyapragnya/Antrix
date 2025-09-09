@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Progressbar 1.13.3
  * https://jqueryui.com
  *
@@ -179,3 +179,4 @@ return $.widget( "ui.progressbar", {
 } );
 
 } );
+

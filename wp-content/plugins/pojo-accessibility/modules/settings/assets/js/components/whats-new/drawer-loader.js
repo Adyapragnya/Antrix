@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+﻿import PropTypes from 'prop-types';
 import ContentLoader from 'react-content-loader';
 import { memo } from '@wordpress/element';
 import { SKELETON_OPTIONS } from '../../constants';
@@ -46,3 +46,4 @@ DrawerLoader.propTypes = {
 };
 
 export default DrawerLoader;
+

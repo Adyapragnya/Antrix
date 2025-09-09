@@ -1,4 +1,4 @@
-import DirectionProvider from '@elementor/ui/DirectionProvider';
+﻿import DirectionProvider from '@elementor/ui/DirectionProvider';
 import { createTheme, ThemeProvider } from '@elementor/ui/styles';
 import createCache from '@emotion/cache';
 import { CacheProvider } from '@emotion/react';
@@ -119,3 +119,4 @@ const initApp = () => {
 		</AppWrapper>,
 	);
 };
+

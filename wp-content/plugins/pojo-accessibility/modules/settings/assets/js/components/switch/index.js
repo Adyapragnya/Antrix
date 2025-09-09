@@ -1,4 +1,4 @@
-import Switch from '@elementor/ui/Switch';
+﻿import Switch from '@elementor/ui/Switch';
 import { styled } from '@elementor/ui/styles';
 
 const StyledSwitch = styled(Switch)`
@@ -13,3 +13,4 @@ const CustomSwitch = (props) => (
 );
 
 export default CustomSwitch;
+

@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 import { useSettings } from '@ea11y/hooks';
 
 function AccessibilityPersonIcon({ size }, props) {
@@ -24,3 +24,4 @@ function AccessibilityPersonIcon({ size }, props) {
 }
 
 export default AccessibilityPersonIcon;
+

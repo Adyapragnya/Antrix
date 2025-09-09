@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import FormControlLabel from '@elementor/ui/FormControlLabel';
 import Switch from '@elementor/ui/Switch';
 import Typography from '@elementor/ui/Typography';
@@ -80,7 +80,7 @@ const PositionSettingsDesktop = () => {
 							sx={{ marginTop: 2, marginBottom: 1 }}
 						>
 							{__(
-								'Exact positioning, 5 – 500 px are permitted values:',
+								'Exact positioning, 5 â€“ 500 px are permitted values:',
 								'pojo-accessibility',
 							)}
 						</Typography>
@@ -104,3 +104,4 @@ const PositionSettingsDesktop = () => {
 };
 
 export default PositionSettingsDesktop;
+

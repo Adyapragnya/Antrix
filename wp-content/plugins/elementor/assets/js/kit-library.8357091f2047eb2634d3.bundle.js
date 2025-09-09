@@ -1,4 +1,4 @@
-/*! elementor - v3.31.0 - 27-08-2025 */
+﻿/*! elementor - v3.31.0 - 27-08-2025 */
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["kit-library"],{
 
 /***/ "../app/assets/js/ui/popover-dialog/popover-dialog.js":
@@ -4013,7 +4013,7 @@ function Cloud(_ref) {
     className: "e-kit-library__index-layout-main"
   }, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, isError && /*#__PURE__*/_react.default.createElement(_errorScreen.default, {
     title: __('Something went wrong.', 'elementor'),
-    description: __('Nothing to worry about, use 🔄 on the top corner to try again. If the problem continues, head over to the Help Center.', 'elementor'),
+    description: __('Nothing to worry about, use ðŸ”„ on the top corner to try again. If the problem continues, head over to the Help Center.', 'elementor'),
     button: {
       text: __('Learn More', 'elementor'),
       url: 'https://go.elementor.com/app-kit-library-error/',
@@ -4768,7 +4768,7 @@ function Index(props) {
     className: "e-kit-library__index-layout-main"
   }, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, isLoading && /*#__PURE__*/_react.default.createElement(_pageLoader.default, null), isError && /*#__PURE__*/_react.default.createElement(_errorScreen.default, {
     title: __('Something went wrong.', 'elementor'),
-    description: __('Nothing to worry about, use 🔄 on the top corner to try again. If the problem continues, head over to the Help Center.', 'elementor'),
+    description: __('Nothing to worry about, use ðŸ”„ on the top corner to try again. If the problem continues, head over to the Help Center.', 'elementor'),
     button: {
       text: __('Learn More', 'elementor'),
       url: 'https://go.elementor.com/app-kit-library-error/',

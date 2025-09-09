@@ -1,4 +1,4 @@
-export // Get size from attributes or viewBox
+﻿export // Get size from attributes or viewBox
 const getSvgSize = (svg) => {
 	let width = svg.getAttribute('width');
 	let height = svg.getAttribute('height');
@@ -57,3 +57,4 @@ export const svgSrcToPngBase64 = (svgNode) => {
 
 	return convertSvgToPngBase64(url, width, height);
 };
+

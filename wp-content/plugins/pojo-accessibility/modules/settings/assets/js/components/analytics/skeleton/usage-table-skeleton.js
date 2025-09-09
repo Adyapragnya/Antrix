@@ -1,4 +1,4 @@
-import Card from '@elementor/ui/Card';
+﻿import Card from '@elementor/ui/Card';
 import CardHeader from '@elementor/ui/CardHeader';
 import Skeleton from '@elementor/ui/Skeleton';
 import Stack from '@elementor/ui/Stack';
@@ -46,3 +46,4 @@ export const UsageTableSkeleton = ({ animated }) => (
 		</StyledCardContent>
 	</Card>
 );
+

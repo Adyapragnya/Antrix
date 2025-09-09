@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const SitemapIcon = (props, { size }) => {
 	return (
@@ -14,3 +14,4 @@ const SitemapIcon = (props, { size }) => {
 };
 
 export default SitemapIcon;
+

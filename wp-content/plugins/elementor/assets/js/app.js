@@ -1,4 +1,4 @@
-/*! elementor - v3.31.0 - 27-08-2025 */
+﻿/*! elementor - v3.31.0 - 27-08-2025 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -1609,7 +1609,7 @@ var ErrorBoundary = exports["default"] = /*#__PURE__*/function (_React$Component
 });
 (0, _defineProperty2.default)(ErrorBoundary, "defaultProps", {
   title: __('App could not be loaded', 'elementor'),
-  text: __('We’re sorry, but something went wrong. Click on ‘Learn more’ and follow each of the steps to quickly solve it.', 'elementor'),
+  text: __('Weâ€™re sorry, but something went wrong. Click on â€˜Learn moreâ€™ and follow each of the steps to quickly solve it.', 'elementor'),
   learnMoreUrl: 'https://go.elementor.com/app-general-load-issue/'
 });
 
@@ -8177,7 +8177,7 @@ function ExportPlugins() {
     heading: __('Select which plugins to export', 'elementor'),
     description: [__('Your Website Template may not work as expected if key plugins are missing.', 'elementor'), /*#__PURE__*/_react.default.createElement(_react.default.Fragment, {
       key: "description-secondary-line"
-    }, __('By default, we’ll include everything in your file. Uncheck the items you don\'t want.', 'elementor'), " ", getLearnMoreLink())]
+    }, __('By default, weâ€™ll include everything in your file. Uncheck the items you don\'t want.', 'elementor'), " ", getLearnMoreLink())]
   }), /*#__PURE__*/_react.default.createElement(_exportPluginsSelection.default, {
     onSelect: handleOnSelect
   })));
@@ -8460,7 +8460,7 @@ __webpack_require__(/*! ./connect-pro-notice.scss */ "../app/modules/import-expo
 function ConnectProNotice() {
   var getButton = function getButton() {
     return /*#__PURE__*/_react.default.createElement(_button.default, {
-      text: __('Let’s do it', 'elementor'),
+      text: __('Letâ€™s do it', 'elementor'),
       variant: "outlined",
       color: "secondary",
       size: "sm",
@@ -8837,12 +8837,12 @@ function ImportContentDisplay(_ref) {
     return /*#__PURE__*/_react.default.createElement(_notice.default, {
       color: "info",
       label: __('Note:', 'elementor')
-    }, __('The Website Kit you’re using contains plugins for functionality, but no content or pages, etc.', 'elementor'));
+    }, __('The Website Kit youâ€™re using contains plugins for functionality, but no content or pages, etc.', 'elementor'));
   }
   if (!kitData.length) {
     return /*#__PURE__*/_react.default.createElement(_notice.default, {
       color: "danger"
-    }, __('You can’t use this Website Kit because it doesn’t contain any content, pages, etc. Try again with a different file.', 'elementor'), " ", /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
+    }, __('You canâ€™t use this Website Kit because it doesnâ€™t contain any content, pages, etc. Try again with a different file.', 'elementor'), " ", /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
       onClick: onResetProcess
     }, __('Go Back', 'elementor')));
   }
@@ -9283,7 +9283,7 @@ function ImportKit() {
     url: isLoading ? '' : "/kit-library".concat(isLoadingKitFromCloud ? '/cloud' : '')
   }), /*#__PURE__*/_react.default.createElement(_pageHeader.default, {
     heading: __('Import a Website Template', 'elementor'),
-    description: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('Upload a .zip file with style, site settings, content, etc. Then, we’ll apply them to your site.', 'elementor'), ' ', getLearnMoreLink())
+    description: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('Upload a .zip file with style, site settings, content, etc. Then, weâ€™ll apply them to your site.', 'elementor'), ' ', getLearnMoreLink())
   }), /*#__PURE__*/_react.default.createElement(_notice.default, {
     label: __('Heads up!', 'elementor'),
     color: "warning",
@@ -9914,7 +9914,7 @@ function ProBanner(_ref) {
     })
   }), showInfoDialog && /*#__PURE__*/_react.default.createElement(_dialog.default, {
     title: __('Is your Elementor Pro ready?', 'elementor'),
-    text: __('If you’ve purchased, installed & activated Elementor Pro, we can continue importing all the parts of this site.', 'elementor'),
+    text: __('If youâ€™ve purchased, installed & activated Elementor Pro, we can continue importing all the parts of this site.', 'elementor'),
     approveButtonColor: "primary",
     approveButtonText: __('Yes', 'elementor'),
     approveButtonOnClick: onDialogApprove,
@@ -10758,7 +10758,7 @@ function ImportResolver() {
     heading: __('Import a Website Kit to your site', 'elementor'),
     description: [/*#__PURE__*/_react.default.createElement(_react.default.Fragment, {
       key: "description-first-line"
-    }, __('Parts of this kit overlap with your site’s templates, design and settings. The items you leave checked on this list will replace your current design.', 'elementor'), " ", getLearnMoreLink())]
+    }, __('Parts of this kit overlap with your siteâ€™s templates, design and settings. The items you leave checked on this list will replace your current design.', 'elementor'), " ", getLearnMoreLink())]
   }), isHomePageOverride() && /*#__PURE__*/_react.default.createElement(_notice.default, {
     className: "e-app-import-resolver__notice",
     label: __('Note:', 'elementor'),
@@ -11054,9 +11054,9 @@ var _infoModal = _interopRequireDefault(__webpack_require__(/*! ./info-modal */ 
 function ExportInfoModal(props) {
   return /*#__PURE__*/_react.default.createElement(_infoModal.default, (0, _extends2.default)({}, props, {
     title: __('Export a Website Kit', 'elementor')
-  }), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('What’s a Website Kit?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('A Website Kit is a .zip file that contains all the parts of a complete site. It’s an easy way to get a site up and running quickly.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
+  }), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('Whatâ€™s a Website Kit?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('A Website Kit is a .zip file that contains all the parts of a complete site. Itâ€™s an easy way to get a site up and running quickly.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
     url: "https://go.elementor.com/app-what-are-kits"
-  }, __(' Learn more about Website Kits', 'elementor'))))), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('How does exporting work?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('To turn your site into a Website Kit, select the templates, content, settings and plugins you want to include. Once it’s ready, you’ll get a .zip file that you can import to other sites.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
+  }, __(' Learn more about Website Kits', 'elementor'))))), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('How does exporting work?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('To turn your site into a Website Kit, select the templates, content, settings and plugins you want to include. Once itâ€™s ready, youâ€™ll get a .zip file that you can import to other sites.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
     url: "https://go.elementor.com/app-export-kit"
   }, __('Learn More', 'elementor'))))));
 }
@@ -11094,12 +11094,12 @@ function ImportInfoModal(props) {
   };
   return /*#__PURE__*/_react.default.createElement(_infoModal.default, (0, _extends2.default)({}, props, {
     title: __('Import a Website Template', 'elementor')
-  }), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('What’s a Website Template?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('A Website Template is a .zip file that contains all the parts of a complete site. It’s an easy way to get a site up and running quickly.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
+  }), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('Whatâ€™s a Website Template?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('A Website Template is a .zip file that contains all the parts of a complete site. Itâ€™s an easy way to get a site up and running quickly.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
     url: "https://go.elementor.com/app-what-are-kits",
     onClick: function onClick() {
       return eventTracking('Learn more about website templates');
     }
-  }, __(' Learn more about Website Templates', 'elementor'))))), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('How does importing work?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('Start by uploading the file and selecting the parts and plugins you want to apply. If there are any overlaps between the kit and your current design, you’ll be able to choose which imported parts you want to apply or ignore. Once the file is ready, the kit will be applied to your site and you’ll be able to see it live.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
+  }, __(' Learn more about Website Templates', 'elementor'))))), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('How does importing work?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('Start by uploading the file and selecting the parts and plugins you want to apply. If there are any overlaps between the kit and your current design, youâ€™ll be able to choose which imported parts you want to apply or ignore. Once the file is ready, the kit will be applied to your site and youâ€™ll be able to see it live.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
     url: "https://go.elementor.com/app-import-kit",
     onClick: function onClick() {
       return eventTracking('learn more');
@@ -11341,7 +11341,7 @@ var kitContentData = [{
     features: {
       open: [__('Saved Templates', 'elementor')],
       locked: [__('Headers', 'elementor'), __('Footers', 'elementor'), __('Archives', 'elementor'), __('Single Posts', 'elementor'), __('Single Pages', 'elementor'), __('Search Results', 'elementor'), __('404 Error Page', 'elementor'), __('Popups', 'elementor'), __('Global widgets', 'elementor')],
-      tooltip: __('To import or export these components, you’ll need Elementor Pro.', 'elementor')
+      tooltip: __('To import or export these components, youâ€™ll need Elementor Pro.', 'elementor')
     }
   }
 }, {
@@ -12141,23 +12141,23 @@ function _interopRequireWildcard(e, t) { if ("function" == typeof WeakMap) var r
 var messagesContent = {
   general: {
     title: __('Unable to download the Website Template', 'elementor'),
-    text: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('We couldn’t download the Website Template due to technical difficulties on our part. Try again and if the problem persists contact ', 'elementor'), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
+    text: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('We couldnâ€™t download the Website Template due to technical difficulties on our part. Try again and if the problem persists contact ', 'elementor'), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
       url: "https://my.elementor.com/support-center/"
     }, __('Support', 'elementor')))
   },
   'zip-archive-module-missing': {
-    title: __('Couldn’t handle the Website Template', 'elementor'),
+    title: __('Couldnâ€™t handle the Website Template', 'elementor'),
     text: __('Seems like your server is missing the PHP zip module. Install it on your server or contact your site host for further instructions.', 'elementor')
   },
   'invalid-zip-file': {
-    title: __('Couldn’t use the .zip file', 'elementor'),
-    text: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('Seems like there is a problem with the zip’s files. Try installing again and if the problem persists contact ', 'elementor'), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
+    title: __('Couldnâ€™t use the .zip file', 'elementor'),
+    text: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('Seems like there is a problem with the zipâ€™s files. Try installing again and if the problem persists contact ', 'elementor'), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
       url: "https://my.elementor.com/support-center/"
     }, __('Support', 'elementor')))
   },
   timeout: {
     title: __('Unable to download the Website Template', 'elementor'),
-    text: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('It took too much time to download your Website Template and we were unable to complete the process. If all the Website Template’s parts don’t appear in ', 'elementor'), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
+    text: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('It took too much time to download your Website Template and we were unable to complete the process. If all the Website Templateâ€™s parts donâ€™t appear in ', 'elementor'), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
       url: elementorAppConfig.pages_url
     }, __('Pages', 'elementor')), __(', try again and if the problem persists contact ', 'elementor'), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
       url: "https://my.elementor.com/support-center/"
@@ -12165,17 +12165,17 @@ var messagesContent = {
   },
   'invalid-kit-library-zip-error': {
     title: __('Unable to download the Website Template', 'elementor'),
-    text: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('We couldn’t download the Website Template due to technical difficulty on our part. Try again in a few minutes and if the problem persists contact ', 'elementor'), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
+    text: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('We couldnâ€™t download the Website Template due to technical difficulty on our part. Try again in a few minutes and if the problem persists contact ', 'elementor'), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
       url: "https://my.elementor.com/support-center/"
     }, __('Support', 'elementor')))
   },
   'no-write-permissions': {
-    title: __('Couldn’t access the file', 'elementor'),
-    text: __('Seems like Elementor isn’t authorized to access relevant files for installing this Website Template. Contact your site host to get permission.', 'elementor')
+    title: __('Couldnâ€™t access the file', 'elementor'),
+    text: __('Seems like Elementor isnâ€™t authorized to access relevant files for installing this Website Template. Contact your site host to get permission.', 'elementor')
   },
   'plugin-installation-permissions-error': {
-    title: __('Couldn’t install the Website Template', 'elementor'),
-    text: __('The Website Template includes plugins you don’t have permission to install. Contact your site admin to change your permissions.', 'elementor')
+    title: __('Couldnâ€™t install the Website Template', 'elementor'),
+    text: __('The Website Template includes plugins you donâ€™t have permission to install. Contact your site admin to change your permissions.', 'elementor')
   },
   'third-party-error': {
     title: __('Unable to download the Website Template', 'elementor'),
@@ -12183,14 +12183,14 @@ var messagesContent = {
   },
   'domdocument-missing': {
     title: __('Unable to download the Website Template', 'elementor'),
-    text: __('This download requires the \'DOMDocument\' PHP extension, which we couldn’t detect on your server. Enable this extension, or get in touch with your hosting service for support, and then give the download another go.', 'elementor')
+    text: __('This download requires the \'DOMDocument\' PHP extension, which we couldnâ€™t detect on your server. Enable this extension, or get in touch with your hosting service for support, and then give the download another go.', 'elementor')
   },
   'insufficient-quota': {
-    title: __('Couldn’t Export the Website Template', 'elementor'),
+    title: __('Couldnâ€™t Export the Website Template', 'elementor'),
     text: __('The export failed because it will pass the maximum Website Templates you can export.', 'elementor')
   },
   'failed-to-fetch-quota': {
-    title: __('Couldn’t fetch quota', 'elementor'),
+    title: __('Couldnâ€™t fetch quota', 'elementor'),
     text: __('Failed to fetch quota.', 'elementor')
   }
 };

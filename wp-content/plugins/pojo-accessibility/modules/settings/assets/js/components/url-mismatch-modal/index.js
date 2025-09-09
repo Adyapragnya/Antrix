@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Button from '@elementor/ui/Button';
 import Grid from '@elementor/ui/Grid';
 import Typography from '@elementor/ui/Typography';
@@ -86,7 +86,7 @@ const UrlMismatchModal = () => {
 
 							<StyledCardSubtitle variant="body1" marginBottom={3}>
 								{__(
-									'For cases where you’re moving the same site from staging to production or changing from HTTP to HTTPs.',
+									'For cases where youâ€™re moving the same site from staging to production or changing from HTTP to HTTPs.',
 									'pojo-accessibility',
 								)}
 							</StyledCardSubtitle>
@@ -103,7 +103,7 @@ const UrlMismatchModal = () => {
 
 							<StyledCardSubtitle variant="body1" marginBottom={3}>
 								{__(
-									'For when you want to connect the plugin to a new site entirely—deleting the previous history.',
+									'For when you want to connect the plugin to a new site entirelyâ€”deleting the previous history.',
 									'pojo-accessibility',
 								)}
 							</StyledCardSubtitle>
@@ -208,3 +208,4 @@ const StyledConfirmDialog = styled(ConfirmDialog)`
 		border-bottom: none;
 	}
 `;
+

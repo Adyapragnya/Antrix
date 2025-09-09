@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
 	const customLinks = document.querySelectorAll('.ally-widget-trigger');
 
 	customLinks.forEach((link) => {
@@ -11,3 +11,4 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 	});
 });
+

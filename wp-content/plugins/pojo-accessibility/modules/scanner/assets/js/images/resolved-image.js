@@ -1,4 +1,4 @@
-export const ResolvedImage = () => (
+﻿export const ResolvedImage = () => (
 	<svg width="388" height="122" fill="none" role="presentation">
 		<path
 			d="M163.281 25.635c-2.77 1.85-4.14 5.48-3.53 8.76.61 3.28 3.03 6.1 6.07 7.46 3.04 1.36 6.63 1.32 9.76.17 3.13-1.15 5.82-3.35 7.82-6.02"
@@ -133,3 +133,4 @@ export const ResolvedImage = () => (
 		/>
 	</svg>
 );
+

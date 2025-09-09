@@ -1,4 +1,4 @@
-import RotateIcon from '@elementor/icons/RotateIcon';
+﻿import RotateIcon from '@elementor/icons/RotateIcon';
 import Box from '@elementor/ui/Box';
 import Button from '@elementor/ui/Button';
 import IconButton from '@elementor/ui/IconButton';
@@ -150,3 +150,4 @@ ColorSet.propTypes = {
 	setColor: PropTypes.func.isRequired,
 	area: PropTypes.string.isRequired,
 };
+

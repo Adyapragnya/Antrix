@@ -1,4 +1,4 @@
-
+﻿
 // DOMRect
 (function (global) {
 	function number(v) {
@@ -99,3 +99,4 @@
 
 	global.DOMRect = DOMRect;
 }(self));
+

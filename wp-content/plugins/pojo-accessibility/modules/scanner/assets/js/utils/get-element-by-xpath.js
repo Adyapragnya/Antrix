@@ -1,4 +1,4 @@
-export const getElementByXPath = (originXpath, context = document) => {
+﻿export const getElementByXPath = (originXpath, context = document) => {
 	try {
 		const xpath = originXpath.replace('svg', "*[name()='svg']");
 		return document.evaluate(
@@ -13,3 +13,4 @@ export const getElementByXPath = (originXpath, context = document) => {
 		return null;
 	}
 };
+

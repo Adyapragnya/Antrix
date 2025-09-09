@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import { styled } from '@elementor/ui/styles';
 
 const StyledBox = styled(Box)`
@@ -19,3 +19,4 @@ const PositionSettingsWrapper = ({ children }) => {
 };
 
 export default PositionSettingsWrapper;
+

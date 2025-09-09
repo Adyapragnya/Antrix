@@ -1,4 +1,4 @@
-import RefreshIcon from '@elementor/icons/RefreshIcon';
+﻿import RefreshIcon from '@elementor/icons/RefreshIcon';
 import { styled } from '@elementor/ui/styles';
 import PropTypes from 'prop-types';
 import Button from '@ea11y/components/button';
@@ -61,3 +61,4 @@ const StyledButton = styled(Button)`
 `;
 
 export default AccessibilityAssistantResultsTableCTA;
+

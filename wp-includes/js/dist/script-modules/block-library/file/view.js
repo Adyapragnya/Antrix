@@ -1,4 +1,4 @@
-import * as __WEBPACK_EXTERNAL_MODULE__wordpress_interactivity_8e89b257__ from "@wordpress/interactivity";
+﻿import * as __WEBPACK_EXTERNAL_MODULE__wordpress_interactivity_8e89b257__ from "@wordpress/interactivity";
 /******/ // The require scope
 /******/ var __webpack_require__ = {};
 /******/ 
@@ -94,4 +94,5 @@ const createActiveXObject = type => {
 }, {
   lock: true
 });
+
 

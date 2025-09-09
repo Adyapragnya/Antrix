@@ -1,4 +1,4 @@
-import XIcon from '@elementor/icons/XIcon';
+﻿import XIcon from '@elementor/icons/XIcon';
 import Button from '@elementor/ui/Button';
 import IconButton from '@elementor/ui/IconButton';
 import Typography from '@elementor/ui/Typography';
@@ -80,3 +80,4 @@ UpgradeContent.propTypes = {
 	closeUpgrade: PropTypes.func,
 	isAlt: PropTypes.bool,
 };
+

@@ -1,4 +1,4 @@
-import Button from '@elementor/ui/Button';
+﻿import Button from '@elementor/ui/Button';
 import Typography from '@elementor/ui/Typography';
 import { BLOCKS, ROOT_ID } from '@ea11y-apps/scanner/constants';
 import { useScannerWizardContext } from '@ea11y-apps/scanner/context/scanner-wizard-context';
@@ -29,12 +29,12 @@ export const ResolvedMessage = () => {
 			<ResolvedImage />
 
 			<Typography variant="subtitle1" as="h3" align="center">
-				{__('You’re all set!', 'pojo-accessibility')}
+				{__('Youâ€™re all set!', 'pojo-accessibility')}
 			</Typography>
 
 			<Typography variant="body2" align="center" color="text.secondary">
 				{__(
-					'This page is now issue‑free. View all scans to track your progress, or review the fixes you just made.',
+					'This page is now issueâ€‘free. View all scans to track your progress, or review the fixes you just made.',
 					'pojo-accessibility',
 				)}
 			</Typography>
@@ -64,3 +64,4 @@ export const ResolvedMessage = () => {
 		</StateContainer>
 	);
 };
+

@@ -1,4 +1,4 @@
-import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
+﻿import InfoCircleIcon from '@elementor/icons/InfoCircleIcon';
 import Tooltip from '@elementor/ui/Tooltip';
 import PropTypes from 'prop-types';
 
@@ -24,3 +24,4 @@ AccessibilityAssistantTooltip.propTypes = {
 };
 
 export default AccessibilityAssistantTooltip;
+

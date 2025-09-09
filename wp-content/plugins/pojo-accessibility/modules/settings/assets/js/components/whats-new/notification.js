@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Button from '@elementor/ui/Button';
 import Chip from '@elementor/ui/Chip';
 import Typography from '@elementor/ui/Typography';
@@ -138,3 +138,4 @@ WhatsNewNotification.propTypes = {
 };
 
 export default WhatsNewNotification;
+

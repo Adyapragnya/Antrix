@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const NumberTwoIcon = (props) => {
 	return (
@@ -15,3 +15,4 @@ const NumberTwoIcon = (props) => {
 };
 
 export default NumberTwoIcon;
+

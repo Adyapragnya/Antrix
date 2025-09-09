@@ -1,4 +1,4 @@
-import { CircleCheckFilledIcon } from '@elementor/icons';
+﻿import { CircleCheckFilledIcon } from '@elementor/icons';
 import ListItemIcon from '@elementor/ui/ListItemIcon';
 
 const ConnectModalCheckIcon = () => {
@@ -10,3 +10,4 @@ const ConnectModalCheckIcon = () => {
 };
 
 export default ConnectModalCheckIcon;
+

@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Typography from '@elementor/ui/Typography';
 import { styled } from '@elementor/ui/styles';
 import { BottomBar } from '@ea11y/components';
@@ -54,3 +54,4 @@ const StyledTitle = styled(Typography)`
 	margin-right: auto;
 	margin-left: auto;
 `;
+

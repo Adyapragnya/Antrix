@@ -1,4 +1,4 @@
-import CloseButton from '@elementor/ui/CloseButton';
+﻿import CloseButton from '@elementor/ui/CloseButton';
 import Snackbar from '@elementor/ui/Snackbar';
 import SnackbarContent from '@elementor/ui/SnackbarContent';
 import { useSettings } from '../hooks/use-settings';
@@ -34,3 +34,4 @@ const ReviewNotifications = ({ type, message }) => {
 };
 
 export default ReviewNotifications;
+

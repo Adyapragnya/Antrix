@@ -1,4 +1,4 @@
-import { register } from '@elementor/frontend-handlers';
+﻿import { register } from '@elementor/frontend-handlers';
 
 const getYoutubeVideoIdFromUrl = ( url ) => {
 	const regex = /^(?:https?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\/(?:(?:watch)?\?(?:.*&)?vi?=|(?:embed|v|vi|user|shorts)\/))([^?&"'>]+)/;
@@ -124,3 +124,4 @@ register( {
 		};
 	},
 } );
+

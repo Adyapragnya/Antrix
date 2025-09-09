@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery Form Plugin
  * version: 4.3.0
  * Requires jQuery v1.7.2 or later
@@ -1538,3 +1538,4 @@
 		}
 	}
 }));
+

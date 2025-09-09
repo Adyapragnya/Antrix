@@ -1,4 +1,4 @@
-import { ChecklistIcon, PagesIcon, SettingsIcon } from '@elementor/icons';
+﻿import { ChecklistIcon, PagesIcon, SettingsIcon } from '@elementor/icons';
 import { WidgetIcon, AnalyticsIcon } from '@ea11y/icons';
 import {
 	AccessibilityStatement,
@@ -98,3 +98,4 @@ export const MenuItems = {
 		infotip: <AnalyticsTooltip />,
 	},
 };
+

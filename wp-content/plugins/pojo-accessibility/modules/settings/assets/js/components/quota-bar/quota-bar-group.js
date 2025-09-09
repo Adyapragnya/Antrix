@@ -1,4 +1,4 @@
-import { ChevronUpIcon, CrownIcon } from '@elementor/icons';
+﻿import { ChevronUpIcon, CrownIcon } from '@elementor/icons';
 import Box from '@elementor/ui/Box';
 import Button from '@elementor/ui/Button';
 import Card from '@elementor/ui/Card';
@@ -163,3 +163,4 @@ const StyledCardActionArea = styled(CardActionArea)`
 		}
 	}
 `;
+

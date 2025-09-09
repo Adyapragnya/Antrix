@@ -1,4 +1,4 @@
-import { useTheme } from '@elementor/ui';
+﻿import { useTheme } from '@elementor/ui';
 import Card from '@elementor/ui/Card';
 import CardHeader from '@elementor/ui/CardHeader';
 import Typography from '@elementor/ui/Typography';
@@ -65,3 +65,4 @@ export const LineChart = () => {
 		</Card>
 	);
 };
+

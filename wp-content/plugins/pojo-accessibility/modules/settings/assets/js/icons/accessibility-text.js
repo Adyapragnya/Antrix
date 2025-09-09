@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 import { useSettings } from '@ea11y/hooks';
 
 function AccessibilityTextIcon({ size }, props) {
@@ -20,3 +20,4 @@ function AccessibilityTextIcon({ size }, props) {
 }
 
 export default AccessibilityTextIcon;
+

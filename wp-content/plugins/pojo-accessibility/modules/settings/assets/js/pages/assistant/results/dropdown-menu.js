@@ -1,4 +1,4 @@
-import DotsHorizontalIcon from '@elementor/icons/DotsHorizontalIcon';
+﻿import DotsHorizontalIcon from '@elementor/icons/DotsHorizontalIcon';
 import RefreshIcon from '@elementor/icons/RefreshIcon';
 import SettingsIcon from '@elementor/icons/SettingsIcon';
 import Box from '@elementor/ui/Box';
@@ -99,7 +99,7 @@ export const DropdownMenu = ({ pageUrl, remediationCount }) => {
 						arrow
 						placement="left"
 						title={__(
-							'You don’t have any fixes to manage just yet.',
+							'You donâ€™t have any fixes to manage just yet.',
 							'pojo-accessibility',
 						)}
 						PopperProps={{
@@ -149,3 +149,4 @@ DropdownMenu.propTypes = {
 	pageUrl: PropTypes.string.isRequired,
 	remediationCount: PropTypes.number.isRequired,
 };
+

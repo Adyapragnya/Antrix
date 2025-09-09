@@ -1,4 +1,4 @@
-import Accordion from '@elementor/ui/Accordion';
+﻿import Accordion from '@elementor/ui/Accordion';
 import AccordionDetails from '@elementor/ui/AccordionDetails';
 import AccordionSummary from '@elementor/ui/AccordionSummary';
 import Box from '@elementor/ui/Box';
@@ -71,3 +71,4 @@ export const ManualTextField = styled(TextField)`
 		font-size: 14px;
 	}
 `;
+

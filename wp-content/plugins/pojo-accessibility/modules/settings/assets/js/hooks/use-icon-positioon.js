@@ -1,4 +1,4 @@
-import { useSettings } from '@ea11y/hooks';
+﻿import { useSettings } from '@ea11y/hooks';
 import { useCallback } from '@wordpress/element';
 
 export const useIconPosition = () => {
@@ -38,3 +38,4 @@ export const useIconPosition = () => {
 
 	return { iconPosition, updateIconPosition, updateExactPosition };
 };
+

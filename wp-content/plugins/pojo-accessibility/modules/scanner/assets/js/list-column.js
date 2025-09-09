@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Accessibility List Column Enhancement
  * Handles responsive button text and CSS tooltips based on available column space
  */
@@ -172,3 +172,4 @@ class EA11yListColumn {
 
 // Initialize when script loads
 new EA11yListColumn();
+

@@ -1,4 +1,4 @@
-export const ErrorImage = () => (
+﻿export const ErrorImage = () => (
 	<svg width="292" height="132" viewBox="0 0 292 132" fill="none">
 		<rect width="292" height="129" transform="translate(0 2)" fill="white" />
 		<path
@@ -250,3 +250,4 @@ export const ErrorImage = () => (
 		</defs>
 	</svg>
 );
+

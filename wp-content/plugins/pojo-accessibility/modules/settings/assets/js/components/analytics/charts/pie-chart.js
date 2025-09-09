@@ -1,4 +1,4 @@
-import Card from '@elementor/ui/Card';
+﻿import Card from '@elementor/ui/Card';
 import CardHeader from '@elementor/ui/CardHeader';
 import { legendClasses } from '@mui/x-charts/ChartsLegend';
 import {
@@ -116,3 +116,4 @@ export const PieChart = () => {
 		</Card>
 	);
 };
+

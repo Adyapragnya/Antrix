@@ -1,4 +1,4 @@
-import { ManageButton } from '@ea11y-apps/scanner/components/block-button/manage-button';
+﻿import { ManageButton } from '@ea11y-apps/scanner/components/block-button/manage-button';
 import { BLOCK_TITLES, BLOCKS } from '@ea11y-apps/scanner/constants';
 import { useScannerWizardContext } from '@ea11y-apps/scanner/context/scanner-wizard-context';
 import { StyledBlockButtonsBox } from '@ea11y-apps/scanner/styles/app.styles';
@@ -29,3 +29,4 @@ export const ManageList = () => {
 		</StyledBlockButtonsBox>
 	);
 };
+

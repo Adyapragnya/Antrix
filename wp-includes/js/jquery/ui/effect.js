@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Effects 1.13.3
  * https://jqueryui.com
  *
@@ -969,3 +969,4 @@ $.each( baseEasings, function( name, easeIn ) {
 return $.effects;
 
 } );
+

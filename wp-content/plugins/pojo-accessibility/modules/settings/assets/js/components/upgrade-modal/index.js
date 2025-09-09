@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Button from '@elementor/ui/Button';
 import Modal from '@elementor/ui/Modal';
 import Paper from '@elementor/ui/Paper';
@@ -95,3 +95,4 @@ const StyledBox = styled(Box)`
 `;
 
 export default UpgradeModal;
+

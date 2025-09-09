@@ -1,4 +1,4 @@
-__( 'Preview SVG', 'elementor' );
+﻿__( 'Preview SVG', 'elementor' );
 __( 'Select SVG', 'elementor' );
 __( 'Upload', 'elementor' );
 __( 'Stroke width', 'elementor' );

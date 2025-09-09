@@ -1,4 +1,4 @@
-import { useState } from '@wordpress/element';
+﻿import { useState } from '@wordpress/element';
 
 export const useWhatsNew = () => {
 	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -17,3 +17,4 @@ export const useWhatsNew = () => {
 		close,
 	};
 };
+

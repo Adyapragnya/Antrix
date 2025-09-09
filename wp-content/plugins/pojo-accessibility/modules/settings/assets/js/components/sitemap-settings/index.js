@@ -1,4 +1,4 @@
-import { InfoCircleIcon } from '@elementor/icons';
+﻿import { InfoCircleIcon } from '@elementor/icons';
 import Accordion from '@elementor/ui/Accordion';
 import AccordionDetails from '@elementor/ui/AccordionDetails';
 import AccordionSummary from '@elementor/ui/AccordionSummary';
@@ -153,3 +153,4 @@ const StyledAccordionDetails = styled(AccordionDetails)`
 `;
 
 export default SitemapSettings;
+

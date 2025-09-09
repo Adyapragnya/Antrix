@@ -1,4 +1,4 @@
-import { __ } from '@wordpress/i18n';
+﻿import { __ } from '@wordpress/i18n';
 
 export const TOP_BAR_LINK = '#wp-admin-bar-ea11y-scanner-wizard a';
 export const SCAN_LINK = '#wp-admin-bar-ea11y-scan-page a';
@@ -231,3 +231,4 @@ export const VIOLATION_TYPES = {
 };
 
 export const EXCLUDE_FROM_AI = ['aria_content_in_landmark'];
+

@@ -1,4 +1,4 @@
-/*! elementor - v3.31.0 - 27-08-2025 */
+﻿/*! elementor - v3.31.0 - 27-08-2025 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -343,24 +343,24 @@ function _interopRequireWildcard(e, t) { if ("function" == typeof WeakMap) var r
 var i18n = {
   header: (0, _i18n.__)('Editor V4', 'elementor'),
   chip: (0, _i18n.__)('Alpha', 'elementor'),
-  checkboxText: (0, _i18n.__)('I’ve read and understood.', 'elementor'),
+  checkboxText: (0, _i18n.__)('Iâ€™ve read and understood.', 'elementor'),
   optIn: {
     titleText: (0, _i18n.__)('You are about to enable Editor V4 features!', 'elementor'),
-    introText: (0, _i18n.__)('By activating, you’ll get early access to the next generation of Elementor’s Editor. This is your chance to explore new capabilities and help shape the future of Elementor! ', 'elementor'),
+    introText: (0, _i18n.__)('By activating, youâ€™ll get early access to the next generation of Elementorâ€™s Editor. This is your chance to explore new capabilities and help shape the future of Elementor! ', 'elementor'),
     notesHeader: (0, _i18n.__)(' Important notes:', 'elementor'),
     notes: {
       alphaPrefix: (0, _i18n.__)('Editor V4 is currently in alpha, ', 'elementor'),
-      details: [(0, _i18n.__)('and development is still in progress. Do not use it on live sites - use a staging or development environment instead.', 'elementor'), (0, _i18n.__)('When you activate Editor V4, you’ll also be activating Containers, the Top Bar, and Nested Elements. You can turn them back off by going to WP Admin > Elementor > Settings > Features.', 'elementor')]
+      details: [(0, _i18n.__)('and development is still in progress. Do not use it on live sites - use a staging or development environment instead.', 'elementor'), (0, _i18n.__)('When you activate Editor V4, youâ€™ll also be activating Containers, the Top Bar, and Nested Elements. You can turn them back off by going to WP Admin > Elementor > Settings > Features.', 'elementor')]
     },
     activateButton: (0, _i18n.__)('Activate', 'elementor'),
     cancelButton: (0, _i18n.__)('Cancel', 'elementor')
   },
   optOut: {
-    titleText: (0, _i18n.__)('You’re deactivating Editor V4', 'elementor'),
+    titleText: (0, _i18n.__)('Youâ€™re deactivating Editor V4', 'elementor'),
     introText: (0, _i18n.__)('We hope you enjoyed testing and building with these new features.', 'elementor'),
     notesHeader: (0, _i18n.__)('Keep in mind:', 'elementor'),
     notes: {
-      details: [(0, _i18n.__)('By deactivating, you’ll lose all Editor V4 features, and any content you created with V4-specific features will no longer be available or appear on your site.', 'elementor'), (0, _i18n.__)('Containers, the Top Bar, and Nested Elements will stay in their current status.', 'elementor')]
+      details: [(0, _i18n.__)('By deactivating, youâ€™ll lose all Editor V4 features, and any content you created with V4-specific features will no longer be available or appear on your site.', 'elementor'), (0, _i18n.__)('Containers, the Top Bar, and Nested Elements will stay in their current status.', 'elementor')]
     },
     activateButton: (0, _i18n.__)('Deactivate V4', 'elementor'),
     cancelButton: (0, _i18n.__)('Cancel', 'elementor')
@@ -490,13 +490,13 @@ var OPT_OUT_MSG = 'e-editor-v4-opt-out-message';
 var i18n = {
   title: (0, _i18n.__)('The road to Editor V4', 'elementor'),
   chip: (0, _i18n.__)('Alpha', 'elementor'),
-  welcomeText: (0, _i18n.__)('Welcome to a new era of web creation with Editor V4. It’s faster, more flexible, and built with a fresh approach to structure & styling.', 'elementor'),
-  advantagesHeader: (0, _i18n.__)('Here’s what’s inside the alpha version:', 'elementor'),
+  welcomeText: (0, _i18n.__)('Welcome to a new era of web creation with Editor V4. Itâ€™s faster, more flexible, and built with a fresh approach to structure & styling.', 'elementor'),
+  advantagesHeader: (0, _i18n.__)('Hereâ€™s whatâ€™s inside the alpha version:', 'elementor'),
   advantages: [(0, _i18n.__)('Unparalleled performance - Cleaner code & a lighter CSS footprint.', 'elementor'), (0, _i18n.__)('Professional tools at your fingertips - classes and states.', 'elementor'), (0, _i18n.__)('Consistent styling experience - A unified Style tab for all elements.', 'elementor'), (0, _i18n.__)('Fully responsive design - Customize any style property per screen.', 'elementor')],
   andMore: (0, _i18n.__)('And much more!', 'elementor'),
   readMore: (0, _i18n.__)('Learn more', 'elementor'),
   warning: (0, _i18n.__)('Editor V4 is still in alpha and should not be used on live sites yet.', 'elementor'),
-  feedback: (0, _i18n.__)('We’d love your feedback!', 'elementor'),
+  feedback: (0, _i18n.__)('Weâ€™d love your feedback!', 'elementor'),
   overToGithub: (0, _i18n.__)('Head over to Github', 'elementor'),
   tellUsWhy: (0, _i18n.__)('Tell us why', 'elementor'),
   image: (0, _i18n.__)('Editor V4', 'elementor'),
@@ -506,8 +506,8 @@ var i18n = {
     optOut: (0, _i18n.__)('Deactivate V4', 'elementor')
   },
   messages: {
-    optInSuccess: (0, _i18n.__)('Welcome! You’ve got the newest version of the editor.', 'elementor'),
-    optOut: (0, _i18n.__)('You’ve deactivated the new Editor. Have feedback?', 'elementor'),
+    optInSuccess: (0, _i18n.__)('Welcome! Youâ€™ve got the newest version of the editor.', 'elementor'),
+    optOut: (0, _i18n.__)('Youâ€™ve deactivated the new Editor. Have feedback?', 'elementor'),
     error: (0, _i18n.__)('Ouch, there was a glitch. Try activating V4 again soon.', 'elementor')
   }
 };
@@ -1915,11 +1915,11 @@ function createDOMPurify() {
    * properties and JS variables, mitigating attacks that abuse the HTML/DOM spec rules.
    *
    * HTML/DOM spec rules that enable DOM Clobbering:
-   *   - Named Access on Window (§7.3.3)
-   *   - DOM Tree Accessors (§3.1.5)
-   *   - Form Element Parent-Child Relations (§4.10.3)
-   *   - Iframe srcdoc / Nested WindowProxies (§4.8.5)
-   *   - HTMLCollection (§4.2.10.2)
+   *   - Named Access on Window (Â§7.3.3)
+   *   - DOM Tree Accessors (Â§3.1.5)
+   *   - Form Element Parent-Child Relations (Â§4.10.3)
+   *   - Iframe srcdoc / Nested WindowProxies (Â§4.8.5)
+   *   - HTMLCollection (Â§4.2.10.2)
    *
    * Namespace isolation is implemented by prefixing `id` and `name` attributes
    * with a constant string, i.e., `user-content-`

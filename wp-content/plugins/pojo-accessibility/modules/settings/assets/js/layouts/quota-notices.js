@@ -1,4 +1,4 @@
-import Alert from '@elementor/ui/Alert';
+﻿import Alert from '@elementor/ui/Alert';
 import AlertAction from '@elementor/ui/AlertAction';
 import AlertTitle from '@elementor/ui/AlertTitle';
 import { useSettings } from '@ea11y/hooks';
@@ -42,7 +42,7 @@ const QuotaNotices = () => {
 			<Alert severity="warning" square>
 				<AlertTitle>
 					{__(
-						'You’ve reached 80% of your monthly plan usage',
+						'Youâ€™ve reached 80% of your monthly plan usage',
 						'pojo-accessibility',
 					)}
 				</AlertTitle>
@@ -107,3 +107,4 @@ const QuotaNotices = () => {
 };
 
 export default QuotaNotices;
+

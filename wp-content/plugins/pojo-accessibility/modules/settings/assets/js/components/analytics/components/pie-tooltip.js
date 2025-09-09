@@ -1,4 +1,4 @@
-import Paper from '@elementor/ui/Paper';
+﻿import Paper from '@elementor/ui/Paper';
 import Typography from '@elementor/ui/Typography';
 import { styled } from '@elementor/ui/styles';
 
@@ -35,3 +35,4 @@ const StyledTitle = styled(Typography)`
 		background-color: ${(props) => props.itemColor};
 	}
 `;
+

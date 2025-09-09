@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const ProCrownIcon = (props, { size }) => {
 	return (
@@ -14,3 +14,4 @@ const ProCrownIcon = (props, { size }) => {
 };
 
 export default ProCrownIcon;
+

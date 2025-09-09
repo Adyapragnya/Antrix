@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Typography from '@elementor/ui/Typography';
 import { __ } from '@wordpress/i18n';
 
@@ -15,3 +15,4 @@ export const NoData = () => (
 		</Typography>
 	</Box>
 );
+

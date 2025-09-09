@@ -1,4 +1,4 @@
-/*! elementor - v3.31.0 - 27-08-2025 */
+﻿/*! elementor - v3.31.0 - 27-08-2025 */
 (self["webpackChunkelementorFrontend"] = self["webpackChunkelementorFrontend"] || []).push([["frontend-modules"],{
 
 /***/ "../assets/dev/js/editor/utils/is-instanceof.js":
@@ -3933,7 +3933,7 @@ var store = module.exports = globalThis[SHARED] || defineGlobalProperty(SHARED, 
 (store.versions || (store.versions = [])).push({
   version: '3.43.0',
   mode: IS_PURE ? 'pure' : 'global',
-  copyright: '© 2014-2025 Denis Pushkarev (zloirock.ru)',
+  copyright: 'Â© 2014-2025 Denis Pushkarev (zloirock.ru)',
   license: 'https://github.com/zloirock/core-js/blob/v3.43.0/LICENSE',
   source: 'https://github.com/zloirock/core-js'
 });

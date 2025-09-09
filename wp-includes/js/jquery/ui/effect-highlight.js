@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Effects Highlight 1.13.3
  * https://jqueryui.com
  *
@@ -58,3 +58,4 @@ return $.effects.define( "highlight", "show", function( options, done ) {
 } );
 
 } );
+

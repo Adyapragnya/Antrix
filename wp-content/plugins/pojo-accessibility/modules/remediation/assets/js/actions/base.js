@@ -1,4 +1,4 @@
-export class RemediationBase {
+﻿export class RemediationBase {
 	constructor(dom, data) {
 		this.dom = dom;
 		this.data = data;
@@ -28,3 +28,4 @@ export class RemediationBase {
 		return element;
 	}
 }
+

@@ -1,4 +1,4 @@
-import { store as coreDataStore } from '@wordpress/core-data';
+﻿import { store as coreDataStore } from '@wordpress/core-data';
 import { dispatch } from '@wordpress/data';
 
 export const useStorage = () => {
@@ -10,3 +10,4 @@ export const useStorage = () => {
 		save,
 	};
 };
+

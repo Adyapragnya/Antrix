@@ -1,4 +1,4 @@
-import { useSettings } from '@ea11y/hooks';
+﻿import { useSettings } from '@ea11y/hooks';
 import { store as coreDataStore } from '@wordpress/core-data';
 import { useSelect } from '@wordpress/data';
 import { useEffect, useState } from '@wordpress/element';
@@ -104,3 +104,4 @@ export const useSavedSettings = () => {
 		hasFinishedResolution: result.hasFinishedResolution,
 	};
 };
+

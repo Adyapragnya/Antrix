@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const AccessibilityAssistantDashboardIcon = (props) => {
 	return (
@@ -389,3 +389,4 @@ const AccessibilityAssistantDashboardIcon = (props) => {
 };
 
 export default AccessibilityAssistantDashboardIcon;
+

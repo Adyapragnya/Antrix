@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const WidgetIcon = (props, { size }) => {
 	return (
@@ -36,3 +36,4 @@ const WidgetIcon = (props, { size }) => {
 };
 
 export default WidgetIcon;
+

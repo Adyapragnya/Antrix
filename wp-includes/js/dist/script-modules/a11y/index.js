@@ -1,4 +1,4 @@
-/******/ // The require scope
+﻿/******/ // The require scope
 /******/ var __webpack_require__ = {};
 /******/ 
 /************************************************************************/
@@ -142,3 +142,4 @@ const setup = () => {};
 var __webpack_exports__setup = __webpack_exports__.m;
 var __webpack_exports__speak = __webpack_exports__.L;
 export { __webpack_exports__setup as setup, __webpack_exports__speak as speak };
+

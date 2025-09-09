@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Effects Pulsate 1.13.3
  * https://jqueryui.com
  *
@@ -65,3 +65,4 @@ return $.effects.define( "pulsate", "show", function( options, done ) {
 } );
 
 } );
+

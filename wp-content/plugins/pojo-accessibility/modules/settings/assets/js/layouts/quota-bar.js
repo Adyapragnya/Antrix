@@ -1,4 +1,4 @@
-import { CalendarDollarIcon } from '@elementor/icons';
+﻿import { CalendarDollarIcon } from '@elementor/icons';
 import Box from '@elementor/ui/Box';
 import IconButton from '@elementor/ui/IconButton';
 import Skeleton from '@elementor/ui/Skeleton';
@@ -73,3 +73,4 @@ const StyledIconButton = styled(IconButton)`
 		background-color: ${({ theme }) => theme.palette.action.hover};
 	}
 `;
+

@@ -1,4 +1,4 @@
-import ReloadIcon from '@elementor/icons/ReloadIcon';
+﻿import ReloadIcon from '@elementor/icons/ReloadIcon';
 import Button from '@elementor/ui/Button';
 import IconButton from '@elementor/ui/IconButton';
 import { useManageActions } from '@ea11y-apps/scanner/hooks/use-manage-actions';
@@ -27,3 +27,4 @@ export const EnableButton = ({ group }) => {
 		</Button>
 	);
 };
+

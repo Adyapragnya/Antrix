@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Typography from '@elementor/ui/Typography';
 import { styled } from '@elementor/ui/styles';
 import PropTypes from 'prop-types';
@@ -105,3 +105,4 @@ const StyledIssuesCount = styled(Typography)`
 `;
 
 export default IssueList;
+

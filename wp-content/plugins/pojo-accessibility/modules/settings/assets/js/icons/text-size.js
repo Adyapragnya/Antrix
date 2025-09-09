@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const TextSizeIcon = (props, { size }) => {
 	return (
@@ -10,3 +10,4 @@ const TextSizeIcon = (props, { size }) => {
 };
 
 export default TextSizeIcon;
+

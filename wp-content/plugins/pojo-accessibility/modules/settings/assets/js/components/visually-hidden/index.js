@@ -1,4 +1,4 @@
-import { isValidElement, cloneElement } from '@wordpress/element';
+﻿import { isValidElement, cloneElement } from '@wordpress/element';
 
 const visuallyHiddenStyle = {
 	position: 'absolute',
@@ -27,3 +27,4 @@ const VisuallyHidden = ({ children }) => {
 };
 
 export default VisuallyHidden;
+

@@ -1,4 +1,4 @@
-import TablePagination from '@elementor/ui/TablePagination';
+﻿import TablePagination from '@elementor/ui/TablePagination';
 import { styled } from '@elementor/ui/styles';
 import { useAccessibilityAssistantContext } from '../../../contexts/accessibility-assistant-context';
 
@@ -40,3 +40,4 @@ const AccessibilityAssistantResultsPagination = () => {
 const StyledPagination = styled(TablePagination)``;
 
 export default AccessibilityAssistantResultsPagination;
+

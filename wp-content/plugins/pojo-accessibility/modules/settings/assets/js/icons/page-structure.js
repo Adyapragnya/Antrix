@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const PageStructureIcon = (props, { size }) => {
 	return (
@@ -28,3 +28,4 @@ const PageStructureIcon = (props, { size }) => {
 };
 
 export default PageStructureIcon;
+

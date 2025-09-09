@@ -1,4 +1,4 @@
-export { default as ConnectModal } from './connect-modal';
+﻿export { default as ConnectModal } from './connect-modal';
 export { default as Notifications } from '../../../../../assets/dev/js/components/notifications';
 export { default as MyAccountMenu } from './my-account-menu';
 export { default as PopupMenu } from './my-account-menu/popup-menu';
@@ -37,3 +37,4 @@ export { default as MenuItem } from './sidebar-menu/menu-item';
 export { default as QuotaBarPopupMenu } from './quota-bar/quota-popup-menu';
 export { default as QuotaBarGroup } from './quota-bar/quota-bar-group';
 export { default as OnboardingModal } from './onboarding-modal';
+

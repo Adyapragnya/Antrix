@@ -1,4 +1,4 @@
-import List from '@elementor/ui/List';
+﻿import List from '@elementor/ui/List';
 import { MenuItems, MenuItem } from '@ea11y/components';
 
 const SidebarMenu = () => {
@@ -12,3 +12,4 @@ const SidebarMenu = () => {
 };
 
 export default SidebarMenu;
+

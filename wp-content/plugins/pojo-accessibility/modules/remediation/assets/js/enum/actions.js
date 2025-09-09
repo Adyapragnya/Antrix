@@ -1,4 +1,4 @@
-export const Actions = {
+﻿export const Actions = {
 	add: 'add',
 	update: 'update',
 	remove: 'remove',
@@ -8,3 +8,4 @@ export const Actions = {
 	addBefore: 'add_before',
 	addAfter: 'add_after',
 };
+

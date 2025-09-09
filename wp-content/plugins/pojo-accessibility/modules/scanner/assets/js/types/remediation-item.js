@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+﻿import PropTypes from 'prop-types';
 
 export const remediationItem = PropTypes.shape({
 	id: PropTypes.number.isRequired,
@@ -11,3 +11,4 @@ export const remediationItem = PropTypes.shape({
 	created_at: PropTypes.string.isRequired,
 	updated_at: PropTypes.string.isRequired,
 });
+

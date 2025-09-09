@@ -1,4 +1,4 @@
-import ChevronDownIcon from '@elementor/icons/ChevronDownIcon';
+﻿import ChevronDownIcon from '@elementor/icons/ChevronDownIcon';
 import ChevronUpIcon from '@elementor/icons/ChevronUpIcon';
 import HistoryIcon from '@elementor/icons/HistoryIcon';
 import Box from '@elementor/ui/Box';
@@ -274,3 +274,4 @@ const StyledLongCell = styled(TableCell)`
 `;
 
 export default AccessibilityAssistantResultsTable;
+

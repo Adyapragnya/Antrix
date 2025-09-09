@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import { styled } from '@elementor/ui/styles';
 import PropTypes from 'prop-types';
 import ContentLoader from 'react-content-loader';
@@ -62,3 +62,4 @@ WidgetPreviewSkeleton.propTypes = {
 };
 
 export default WidgetPreviewSkeleton;
+

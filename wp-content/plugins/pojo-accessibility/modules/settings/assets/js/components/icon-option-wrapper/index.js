@@ -1,4 +1,4 @@
-import Chip from '@elementor/ui/Chip';
+﻿import Chip from '@elementor/ui/Chip';
 import Paper from '@elementor/ui/Paper';
 import Radio from '@elementor/ui/Radio';
 import { styled } from '@elementor/ui/styles';
@@ -100,3 +100,4 @@ const StyledChip = styled(Chip)`
 	font-size: 10px;
 	height: 16px;
 `;
+

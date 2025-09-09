@@ -1,4 +1,4 @@
-import Button from '@elementor/ui/Button';
+﻿import Button from '@elementor/ui/Button';
 import FormControl from '@elementor/ui/FormControl';
 import TextField from '@elementor/ui/TextField';
 import { styled } from '@elementor/ui/styles';
@@ -15,7 +15,7 @@ const FeedbackForm = ({ close, handleSubmitForm }) => {
 				minRows={5}
 				multiline
 				placeholder={__(
-					'Share your thoughts on how we can improve Ally …',
+					'Share your thoughts on how we can improve Ally â€¦',
 					'pojo-accessibility',
 				)}
 				sx={{ marginBottom: 2 }}
@@ -47,3 +47,4 @@ const StyledTextField = styled(TextField)`
 		box-shadow: none;
 	}
 `;
+

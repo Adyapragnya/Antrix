@@ -1,4 +1,4 @@
-import Divider from '@elementor/ui/Divider';
+﻿import Divider from '@elementor/ui/Divider';
 import { styled } from '@elementor/ui/styles';
 import PropTypes from 'prop-types';
 import { Fragment, useEffect, useState } from '@wordpress/element';
@@ -59,3 +59,4 @@ WhatsNewDrawer.propTypes = {
 };
 
 export default WhatsNewDrawer;
+

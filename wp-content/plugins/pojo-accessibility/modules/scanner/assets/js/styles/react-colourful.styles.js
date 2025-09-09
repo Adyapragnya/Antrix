@@ -1,4 +1,4 @@
-import { css } from '@elementor/ui/styles';
+﻿import { css } from '@elementor/ui/styles';
 
 export const ColorPickerStyles = css`
 	.react-colorful {
@@ -115,3 +115,4 @@ export const ColorPickerStyles = css`
 		z-index: 2;
 	}
 `;
+

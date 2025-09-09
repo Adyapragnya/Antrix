@@ -1,4 +1,4 @@
-import InputLabel from '@elementor/ui/InputLabel';
+﻿import InputLabel from '@elementor/ui/InputLabel';
 import Paper from '@elementor/ui/Paper';
 import { styled } from '@elementor/ui/styles';
 
@@ -19,3 +19,4 @@ export const StyledPaper = styled(Paper)`
 		width: auto;
 	}
 `;
+

@@ -1,4 +1,4 @@
-export const splitDescriptions = (inputString) => {
+﻿export const splitDescriptions = (inputString) => {
 	return inputString
 		.replace('Here are 5 alt text descriptions for the image:', '')
 		.replace('Here are 5 concise alt text descriptions for the image:', '')
@@ -18,3 +18,4 @@ export const splitDescriptions = (inputString) => {
 			return item; // Leave the item unchanged if dot is last
 		});
 };
+

@@ -1,4 +1,4 @@
-/*! elementor - v3.31.0 - 27-08-2025 */
+﻿/*! elementor - v3.31.0 - 27-08-2025 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -1250,7 +1250,7 @@ var ErrorBoundary = exports["default"] = /*#__PURE__*/function (_React$Component
 });
 (0, _defineProperty2.default)(ErrorBoundary, "defaultProps", {
   title: __('App could not be loaded', 'elementor'),
-  text: __('We’re sorry, but something went wrong. Click on ‘Learn more’ and follow each of the steps to quickly solve it.', 'elementor'),
+  text: __('Weâ€™re sorry, but something went wrong. Click on â€˜Learn moreâ€™ and follow each of the steps to quickly solve it.', 'elementor'),
   learnMoreUrl: 'https://go.elementor.com/app-general-load-issue/'
 });
 
@@ -4042,7 +4042,7 @@ var SiteEditor = exports["default"] = /*#__PURE__*/function () {
         },
         tooltip_data: {
           title: __('What is a Header Template?', 'elementor'),
-          content: __('The header template allows you to easily design and edit custom WordPress headers so you are no longer constrained by your theme’s header design limitations.', 'elementor'),
+          content: __('The header template allows you to easily design and edit custom WordPress headers so you are no longer constrained by your themeâ€™s header design limitations.', 'elementor'),
           tip: __('You can create multiple headers, and assign each to different areas of your site.', 'elementor'),
           docs: 'https://go.elementor.com/app-theme-builder-header/',
           video_url: 'https://www.youtube.com/embed/HHy5RK6W-6I'
@@ -4056,7 +4056,7 @@ var SiteEditor = exports["default"] = /*#__PURE__*/function () {
         },
         tooltip_data: {
           title: __('What is a Footer Template?', 'elementor'),
-          content: __('The footer template allows you to easily design and edit custom WordPress footers without the limits of your theme’s footer design constraints', 'elementor'),
+          content: __('The footer template allows you to easily design and edit custom WordPress footers without the limits of your themeâ€™s footer design constraints', 'elementor'),
           tip: __('You can create multiple footers, and assign each to different areas of your site.', 'elementor'),
           docs: 'https://go.elementor.com/app-theme-builder-footer/',
           video_url: 'https://www.youtube.com/embed/xa8DoR4tQrY'
@@ -4098,8 +4098,8 @@ var SiteEditor = exports["default"] = /*#__PURE__*/function () {
         },
         tooltip_data: {
           title: __('What is an Archive Template?', 'elementor'),
-          content: __('An archive template allows you to easily design the layout and style of archive pages - those pages that show a list of posts (e.g. a blog’s list of recent posts), which may be filtered by terms such as authors, categories, tags, search results, etc.', 'elementor'),
-          tip: __('If you’d like a different style for a specific category, it’s easy to create a separate archive template whose condition is to only display when users are viewing that category’s list of posts.', 'elementor'),
+          content: __('An archive template allows you to easily design the layout and style of archive pages - those pages that show a list of posts (e.g. a blogâ€™s list of recent posts), which may be filtered by terms such as authors, categories, tags, search results, etc.', 'elementor'),
+          tip: __('If youâ€™d like a different style for a specific category, itâ€™s easy to create a separate archive template whose condition is to only display when users are viewing that categoryâ€™s list of posts.', 'elementor'),
           docs: 'https://go.elementor.com/app-theme-builder-archive/',
           video_url: 'https://www.youtube.com/embed/wxElpEh9bfA'
         }
@@ -4476,7 +4476,7 @@ function NotFound() {
   }, []);
   return /*#__PURE__*/_react.default.createElement(_dialog.default, {
     title: __('Theme Builder could not be loaded', 'elementor'),
-    text: __('We’re sorry, but something went wrong. Click on ‘Learn more’ and follow each of the steps to quickly solve it.', 'elementor'),
+    text: __('Weâ€™re sorry, but something went wrong. Click on â€˜Learn moreâ€™ and follow each of the steps to quickly solve it.', 'elementor'),
     approveButtonUrl: "https://go.elementor.com/app-theme-builder-load-issue/",
     approveButtonColor: "link",
     approveButtonTarget: "_blank",

@@ -1,4 +1,4 @@
-import { useBlockProps } from '@wordpress/block-editor';
+﻿import { useBlockProps } from '@wordpress/block-editor';
 import { registerBlockType } from '@wordpress/blocks';
 import { TextControl } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
@@ -43,3 +43,4 @@ registerBlockType('ally/custom-link', {
 
 	save: Save,
 });
+

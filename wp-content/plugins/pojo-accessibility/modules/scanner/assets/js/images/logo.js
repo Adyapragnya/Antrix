@@ -1,4 +1,4 @@
-export const Logo = () => (
+﻿export const Logo = () => (
 	<svg width="24" height="24" fill="none" role="presentation">
 		<g clipPath="url(#a)">
 			<path
@@ -15,3 +15,4 @@ export const Logo = () => (
 		</defs>
 	</svg>
 );
+

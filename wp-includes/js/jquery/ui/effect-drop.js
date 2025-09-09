@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Effects Drop 1.13.3
  * https://jqueryui.com
  *
@@ -70,3 +70,4 @@ return $.effects.define( "drop", "hide", function( options, done ) {
 } );
 
 } );
+

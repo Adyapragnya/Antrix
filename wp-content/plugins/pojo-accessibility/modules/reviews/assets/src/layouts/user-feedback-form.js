@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Popover from '@elementor/ui/Popover';
 import Typography from '@elementor/ui/Typography';
 import { styled } from '@elementor/ui/styles';
@@ -63,7 +63,7 @@ const UserFeedbackForm = () => {
 	const headerMessage = {
 		ratings: __('How would you rate Ally so far?', 'pojo-accessibility'),
 		feedback: __(
-			'We’re thrilled to hear that! What would make it even better?',
+			'Weâ€™re thrilled to hear that! What would make it even better?',
 			'pojo-accessibility',
 		),
 		review: __("We're thrilled you're enjoying Ally", 'pojo-accessibility'),
@@ -179,3 +179,4 @@ const Header = styled(Box)`
 	align-items: center;
 	margin-bottom: ${({ theme }) => theme.spacing(2)};
 `;
+

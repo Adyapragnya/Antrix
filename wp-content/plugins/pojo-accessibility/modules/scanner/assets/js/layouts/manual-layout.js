@@ -1,4 +1,4 @@
-import CircleCheckFilledIcon from '@elementor/icons/CircleCheckFilledIcon';
+﻿import CircleCheckFilledIcon from '@elementor/icons/CircleCheckFilledIcon';
 import Box from '@elementor/ui/Box';
 import Radio from '@elementor/ui/Radio';
 import Typography from '@elementor/ui/Typography';
@@ -55,3 +55,4 @@ export const ManualLayout = () => {
 		</Box>
 	);
 };
+

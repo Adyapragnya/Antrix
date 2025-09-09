@@ -1,4 +1,4 @@
-import Menu from '@elementor/ui/Menu';
+﻿import Menu from '@elementor/ui/Menu';
 import { QuotaBarGroup } from '@ea11y/components';
 
 export const QuotaPopupMenu = (menuProps) => {
@@ -22,3 +22,4 @@ export const QuotaPopupMenu = (menuProps) => {
 };
 
 export default QuotaPopupMenu;
+

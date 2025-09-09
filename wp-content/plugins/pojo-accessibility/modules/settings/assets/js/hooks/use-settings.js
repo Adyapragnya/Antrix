@@ -1,4 +1,4 @@
-import {
+﻿import {
 	useState,
 	createContext,
 	useContext,
@@ -191,3 +191,4 @@ export const SettingsProvider = ({ children }) => {
 		</SettingsContext.Provider>
 	);
 };
+

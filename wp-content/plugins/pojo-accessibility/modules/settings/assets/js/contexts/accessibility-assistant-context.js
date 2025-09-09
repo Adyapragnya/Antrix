@@ -1,4 +1,4 @@
-import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
+﻿import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
 import { speak } from '@wordpress/a11y';
 import {
 	createContext,
@@ -150,3 +150,4 @@ export const AccessibilityAssistantContextProvider = ({ children }) => {
 export const useAccessibilityAssistantContext = () => {
 	return useContext(AccessibilityAssistantContext);
 };
+

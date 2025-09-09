@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import { styled } from '@elementor/ui/styles';
 import { CustomIcon } from '@ea11y/components';
 import { useSettings } from '@ea11y/hooks';
@@ -105,3 +105,4 @@ const StyledIconInnerWrapper = styled(Box)`
 	justify-content: center;
 	align-items: center;
 `;
+

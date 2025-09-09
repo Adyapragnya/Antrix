@@ -1,4 +1,4 @@
-import Chip from '@elementor/ui/Chip';
+﻿import Chip from '@elementor/ui/Chip';
 import Typography from '@elementor/ui/Typography';
 import PropTypes from 'prop-types';
 import { mixpanelEvents, mixpanelService } from '@ea11y-apps/global/services';
@@ -78,3 +78,4 @@ ManageButton.propTypes = {
 	count: PropTypes.number.isRequired,
 	block: PropTypes.string.isRequired,
 };
+

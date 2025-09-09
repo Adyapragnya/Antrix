@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import FormControl from '@elementor/ui/FormControl';
 import FormControlLabel from '@elementor/ui/FormControlLabel';
 import FormLabel from '@elementor/ui/FormLabel';
@@ -98,3 +98,4 @@ const AlignmentMatrixControl = ({ mode }) => {
 };
 
 export default AlignmentMatrixControl;
+

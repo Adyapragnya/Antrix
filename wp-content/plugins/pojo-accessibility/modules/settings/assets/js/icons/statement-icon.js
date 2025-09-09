@@ -1,4 +1,4 @@
-import SvgIcon from '@elementor/ui/SvgIcon';
+﻿import SvgIcon from '@elementor/ui/SvgIcon';
 
 const StatementIcon = (props, { size }) => {
 	return (
@@ -13,3 +13,4 @@ const StatementIcon = (props, { size }) => {
 };
 
 export default StatementIcon;
+

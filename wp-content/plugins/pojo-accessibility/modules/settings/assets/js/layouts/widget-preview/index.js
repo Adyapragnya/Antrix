@@ -1,4 +1,4 @@
-import Card from '@elementor/ui/Card';
+﻿import Card from '@elementor/ui/Card';
 import CardContent from '@elementor/ui/CardContent';
 import CardHeader from '@elementor/ui/CardHeader';
 import Typography from '@elementor/ui/Typography';
@@ -77,3 +77,4 @@ const WidgetPreview = () => {
 };
 
 export default WidgetPreview;
+

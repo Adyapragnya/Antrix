@@ -1,4 +1,4 @@
-import API from '@ea11y-apps/global/api';
+﻿import API from '@ea11y-apps/global/api';
 import { addQueryArgs } from '@wordpress/url';
 
 const wpV2Prefix = '/wp/v2';
@@ -131,3 +131,4 @@ class APISettings extends API {
 }
 
 export default APISettings;
+

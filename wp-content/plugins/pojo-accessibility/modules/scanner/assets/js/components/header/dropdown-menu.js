@@ -1,4 +1,4 @@
-import CalendarDollarIcon from '@elementor/icons/CalendarDollarIcon';
+﻿import CalendarDollarIcon from '@elementor/icons/CalendarDollarIcon';
 import ClearIcon from '@elementor/icons/ClearIcon';
 import DotsHorizontalIcon from '@elementor/icons/DotsHorizontalIcon';
 import ExternalLinkIcon from '@elementor/icons/ExternalLinkIcon';
@@ -137,7 +137,7 @@ export const DropdownMenu = () => {
 						arrow
 						placement="left"
 						title={__(
-							'You don’t have any fixes to manage just yet.',
+							'You donâ€™t have any fixes to manage just yet.',
 							'pojo-accessibility',
 						)}
 						PopperProps={{
@@ -199,3 +199,4 @@ export const DropdownMenu = () => {
 		</Box>
 	);
 };
+

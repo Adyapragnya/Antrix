@@ -1,4 +1,4 @@
-import Card from '@elementor/ui/Card';
+﻿import Card from '@elementor/ui/Card';
 import CardHeader from '@elementor/ui/CardHeader';
 import Skeleton from '@elementor/ui/Skeleton';
 import Typography from '@elementor/ui/Typography';
@@ -37,3 +37,4 @@ export const LineChartSkeleton = ({ animated }) => (
 		</StyledCardContent>
 	</Card>
 );
+

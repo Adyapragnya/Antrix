@@ -1,4 +1,4 @@
-import { ColorUtil } from '@ea11y-apps/scanner/utils/colorUtil';
+﻿import { ColorUtil } from '@ea11y-apps/scanner/utils/colorUtil';
 
 export const getLuminance = (r, g, b) => {
 	const toLinear = (c) => {
@@ -45,3 +45,4 @@ export const checkContrastAA = (el) => {
 		passesAA,
 	};
 };
+

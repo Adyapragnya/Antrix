@@ -1,4 +1,4 @@
-export const SunOffIcon = () => {
+﻿export const SunOffIcon = () => {
 	return (
 		<svg
 			width="20"
@@ -18,3 +18,4 @@ export const SunOffIcon = () => {
 		</svg>
 	);
 };
+

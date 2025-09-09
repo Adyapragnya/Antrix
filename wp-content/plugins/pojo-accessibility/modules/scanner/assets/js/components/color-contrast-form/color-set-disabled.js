@@ -1,4 +1,4 @@
-import LockFilledIcon from '@elementor/icons/LockFilledIcon';
+﻿import LockFilledIcon from '@elementor/icons/LockFilledIcon';
 import RotateIcon from '@elementor/icons/RotateIcon';
 import Box from '@elementor/ui/Box';
 import Button from '@elementor/ui/Button';
@@ -104,3 +104,4 @@ ColorSetDisabled.propTypes = {
 	title: PropTypes.string.isRequired,
 	description: PropTypes.string.isRequired,
 };
+

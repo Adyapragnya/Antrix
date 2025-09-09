@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Effects Size 1.13.3
  * https://jqueryui.com
  *
@@ -194,3 +194,4 @@ return $.effects.define( "size", function( options, done ) {
 } );
 
 } );
+

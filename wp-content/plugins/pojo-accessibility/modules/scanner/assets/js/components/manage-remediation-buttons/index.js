@@ -1,4 +1,4 @@
-import Box from '@elementor/ui/Box';
+﻿import Box from '@elementor/ui/Box';
 import Divider from '@elementor/ui/Divider';
 import { DeleteButton } from '@ea11y-apps/scanner/components/manage-remediation-buttons/delete-button';
 import { DisableButton } from '@ea11y-apps/scanner/components/manage-remediation-buttons/disable-button';
@@ -20,3 +20,4 @@ export const ManageRemediationButtons = () => {
 		</Box>
 	);
 };
+
