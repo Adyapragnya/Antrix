@@ -1,6 +1,32 @@
-﻿<!doctype html><meta charset="utf-8">
+﻿<!-- basepath-fix start -->
+<script>
+(function () {
+  var prefix = /github\.io$/i.test(location.hostname) ? '/Antrix' : '';
+  function shouldPrefix(v){
+    return v && v.charAt(0) === '/' &&
+           v.indexOf(prefix + '/') !== 0 &&
+           !/^(https?:|data:|mailto:|tel:)/i.test(v);
+  }
+  function fixAttr(el, name){
+    var v = el.getAttribute(name);
+    if (shouldPrefix(v)) el.setAttribute(name, prefix + v);
+  }
+  document.querySelectorAll('[href],[src],[poster],[data-href],[data-src]').forEach(function(el){
+    ['href','src','poster','data-href','data-src'].forEach(function(a){
+      if (el.hasAttribute(a)) fixAttr(el, a);
+    });
+  });
+  // also fix inline <style> url('/...')
+  document.querySelectorAll('style').forEach(function(s){
+    s.textContent = s.textContent.replace(/url\(\s*(['"]?)\/(?!\/|Antrix\b)/gi, 'url(' + prefix + '/');
+  });
+})();
+</script>
+<!-- basepath-fix end -->
+<!doctype html><meta charset="utf-8">
 <meta http-equiv="refresh" content="0; url=/about-antrix/key-functionaries/">
 <a $($args[0].Groups[1].Value)="/Antrix/about-antrix/key-functionaries/">Go to Key Functionaries</a>
+
 
 
 

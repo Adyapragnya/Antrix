@@ -1,0 +1,4 @@
+﻿**/wp-content/**
+**/wp-includes/**
+!/wp-content/**
+!/wp-includes/**
