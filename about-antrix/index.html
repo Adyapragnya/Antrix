@@ -20,7 +20,7 @@
       if (el.hasAttribute(a)) fixAttr(el, a);
     });
   });
-  // also fix inline <style> url('/...')
+  // also fix inline <style> url('/Antrix/...')
   document.querySelectorAll('style').forEach(function(s){
     s.textContent = s.textContent.replace(/url\(\s*(['"]?)\/(?!\/|Antrix\b)/gi, 'url(' + prefix + '/');
   });
@@ -971,6 +971,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <script src="/Antrix/wp-content/themes/antrix-wp-fixed-v3.4/assets/js/hero-slider.js" id="hero-slider-init-js"></script>
 </body>
 </html>
+
 
 
 

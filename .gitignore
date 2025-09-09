@@ -1,4 +1,17 @@
+<<<<<<< HEAD
+﻿# ignore any nested wp-* trees, but keep the root ones
+**/wp-content/**
+**/wp-includes/**
+!/wp-content/**
+!/wp-includes/**
+
+# large media you dont want to push to GH Pages
+# (uncomment if you plan to host videos elsewhere)
+# **/*.mp4
+# **/*.mov
+=======
 ﻿**/wp-content/**
 **/wp-includes/**
 !/wp-content/**
 !/wp-includes/**
+>>>>>>> bde3f2e (Remove nested wp-* trees; drop oversized assets; keep only root wp-content/wp-includes; add .gitignore)

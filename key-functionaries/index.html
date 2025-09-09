@@ -16,7 +16,7 @@
       if (el.hasAttribute(a)) fixAttr(el, a);
     });
   });
-  // also fix inline <style> url('/...')
+  // also fix inline <style> url('/Antrix/...')
   document.querySelectorAll('style').forEach(function(s){
     s.textContent = s.textContent.replace(/url\(\s*(['"]?)\/(?!\/|Antrix\b)/gi, 'url(' + prefix + '/');
   });
@@ -26,6 +26,7 @@
 <!doctype html><meta charset="utf-8">
 <meta http-equiv="refresh" content="0; url=/about-antrix/key-functionaries/">
 <a $($args[0].Groups[1].Value)="/Antrix/about-antrix/key-functionaries/">Go to Key Functionaries</a>
+
 
 
 
