@@ -1,0 +1,12 @@
+﻿=== Sanity Summary (20250909_164444) ===
+Root index.html         : OK
+.nojekyll present       : OK
+Files scanned           : 2064
+Total refs inspected    : 9370
+Missing refs            : 3088
+Dir-style links missing : 2615 (need index.html)
+Root links w/o prefix   : 0 (should start with /Antrix/ on GH Pages)
+
+Large files >95MB       : 0
+
+CSV report              : C:\Users\adyap\Desktop\AntrixStatic\sanity-report_20250909_164444.csv

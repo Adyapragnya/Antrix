@@ -1,0 +1,10 @@
+﻿=== Sanity Summary (20250909_164253) ===
+Files scanned           : 2064
+Total refs inspected    : 
+Missing refs            : 
+Dir-style links missing :  (need index.html)
+Root links w/o prefix   :  (should start with /Antrix/ on GH Pages)
+
+Large files >95MB       : 0
+
+CSV report              : C:\Users\adyap\Desktop\AntrixStatic\sanity-report_20250909_164253.csv
