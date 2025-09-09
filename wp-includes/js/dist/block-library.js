@@ -7452,7 +7452,7 @@ function escapeOpeningSquareBrackets(content) {
  * An isolated URL is a URL that sits in its own line, surrounded only by spacing
  * characters.
  *
- * See https://github.com/WordPress/wordpress-develop/blob/5.1.1/src/wp-includes/class-wp-embed.php#L403
+ * See /Antrix/wp-includes/class-wp-embed.php#L403
  *
  * @param {string} content The content of a code block.
  * @return {string} The given content with its ampersands converted into
@@ -17150,9 +17150,9 @@ function WpEmbedPreview({
      * window.postMessage:
      * https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
      * WordPress core embed-template on load:
-     * https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/js/wp-embed-template.js#L143
+     * /Antrix/wp-includes/js/wp-embed-template.js#L143
      * WordPress core embed-template on resize:
-     * https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/js/wp-embed-template.js#L187
+     * /Antrix/wp-includes/js/wp-embed-template.js#L187
      *
      * @param {MessageEvent} event Message event.
      */
@@ -35140,7 +35140,7 @@ function mapMenuItemsToBlocks(menuItems, level = 0) {
 /**
  * A WP nav_menu_item object.
  * For more documentation on the individual fields present on a menu item please see:
- * https://core.trac.wordpress.org/browser/tags/5.7.1/src/wp-includes/nav-menu.php#L789
+ * /Antrix/wp-includes/nav-menu.php#L789
  *
  * @typedef WPNavMenuItem
  *
@@ -43962,7 +43962,7 @@ function PostExcerptEditor({
    * Add an exception and return early for the "page" post type,
    * which is registered without support for the excerpt UI,
    * but supports saving the excerpt to the database.
-   * See: https://core.trac.wordpress.org/browser/branches/6.1/src/wp-includes/post.php#L65
+   * See: /Antrix/wp-includes/post.php#L65
    * Without this exception, users that have excerpts saved to the database will
    * not be able to edit the excerpts.
    */
@@ -66837,3 +66837,4 @@ const __experimentalRegisterExperimentalCoreBlocks =  false ? 0 : undefined;
 (window.wp = window.wp || {}).blockLibrary = __webpack_exports__;
 /******/ })()
 ;
+

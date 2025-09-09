@@ -1266,7 +1266,7 @@ function safeDecodeURI(uri) {
  * @example
  * ```js
  * const displayUrl = filterURLForDisplay( 'https://www.wordpress.org/gutenberg/' ); // wordpress.org/gutenberg
- * const imageUrl = filterURLForDisplay( 'https://www.wordpress.org/wp-content/uploads/img.png', 20 ); // â€¦ent/uploads/img.png
+ * const imageUrl = filterURLForDisplay( '/Antrix/wp-content/uploads/img.png', 20 ); // â€¦ent/uploads/img.png
  * ```
  *
  * @return {string} Displayed URL.
@@ -1483,3 +1483,4 @@ function prependHTTPS(url) {
 (window.wp = window.wp || {}).url = __webpack_exports__;
 /******/ })()
 ;
+
