@@ -1,31 +1,11 @@
-﻿<!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-<!-- basepath-fix start -->
+﻿<!doctype html><meta charset="utf-8"><title>Redirecting</title>
 <script>
-(function () {
-  var prefix = /github\.io$/i.test(location.hostname) ? '/Antrix' : '';
-  function shouldPrefix(v){
-    return v && v.charAt(0) === '/' &&
-           v.indexOf(prefix + '/') !== 0 &&
-           !/^(https?:|data:|mailto:|tel:)/i.test(v);
-  }
-  function fixAttr(el, name){
-    var v = el.getAttribute(name);
-    if (shouldPrefix(v)) el.setAttribute(name, prefix + v);
-  }
-  document.querySelectorAll('[href],[src],[poster],[data-href],[data-src]').forEach(function(el){
-    ['href','src','poster','data-href','data-src'].forEach(function(a){
-      if (el.hasAttribute(a)) fixAttr(el, a);
-    });
-  });
-  // also fix inline <style> url('/Antrix/...')
-  document.querySelectorAll('style').forEach(function(s){
-    s.textContent = s.textContent.replace(/url\(\s*(['"]?)\/(?!\/|Antrix\b)/gi, 'url(' + prefix + '/');
-  });
+(function(){
+  var prefix = location.hostname.endsWith('github.io') ? '/Antrix' : '';
+  location.replace(prefix + '/about-antrix/');
 })();
 </script>
+<<<<<<< HEAD
 <!-- basepath-fix end -->
   <base href="/Antrix/">
   <base $($args[0].Groups[1].Value)="/Antrix/" />
@@ -1744,3 +1724,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 
 
+=======
+<p>Redirecting to <a href="/about-antrix/">/about-antrix/</a></p>
+>>>>>>> 63716b9 (DO: add vendor CDN fallback; restore theme assets; basepath tidy; homepage redirect)
